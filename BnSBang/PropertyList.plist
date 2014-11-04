@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>corelists</key>
+	<array/>
+	<key>bagualists</key>
+	<array/>
+	<key>jewelrylists</key>
+	<array/>
+	<key>weaponlists</key>
+	<array/>
+	<key>srcdata</key>
+	<array>
+		<string>weaponlists</string>
+		<string>jewelrylists</string>
+		<string>bagualists</string>
+		<string>corelists</string>
+	</array>
+</dict>
+</plist>

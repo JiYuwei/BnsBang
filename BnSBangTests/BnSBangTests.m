@@ -20,6 +20,41 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
+- (void)testGetUrl
+{
+    NSURL *url=[NSURL URLWithString:@"http://appcms.duowan.com/?r=api/GetArticleDetail&url=http://bns.duowan.com/1408/271681394628.html"];
+    NSMutableURLRequest *request=[[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
+    
+    NSData *received=[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSDictionary *dic=[NSJSONSerialization JSONObjectWithData:received options:NSJSONReadingMutableContainers error:nil];
+
+    NSString *content=[dic[@"content"] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    NSLog(@"%@",content);
+}
+
+
+- (void)testPostUrl
+{
+    NSURL *url=[NSURL URLWithString:@"http://appcms.duowan.com/?r=api/GetArticleListByTags"];
+    NSMutableURLRequest *request=[[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
+    [request setHTTPMethod:@"POST"];
+//    [request setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"content-type"];
+    NSString *str=@"lastId=257508406217&channel=bns&tags=%E6%B4%BB%E5%8A%A8";
+    NSData *data=[str dataUsingEncoding:NSUTF8StringEncoding];
+    [request setHTTPBody:data];
+    
+    NSError *error=nil;
+    NSData *received=[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
+    if (error) {
+        NSLog(@"%@",error);
+    }
+    else{
+        NSString *getStr=[[NSString alloc] initWithData:received encoding:NSUTF8StringEncoding];
+        NSLog(@"str=>%@",getStr);
+    }
+}
+
 - (void)tearDown
 {
     // Put teardown code here. This method is called after the invocation of each test method in the class.

@@ -9,6 +9,7 @@
 #import "MyTabBarController.h"
 #import "BnsViewController.h"
 #import "MainViewController.h"
+#import "JewelryViewController.h"
 #import "BaguaViewController.h"
 #import "SrcViewController.h"
 
@@ -16,7 +17,7 @@
 {
     BnsViewController *_bnsVC;
     MainViewController *_weaponVC;
-    MainViewController *_jewelryVC;
+    JewelryViewController *_jewelryVC;
     BaguaViewController *_baguaVC;
     SrcViewController *_srcVC;
 }
@@ -42,6 +43,7 @@
 {
     [super viewDidLoad];
     self.edgesForExtendedLayout=UIRectEdgeNone;
+    //self.tabBar.barStyle=UIBarStyleBlack;
     self.tabBar.selectedImageTintColor=TOPCOLOR;
     // Do any additional setup after loading the view.
     
@@ -63,7 +65,7 @@
     weaponCtrl.navigationBar.tintColor=[UIColor whiteColor];
     weaponCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"武器" image:[UIImage imageNamed:@"weapon"] selectedImage:[UIImage imageNamed:@"weaponx"]];
     
-    _jewelryVC=[[MainViewController alloc] init];
+    _jewelryVC=[[JewelryViewController alloc] init];
     _jewelryVC.title=@"首饰";
     _jewelryVC.edgesForExtendedLayout=UIRectEdgeNone;
     UINavigationController *jewelryCtrl=[[UINavigationController alloc] initWithRootViewController:_jewelryVC];

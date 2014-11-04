@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 jyw. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MainViewController.h"
 
-@interface BaguaViewController : UIViewController
+@interface BaguaViewController : MainViewController
 
 @end

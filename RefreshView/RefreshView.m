@@ -50,7 +50,7 @@
     // Animation
     [UIView beginAnimations:nil context:NULL];
     [UIView setAnimationDuration:0.3];
-//    owner.contentInset = UIEdgeInsetsZero;
+    owner.contentInset = UIEdgeInsetsZero;
     owner.contentOffset = CGPointZero;
     self.refreshArrowImageView.transform = CGAffineTransformMakeRotation(0);
     [UIView commitAnimations];

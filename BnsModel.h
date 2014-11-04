@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 jyw. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "BaseModel.h"
 
-@interface BnsModel : NSObject
+@interface BnsModel : BaseModel
 
 @property(nonatomic,copy)NSString *channelId;
 @property(nonatomic,copy)NSString *uid;

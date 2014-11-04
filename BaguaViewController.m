@@ -23,11 +23,23 @@
     return self;
 }
 
+-(void)createBgImgView
+{
+    UIImageView *bgImgV=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgbagua"]];
+    bgImgV.frame=CGRectMake(_cSize.width-100, _cSize.height-250, 160, 160);
+    [self.view addSubview:bgImgV];
+}
+
+- (void)dataPrepare
+{
+    [self dataPrepareForResource:@"BaguaList"];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor=[UIColor greenColor];
+    //self.view.backgroundColor=[UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning

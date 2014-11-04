@@ -194,15 +194,16 @@ static NSInteger _viewStatus=0;
 
 -(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
-    if ([_refreshView.refreshStatusLabel.text isEqualToString:REFRESH_RELEASED_STATUS]) {
-        [_refreshView scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
-        [self startLoading];
-    }
+    //if ([_refreshView.refreshStatusLabel.text isEqualToString:REFRESH_RELEASED_STATUS]) {
+    [_refreshView scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
+        //[self startLoading];
+    //}
 }
 
 -(void)refreshViewDidCallBack
 {
     NSLog(@"call back");
+    [self startLoading];
     NSArray *bodyArr=@[BODY_1,BODY_2,BODY_3,BODY_4,BODY_5];
     [self getUrlWithBody:bodyArr[_viewStatus] cachePolicy:NSURLRequestReloadIgnoringCacheData];
 }

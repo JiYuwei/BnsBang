@@ -77,13 +77,7 @@
     }];
 }
 
-
-- (void)webViewDidFinishLoad:(UIWebView *)webView
-{
-    [_actView removeFromSuperview];
-}
-
--(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+- (void)webViewDidStartLoad:(UIWebView *)webView
 {
     [_actView removeFromSuperview];
 }

@@ -40,7 +40,7 @@
     NSMutableURLRequest *request=[[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20];
     [request setHTTPMethod:@"POST"];
 //    [request setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"content-type"];
-    NSString *str=@"lastId=257508406217&channel=bns&tags=%E6%B4%BB%E5%8A%A8";
+    NSString *str=@"lastId=278699833702&channel=bns&tags=PK%E8%A7%86%E9%A2%91";
     NSData *data=[str dataUsingEncoding:NSUTF8StringEncoding];
     [request setHTTPBody:data];
     

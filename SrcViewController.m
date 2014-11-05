@@ -41,9 +41,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor=[UIColor whiteColor];
-    [self loadPrepareData];
-    [self createUI];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
+    //[self loadPrepareData];
+    //[self createUI];
 }
 
 - (void)loadPrepareData

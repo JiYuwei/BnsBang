@@ -8,17 +8,15 @@
 
 #import "MyTabBarController.h"
 #import "BnsViewController.h"
-#import "MainViewController.h"
-#import "JewelryViewController.h"
-#import "BaguaViewController.h"
+#import "VideoViewController.h"
+#import "EquipViewController.h"
 #import "SrcViewController.h"
 
 @interface MyTabBarController ()
 {
     BnsViewController *_bnsVC;
-    MainViewController *_weaponVC;
-    JewelryViewController *_jewelryVC;
-    BaguaViewController *_baguaVC;
+    VideoViewController *_videoVC;
+    EquipViewController *_equipVC;
     SrcViewController *_srcVC;
 }
 @end
@@ -50,38 +48,31 @@
     _bnsVC=[[BnsViewController alloc] init];
     _bnsVC.title=@"剑灵";
     _bnsVC.edgesForExtendedLayout=UIRectEdgeNone;
+    _bnsVC.bodyArr=@[BODY_1,BODY_2,BODY_3,BODY_4,BODY_5];
     UINavigationController *bnsCtrl=[[UINavigationController alloc] initWithRootViewController:_bnsVC];
     bnsCtrl.navigationBar.barStyle=UIBarStyleBlack;
     bnsCtrl.navigationBar.barTintColor=TOPCOLOR;
     bnsCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    bnsCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"剑灵" image:[UIImage imageNamed:@"main"] selectedImage:[UIImage imageNamed:@"main"]];
+    bnsCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"剑灵" image:[UIImage imageNamed:@"tabbar_bns"] selectedImage:[UIImage imageNamed:@"tabbar_bns"]];
     
-    _weaponVC=[[MainViewController alloc] init];
-    _weaponVC.title=@"武器";
-    _weaponVC.edgesForExtendedLayout=UIRectEdgeNone;
-    UINavigationController *weaponCtrl=[[UINavigationController alloc] initWithRootViewController:_weaponVC];
-    weaponCtrl.navigationBar.barStyle=UIBarStyleBlack;
-    weaponCtrl.navigationBar.barTintColor=TOPCOLOR;
-    weaponCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    weaponCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"武器" image:[UIImage imageNamed:@"weapon"] selectedImage:[UIImage imageNamed:@"weaponx"]];
+    _videoVC=[[VideoViewController alloc] init];
+    _videoVC.title=@"视频";
+    _videoVC.edgesForExtendedLayout=UIRectEdgeNone;
+    _videoVC.bodyArr=@[BODY_VIDEO_1,BODY_VIDEO_2,BODY_VIDEO_3,BODY_VIDEO_4,BODY_VIDEO_5];
+    UINavigationController *videoCtrl=[[UINavigationController alloc] initWithRootViewController:_videoVC];
+    videoCtrl.navigationBar.barStyle=UIBarStyleBlack;
+    videoCtrl.navigationBar.barTintColor=TOPCOLOR;
+    videoCtrl.navigationBar.tintColor=[UIColor whiteColor];
+    videoCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"视频" image:[UIImage imageNamed:@"tabbar_video"] selectedImage:[UIImage imageNamed:@"tabbar_video"]];
     
-    _jewelryVC=[[JewelryViewController alloc] init];
-    _jewelryVC.title=@"首饰";
-    _jewelryVC.edgesForExtendedLayout=UIRectEdgeNone;
-    UINavigationController *jewelryCtrl=[[UINavigationController alloc] initWithRootViewController:_jewelryVC];
-    jewelryCtrl.navigationBar.barStyle=UIBarStyleBlack;
-    jewelryCtrl.navigationBar.barTintColor=TOPCOLOR;
-    jewelryCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    jewelryCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"首饰" image:[UIImage imageNamed:@"jewelry"] selectedImage:[UIImage imageNamed:@"jewelry"]];
-    
-    _baguaVC=[[BaguaViewController alloc] init];
-    _baguaVC.title=@"八卦牌";
-    _baguaVC.edgesForExtendedLayout=UIRectEdgeNone;
-    UINavigationController *baguaCtrl=[[UINavigationController alloc] initWithRootViewController:_baguaVC];
-    baguaCtrl.navigationBar.barStyle=UIBarStyleBlack;
-    baguaCtrl.navigationBar.barTintColor=TOPCOLOR;
-    baguaCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    baguaCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"八卦牌" image:[UIImage imageNamed:@"baguax"] selectedImage:[UIImage imageNamed:@"baguax"]];
+    _equipVC=[[EquipViewController alloc] init];
+    _equipVC.title=@"装备";
+    _equipVC.edgesForExtendedLayout=UIRectEdgeNone;
+    UINavigationController *equipCtrl=[[UINavigationController alloc] initWithRootViewController:_equipVC];
+    equipCtrl.navigationBar.barStyle=UIBarStyleBlack;
+    equipCtrl.navigationBar.barTintColor=TOPCOLOR;
+    equipCtrl.navigationBar.tintColor=[UIColor whiteColor];
+    equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_pic"] selectedImage:[UIImage imageNamed:@"tabbar_pic"]];
     
     _srcVC=[[SrcViewController alloc] initWithTable:@"srcdata"];
     _srcVC.title=@"成长树";
@@ -90,9 +81,9 @@
     srcCtrl.navigationBar.barStyle=UIBarStyleBlack;
     srcCtrl.navigationBar.barTintColor=TOPCOLOR;
     srcCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    srcCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"成长树" image:[UIImage imageNamed:@"sourcex"] selectedImage:[UIImage imageNamed:@"sourcex"]];
+    srcCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"成长树" image:[UIImage imageNamed:@"tabbar_gl"] selectedImage:[UIImage imageNamed:@"tabbar_gl"]];
     
-    NSArray *controllers=@[bnsCtrl,weaponCtrl,jewelryCtrl,baguaCtrl,srcCtrl];
+    NSArray *controllers=@[bnsCtrl,videoCtrl,equipCtrl,srcCtrl];
     self.viewControllers=controllers;
 }
 

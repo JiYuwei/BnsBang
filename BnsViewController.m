@@ -13,13 +13,12 @@
 #import "UIImageView+WebCache.h"
 #import "DetailViewController.h"
 #import "RefreshView.h"
-static NSInteger _viewStatus=0;
+
 
 @interface BnsViewController () <RefreshViewDelegate>
 {
-    CGSize _screenSize;
+    
     UIView *_topView;
-    UIView *_selectedView;
     UITableView *_tableView;
     UIActivityIndicatorView *_loadView;
     UILabel *_noMoreLabel;
@@ -43,11 +42,18 @@ static NSInteger _viewStatus=0;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _viewStatus=0;
     _screenSize=self.view.bounds.size;
-    self.view.window.backgroundColor=[UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
+    [self titleSettings];
     // Do any additional setup after loading the view.
     [self prepareData];
     [self uiconfig];
+}
+
+-(void)titleSettings
+{
+    _titleArr=@[@"新闻",@"活动",@"公告",@"韩服",@"更多"];
 }
 
 - (void)getUrlWithBody:(NSString *)body cachePolicy:(NSURLRequestCachePolicy)policy
@@ -83,13 +89,13 @@ static NSInteger _viewStatus=0;
 - (void)prepareData
 {
     _dataArray=[[NSMutableArray alloc] init];
-    [self getUrlWithBody:BODY_1 cachePolicy:NSURLRequestReturnCacheDataElseLoad];
+    [self getUrlWithBody:_bodyArr[0] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
 }
 
 - (void)uiconfig
 {
     _topView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, _screenSize.width, 40)];
-    //_topView.backgroundColor=[UIColor orangeColor];
+    _topView.backgroundColor=[UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
     [self.view addSubview:_topView];
     
     _selectedView=[[UIView alloc] initWithFrame:CGRectMake(0, 37, _screenSize.width/5, 3)];
@@ -104,23 +110,17 @@ static NSInteger _viewStatus=0;
     _noMoreLabel.textAlignment=NSTextAlignmentCenter;
     _noMoreLabel.textColor=[UIColor grayColor];
     _noMoreLabel.text=@"已经是最后一条了";
-    
-//    _loadView=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-//    _loadView.frame=CGRectMake(0, 0, 40, 40);
-//    _tableView.tableFooterView=_loadView;
-//    [_loadView startAnimating];
 }
 
 - (void)createTopItems
 {
-    NSArray *titleArr=@[@"新闻",@"活动",@"公告",@"韩服",@"更多"];
     for (int i=0; i<5; i++) {
         UIButton *topBtn=[UIButton buttonWithType:UIButtonTypeCustom];
         topBtn.tag=20+i;
         topBtn.highlighted=NO;
         topBtn.frame=CGRectMake(i*_screenSize.width/5, 0, _screenSize.width/5, 40);
         topBtn.titleLabel.textAlignment=NSTextAlignmentCenter;
-        [topBtn setTitle:titleArr[i] forState:UIControlStateNormal];
+        [topBtn setTitle:_titleArr[i] forState:UIControlStateNormal];
         topBtn.titleLabel.font=[UIFont systemFontOfSize:16];
         [topBtn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [topBtn setTitleColor:TOPCOLOR forState:UIControlStateSelected];
@@ -135,16 +135,10 @@ static NSInteger _viewStatus=0;
 
 -(void)topBtnAction:(UIButton *)sender
 {
-//    [_dataArray removeAllObjects];
-//    [_tableView reloadData];
-//    [_refreshView setupWithOwner:_tableView delegate:self];
-//    _tableView.tableFooterView=_loadView;
-//    [_loadView startAnimating];
     [self startLoading];
-    NSArray *bodyArr=@[BODY_1,BODY_2,BODY_3,BODY_4,BODY_5];
     _viewStatus=sender.tag-20;
 
-    [self getUrlWithBody:bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
+    [self getUrlWithBody:_bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
     
     for (int i=0; i<5; i++) {
         UIButton *btn=(UIButton *)[self.view viewWithTag:20+i];
@@ -160,13 +154,14 @@ static NSInteger _viewStatus=0;
 - (void)createTableView
 {
     _tableView=[[UITableView alloc] initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49) style:UITableViewStylePlain];
+    _tableView.backgroundColor=[UIColor clearColor];
     _tableView.dataSource=self;
     _tableView.delegate=self;
     [self.view addSubview:_tableView];
     
     NSArray *nils=[[NSBundle mainBundle] loadNibNamed:@"RefreshView" owner:self options:nil];
     _refreshView=[nils firstObject];
-    _refreshView.backgroundColor=[UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
+    //_refreshView.backgroundColor=[UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
     [_refreshView setupWithOwner:_tableView delegate:self];
     [self startLoading];
 }
@@ -204,8 +199,7 @@ static NSInteger _viewStatus=0;
 {
     NSLog(@"call back");
     [self startLoading];
-    NSArray *bodyArr=@[BODY_1,BODY_2,BODY_3,BODY_4,BODY_5];
-    [self getUrlWithBody:bodyArr[_viewStatus] cachePolicy:NSURLRequestReloadIgnoringCacheData];
+    [self getUrlWithBody:_bodyArr[_viewStatus] cachePolicy:NSURLRequestReloadIgnoringCacheData];
 }
 
 #pragma mark - UITableViewDataSource & Delegate:
@@ -220,6 +214,7 @@ static NSInteger _viewStatus=0;
     BnsViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellID];
     if (!cell) {
         cell=[[[NSBundle mainBundle] loadNibNamed:@"BnsViewCell" owner:self options:nil]firstObject];
+        cell.backgroundColor=[UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
     }
     
     if (_dataArray.count!=0) {

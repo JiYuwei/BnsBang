@@ -26,7 +26,7 @@
 -(void)createBgImgView
 {
     UIImageView *bgImgV=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bgbagua"]];
-    bgImgV.frame=CGRectMake(_cSize.width-90, _cSize.height-210, 80, 80);
+    bgImgV.frame=CGRectMake(_cSize.width-100, _cSize.height-240, 160, 160);
     [self.view addSubview:bgImgV];
 }
 

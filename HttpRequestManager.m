@@ -11,7 +11,7 @@
 @implementation HttpRequest
 {
     NSMutableData *_data;
-    NSURLResponse *_response;
+    //NSURLResponse *_response;
 }
 
 -(id)init
@@ -45,7 +45,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
-    _response=response;
+    [_data setLength:0];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data

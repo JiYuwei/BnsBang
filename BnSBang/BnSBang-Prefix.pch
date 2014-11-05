@@ -22,6 +22,12 @@
 #define BODY_4 @"lastId=275139562375&channel=bns&tags=%E9%9F%A9%E6%9C%8D%E8%B5%84%E8%AE%AF"
 #define BODY_5 @"lastId=278620764386&channel=bns&tags=%E5%BE%AE%E4%BF%A1"
 
+#define BODY_VIDEO_1 @"lastId=279124731206&channel=bns&tags=%E6%B8%B8%E6%88%8F%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_2 @"lastId=279124620791&channel=bns&tags=%E5%AE%A3%E4%BC%A0%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_3 @"lastId=279124731206&channel=bns&tags=%E6%94%BB%E7%95%A5%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_4 @"lastId=278699833702&channel=bns&tags=PK%E8%A7%86%E9%A2%91"
+#define BODY_VIDEO_5 @""
+
 #define ARTICLE_URL @"http://appcms.duowan.com/?r=api/GetArticleDetail&url=http://bns.duowan.com/1408/%@.html"
 
 #endif

@@ -18,6 +18,7 @@
 		BC0B30DA1A09C82300581241 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30D01A09C82300581241 /* 8.png */; };
 		BC0B30DB1A09C82300581241 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30D11A09C82300581241 /* 9.png */; };
 		BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30DE1A09D5C200581241 /* wuchangx.png */; };
+		BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30E01A0A09FC00581241 /* bgimg@2x.png */; };
 		BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D30681A0339B50079AF06 /* BnsModel.m */; };
 		BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D306C1A033B980079AF06 /* HttpRequestManager.m */; };
 		BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
@@ -48,11 +49,24 @@
 		BC19EB5019F4BEC200A3762A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */; };
 		BC19EB6C19F535F700A3762A /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB6B19F535F700A3762A /* SecViewController.m */; };
 		BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB6D19F5379D00A3762A /* PropertyList.plist */; };
+		BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */; };
+		BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB711A0A292A001834A5 /* EquipViewController.m */; };
+		BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB741A0A36AE001834A5 /* tabbar_bns.png */; };
+		BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */; };
+		BC38EB7E1A0A36AE001834A5 /* tabbar_gl.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB761A0A36AE001834A5 /* tabbar_gl.png */; };
+		BC38EB7F1A0A36AE001834A5 /* tabbar_gl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */; };
+		BC38EB801A0A36AE001834A5 /* tabbar_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB781A0A36AE001834A5 /* tabbar_pic.png */; };
+		BC38EB811A0A36AE001834A5 /* tabbar_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */; };
+		BC38EB821A0A36AE001834A5 /* tabbar_video.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */; };
+		BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */; };
+		BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */; };
+		BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB851A0A5128001834A5 /* weaponimg@2x.png */; };
+		BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB881A0A5134001834A5 /* baguaimg@2x.png */; };
 		BC98E8F21A08CD0300261F9E /* bglogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F11A08CD0300261F9E /* bglogo@2x.png */; };
 		BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E8F41A08D13600261F9E /* JewelryViewController.m */; };
 		BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */; };
 		BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */; };
-		BC98E8FF1A08DC6500261F9E /* bgbagua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */; };
+		BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8FE1A08DC6500261F9E /* bgbagua.png */; };
 		BC98E9011A08EAB200261F9E /* WeaponList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9001A08EAB200261F9E /* WeaponList.plist */; };
 		BC98E9041A08F0B200261F9E /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9031A08F0B200261F9E /* MainModel.m */; };
 		BC98E9071A08F10300261F9E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9061A08F10300261F9E /* BaseModel.m */; };
@@ -148,6 +162,7 @@
 		BC0B30DC1A09D19E00581241 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BC0B30DD1A09D19E00581241 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		BC0B30DE1A09D5C200581241 /* wuchangx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuchangx.png; sourceTree = "<group>"; };
+		BC0B30E01A0A09FC00581241 /* bgimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgimg@2x.png"; sourceTree = "<group>"; };
 		BC0D30671A0339B50079AF06 /* BnsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BnsModel.h; sourceTree = "<group>"; };
 		BC0D30681A0339B50079AF06 /* BnsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BnsModel.m; sourceTree = "<group>"; };
 		BC0D306B1A033B980079AF06 /* HttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
@@ -196,12 +211,27 @@
 		BC19EB6A19F535F700A3762A /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
 		BC19EB6B19F535F700A3762A /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
 		BC19EB6D19F5379D00A3762A /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		BC38EB6D1A0A27E0001834A5 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		BC38EB701A0A292A001834A5 /* EquipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipViewController.h; sourceTree = "<group>"; };
+		BC38EB711A0A292A001834A5 /* EquipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipViewController.m; sourceTree = "<group>"; };
+		BC38EB741A0A36AE001834A5 /* tabbar_bns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bns.png; sourceTree = "<group>"; };
+		BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_bns@2x.png"; sourceTree = "<group>"; };
+		BC38EB761A0A36AE001834A5 /* tabbar_gl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_gl.png; sourceTree = "<group>"; };
+		BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_gl@2x.png"; sourceTree = "<group>"; };
+		BC38EB781A0A36AE001834A5 /* tabbar_pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_pic.png; sourceTree = "<group>"; };
+		BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_pic@2x.png"; sourceTree = "<group>"; };
+		BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_video.png; sourceTree = "<group>"; };
+		BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_video@2x.png"; sourceTree = "<group>"; };
+		BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jewelryimg@2x.png"; sourceTree = "<group>"; };
+		BC38EB851A0A5128001834A5 /* weaponimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weaponimg@2x.png"; sourceTree = "<group>"; };
+		BC38EB881A0A5134001834A5 /* baguaimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baguaimg@2x.png"; sourceTree = "<group>"; };
 		BC98E8F11A08CD0300261F9E /* bglogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bglogo@2x.png"; sourceTree = "<group>"; };
 		BC98E8F31A08D13600261F9E /* JewelryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JewelryViewController.h; sourceTree = "<group>"; };
 		BC98E8F41A08D13600261F9E /* JewelryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JewelryViewController.m; sourceTree = "<group>"; };
 		BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgjewelry@2x.png"; sourceTree = "<group>"; };
 		BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgweapon@2x.png"; sourceTree = "<group>"; };
-		BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgbagua@2x.png"; sourceTree = "<group>"; };
+		BC98E8FE1A08DC6500261F9E /* bgbagua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgbagua.png; sourceTree = "<group>"; };
 		BC98E9001A08EAB200261F9E /* WeaponList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeaponList.plist; sourceTree = "<group>"; };
 		BC98E9021A08F0B200261F9E /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
 		BC98E9031A08F0B200261F9E /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
@@ -395,6 +425,7 @@
 			isa = PBXGroup;
 			children = (
 				BCEE0DEF1A076DED0077E890 /* SDWebImage */,
+				BC38EB731A0A3640001834A5 /* tabbar_img */,
 				BCF10A841A070C9600F8F16D /* image */,
 				BC19EB3F19F4BB2900A3762A /* fmdb */,
 				BC19EB3719F4B49800A3762A /* imagex@2x.png */,
@@ -435,9 +466,8 @@
 				BC19EB2019F4A05A00A3762A /* MyTabBarController.h */,
 				BC19EB2119F4A05A00A3762A /* MyTabBarController.m */,
 				BCF872F01A026DD200950D32 /* Bns */,
-				BCF872EF1A026DCF00950D32 /* Weapon */,
-				BCF872EE1A026DCD00950D32 /* Jewelry */,
-				BCF872ED1A026DCA00950D32 /* Bagua */,
+				BC38EB6B1A0A2744001834A5 /* Video */,
+				BC38EB6C1A0A275E001834A5 /* Equipment */,
 				BCF872EC1A026DC600950D32 /* Source */,
 			);
 			name = Controllers;
@@ -486,6 +516,42 @@
 				BC19EB4919F4BB2900A3762A /* FMResultSet.m */,
 			);
 			path = fmdb;
+			sourceTree = "<group>";
+		};
+		BC38EB6B1A0A2744001834A5 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				BC38EB6D1A0A27E0001834A5 /* VideoViewController.h */,
+				BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		BC38EB6C1A0A275E001834A5 /* Equipment */ = {
+			isa = PBXGroup;
+			children = (
+				BC38EB701A0A292A001834A5 /* EquipViewController.h */,
+				BC38EB711A0A292A001834A5 /* EquipViewController.m */,
+				BCF872ED1A026DCA00950D32 /* Bagua */,
+				BCF872EE1A026DCD00950D32 /* Jewelry */,
+				BCF872EF1A026DCF00950D32 /* Weapon */,
+			);
+			name = Equipment;
+			sourceTree = "<group>";
+		};
+		BC38EB731A0A3640001834A5 /* tabbar_img */ = {
+			isa = PBXGroup;
+			children = (
+				BC38EB741A0A36AE001834A5 /* tabbar_bns.png */,
+				BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */,
+				BC38EB761A0A36AE001834A5 /* tabbar_gl.png */,
+				BC38EB771A0A36AE001834A5 /* tabbar_gl@2x.png */,
+				BC38EB781A0A36AE001834A5 /* tabbar_pic.png */,
+				BC38EB791A0A36AE001834A5 /* tabbar_pic@2x.png */,
+				BC38EB7A1A0A36AE001834A5 /* tabbar_video.png */,
+				BC38EB7B1A0A36AE001834A5 /* tabbar_video@2x.png */,
+			);
+			name = tabbar_img;
 			sourceTree = "<group>";
 		};
 		BC98E90F1A09065D00261F9E /* bagua */ = {
@@ -549,11 +615,15 @@
 		BCF10A841A070C9600F8F16D /* image */ = {
 			isa = PBXGroup;
 			children = (
+				BC38EB881A0A5134001834A5 /* baguaimg@2x.png */,
+				BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */,
+				BC38EB851A0A5128001834A5 /* weaponimg@2x.png */,
+				BC0B30E01A0A09FC00581241 /* bgimg@2x.png */,
 				BC98E90F1A09065D00261F9E /* bagua */,
 				BCF10A851A070C9600F8F16D /* bagua@2x.png */,
 				BCF10B931A076A9800F8F16D /* baguax@2x.png */,
 				BCF10A861A070C9600F8F16D /* baixing.png */,
-				BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */,
+				BC98E8FE1A08DC6500261F9E /* bgbagua.png */,
 				BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */,
 				BC98E8F11A08CD0300261F9E /* bglogo@2x.png */,
 				BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */,
@@ -726,13 +796,17 @@
 				BC0B30DB1A09C82300581241 /* 9.png in Resources */,
 				BCF10B021A07218800F8F16D /* bnsx@2x.png in Resources */,
 				BCF10AA91A070C9600F8F16D /* QQ截图20141102125038.png in Resources */,
+				BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */,
 				BC19EB3619F4B47300A3762A /* image@2x.png in Resources */,
+				BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */,
 				BC0B30DA1A09C82300581241 /* 8.png in Resources */,
 				BCF10AB51A070C9600F8F16D /* wuchang.png in Resources */,
 				BC98E9211A09065D00261F9E /* shexiefull.png in Resources */,
 				BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */,
 				BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */,
 				BC0B30D71A09C82300581241 /* 5.png in Resources */,
+				BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */,
+				BC38EB811A0A36AE001834A5 /* tabbar_pic@2x.png in Resources */,
 				BCF10AA51A070C9600F8F16D /* jewelry@2x.png in Resources */,
 				BCF10AA81A070C9600F8F16D /* QQ截图20141102124940.png in Resources */,
 				BCF10AAC1A070C9600F8F16D /* QQ截图20141102125920.png in Resources */,
@@ -743,19 +817,22 @@
 				BC0B30D81A09C82300581241 /* 6.png in Resources */,
 				BC0B30D61A09C82300581241 /* 4.png in Resources */,
 				BC98E91F1A09065D00261F9E /* bqddfull.png in Resources */,
+				BC38EB7F1A0A36AE001834A5 /* tabbar_gl@2x.png in Resources */,
 				BCF10AA41A070C9600F8F16D /* huangxing.png in Resources */,
+				BC38EB7E1A0A36AE001834A5 /* tabbar_gl.png in Resources */,
 				BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */,
 				BC0B30D41A09C82300581241 /* 2.png in Resources */,
 				BC19EAF919F49FEB00A3762A /* InfoPlist.strings in Resources */,
 				BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */,
 				BC98E9271A09065D00261F9E /* xuerenfull.png in Resources */,
+				BC38EB801A0A36AE001834A5 /* tabbar_pic.png in Resources */,
 				BCEE0E041A076DED0077E890 /* LICENSE in Resources */,
 				BCF10AB41A070C9600F8F16D /* weapon@2x.png in Resources */,
 				BCF10AB81A070C9600F8F16D /* yanhun.png in Resources */,
 				BCF10B011A07218800F8F16D /* bns@2x.png in Resources */,
 				BCF10AA01A070C9600F8F16D /* baixing.png in Resources */,
 				BCF10AAE1A070C9600F8F16D /* QQ截图20141102130059.png in Resources */,
-				BC98E8FF1A08DC6500261F9E /* bgbagua@2x.png in Resources */,
+				BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */,
 				BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */,
 				BC98E9251A09065D00261F9E /* xiuluofull.png in Resources */,
 				BCEE0E051A076DED0077E890 /* README.md in Resources */,
@@ -764,18 +841,23 @@
 				BC98E91D1A09065D00261F9E /* bqcqfull.png in Resources */,
 				BCF10A9F1A070C9600F8F16D /* bagua@2x.png in Resources */,
 				BC0B30D21A09C82300581241 /* 0.png in Resources */,
+				BC38EB821A0A36AE001834A5 /* tabbar_video.png in Resources */,
 				BC98E91C1A09065D00261F9E /* bqcq@2x.png in Resources */,
 				BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */,
 				BCF10AB21A070C9600F8F16D /* shangfang.png in Resources */,
+				BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */,
 				BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */,
 				BCF10B061A07278400F8F16D /* main@2x.png in Resources */,
 				BC98E90C1A08F6A100261F9E /* MainViewCell.xib in Resources */,
 				BCF10B941A076A9800F8F16D /* baguax@2x.png in Resources */,
+				BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */,
 				BCF10AAA1A070C9600F8F16D /* QQ截图20141102125243.png in Resources */,
+				BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */,
 				BCF10AA11A070C9600F8F16D /* chixing.png in Resources */,
 				BCF10AB71A070C9600F8F16D /* wuxing.png in Resources */,
 				BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */,
 				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
+				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
 				BCEE0E111A076ED20077E890 /* BnsViewCell.xib in Resources */,
 				BCEE0E1E1A07A1F60077E890 /* blueArrow@2x.png in Resources */,
 				BCF10AB11A070C9600F8F16D /* QQ截图20141102130429.png in Resources */,
@@ -815,8 +897,10 @@
 				BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */,
 				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
 				BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */,
+				BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */,
 				BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */,
 				BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */,
+				BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */,
 				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
 				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
 				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,

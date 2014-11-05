@@ -21,7 +21,13 @@
     if (_model!=model) {
         _model=model;
     }
-    [_titleImg setImageWithURL:[NSURL URLWithString:_model.pictureUrl] placeholderImage:[UIImage imageNamed:@"image"]];
+    if (_model.pictureUrl.length!=0) {
+        [_titleImg setImageWithURL:[NSURL URLWithString:_model.pictureUrl] placeholderImage:[UIImage imageNamed:@"image"]];
+    }
+    else{
+        _titleImg.image=[UIImage imageNamed:[NSString stringWithFormat:@"%d",arc4random()%10]];
+    }
+    
     _titleLabel.text=_model.title;
     _dateLabel.text=_model.publishTime;
 }

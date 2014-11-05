@@ -54,7 +54,7 @@
 - (void)createUI
 {
     UIImageView *bgLogoV=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bglogo"]];
-    bgLogoV.frame=CGRectMake(0, 0, 100, 52.5);
+    bgLogoV.frame=CGRectMake(5, 0, 100, 52.5);
     [self.view addSubview:bgLogoV];
     
     [self createBgImgView];
@@ -108,7 +108,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
-    return 5;
+    return 10;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

@@ -78,7 +78,12 @@
 }
 
 
-- (void)webViewDidStartLoad:(UIWebView *)webView
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [_actView removeFromSuperview];
+}
+
+-(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
     [_actView removeFromSuperview];
 }

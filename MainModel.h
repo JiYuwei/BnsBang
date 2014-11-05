@@ -12,5 +12,6 @@
 
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic,copy)NSString *imgName;
+@property(nonatomic,copy)NSString *nameColor;
 
 @end

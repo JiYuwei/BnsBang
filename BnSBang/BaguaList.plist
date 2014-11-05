@@ -7,36 +7,48 @@
 		<string>白青苍穹八卦牌</string>
 		<key>imgName</key>
 		<string>bqcq</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>白青大地八卦牌</string>
 		<key>imgName</key>
 		<string>bqdd</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>天龙八卦牌</string>
 		<key>imgName</key>
 		<string>tianlong</string>
+		<key>nameColor</key>
+		<string>chuanshuo</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>雪人八卦牌</string>
 		<key>imgName</key>
 		<string>xueren</string>
+		<key>nameColor</key>
+		<string>zhizun</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>蛇蝎帝王八卦牌</string>
 		<key>imgName</key>
 		<string>shexie</string>
+		<key>nameColor</key>
+		<string>zhizun</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>修罗八卦牌</string>
 		<key>imgName</key>
 		<string>xiuluo</string>
+		<key>nameColor</key>
+		<string>zhizun</string>
 	</dict>
 </array>
 </plist>

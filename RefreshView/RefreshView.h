@@ -11,7 +11,7 @@
 #define REFRESH_PULL_DOWN_STATUS @"下拉可以刷新..."
 #define REFRESH_RELEASED_STATUS @"松开即刷新..."
 #define REFRESH_UPDATE_TIME_PREFIX @"最后更新: "
-#define REFRESH_HEADER_HEIGHT 60
+#define REFRESH_HEADER_HEIGHT 55
 #import <UIKit/UIKit.h>
 @protocol RefreshViewDelegate;
 @interface RefreshView : UIView {

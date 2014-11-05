@@ -54,7 +54,7 @@
 - (void)createUI
 {
     UIImageView *bgLogoV=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bglogo"]];
-    bgLogoV.frame=CGRectMake(10, 10, 100, 52.5);
+    bgLogoV.frame=CGRectMake(0, 0, 100, 52.5);
     [self.view addSubview:bgLogoV];
     
     [self createBgImgView];
@@ -70,7 +70,7 @@
 
 - (void)createTableView
 {
-    _tableView=[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    _tableView=[[UITableView alloc] initWithFrame:CGRectMake(0, 50, _cSize.width, _cSize.height-60-59) style:UITableViewStyleGrouped];
     _tableView.backgroundColor=[UIColor clearColor];
     _tableView.dataSource=self;
     _tableView.delegate=self;
@@ -99,6 +99,16 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 42;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 5;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 5;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

@@ -41,7 +41,7 @@
 		BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E8F41A08D13600261F9E /* JewelryViewController.m */; };
 		BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */; };
 		BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */; };
-		BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8FE1A08DC6500261F9E /* bgbagua.png */; };
+		BC98E8FF1A08DC6500261F9E /* bgbagua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */; };
 		BC98E9011A08EAB200261F9E /* WeaponList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9001A08EAB200261F9E /* WeaponList.plist */; };
 		BC98E9041A08F0B200261F9E /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9031A08F0B200261F9E /* MainModel.m */; };
 		BC98E9071A08F10300261F9E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E9061A08F10300261F9E /* BaseModel.m */; };
@@ -177,7 +177,7 @@
 		BC98E8F41A08D13600261F9E /* JewelryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JewelryViewController.m; sourceTree = "<group>"; };
 		BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgjewelry@2x.png"; sourceTree = "<group>"; };
 		BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgweapon@2x.png"; sourceTree = "<group>"; };
-		BC98E8FE1A08DC6500261F9E /* bgbagua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgbagua.png; sourceTree = "<group>"; };
+		BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgbagua@2x.png"; sourceTree = "<group>"; };
 		BC98E9001A08EAB200261F9E /* WeaponList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeaponList.plist; sourceTree = "<group>"; };
 		BC98E9021A08F0B200261F9E /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
 		BC98E9031A08F0B200261F9E /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
@@ -509,7 +509,7 @@
 			isa = PBXGroup;
 			children = (
 				BC98E90F1A09065D00261F9E /* bagua */,
-				BC98E8FE1A08DC6500261F9E /* bgbagua.png */,
+				BC98E8FE1A08DC6500261F9E /* bgbagua@2x.png */,
 				BC98E8F81A08D9D200261F9E /* bgweapon@2x.png */,
 				BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */,
 				BC98E8F11A08CD0300261F9E /* bglogo@2x.png */,
@@ -703,7 +703,7 @@
 				BCF10B011A07218800F8F16D /* bns@2x.png in Resources */,
 				BCF10AA01A070C9600F8F16D /* baixing.png in Resources */,
 				BCF10AAE1A070C9600F8F16D /* QQ截图20141102130059.png in Resources */,
-				BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */,
+				BC98E8FF1A08DC6500261F9E /* bgbagua@2x.png in Resources */,
 				BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */,
 				BC98E9251A09065D00261F9E /* xiuluofull.png in Resources */,
 				BCEE0E051A076DED0077E890 /* README.md in Resources */,

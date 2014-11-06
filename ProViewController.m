@@ -87,10 +87,11 @@
 
 #pragma mark - PushViewControllerDelegate:
 
--(void)pushNextViewControllerWithUrl:(NSString *)url
+-(void)pushNextViewControllerWithUrl:(NSString *)url andName:(NSString *)name andType:(NSString *)type
 {
     ListViewController *listVC=[[ListViewController alloc] init];
     listVC.bodyArr=@[url];
+    listVC.title=[NSString stringWithFormat:@"%@-%@",name,type];
     [self.navigationController pushViewController:listVC animated:YES];
 }
 

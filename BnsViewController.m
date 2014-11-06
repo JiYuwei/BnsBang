@@ -19,7 +19,7 @@
 {
     
     UIView *_topView;
-    UITableView *_tableView;
+    
     UIActivityIndicatorView *_loadView;
     UILabel *_noMoreLabel;
     RefreshView *_refreshView;
@@ -60,10 +60,10 @@
 {
     [[HttpRequestManager sharedManager]POSTUrl:[NSURL URLWithString:POST_URL] WithBody:body cachePolicy:policy completed:^(NSData *data) {
         NSArray *array=[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        if (_dataArray.count!=0 && [[_dataArray[0] uid] isEqualToString:array[0][@"id"]]) {
-            NSLog(@"%@ %@",[_dataArray[0] uid],array[0][@"id"]);
-        }
-        else{
+//        if (_dataArray.count!=0 && [[_dataArray[0] uid] isEqualToString:array[0][@"id"]]) {
+//            NSLog(@"%@ %@",[_dataArray[0] uid],array[0][@"id"]);
+//        }
+//        else{
             [_dataArray removeAllObjects];
             for (NSDictionary *dic in array) {
                 BnsModel *bnsModel=[[BnsModel alloc] init];
@@ -73,7 +73,7 @@
                 [_tableView reloadData];
                 _tableView.tableFooterView=_noMoreLabel;
             }
-        }
+        //}
         [self stopLoading];
         //NSLog(@"%@",_dataArray);
     } failed:^{
@@ -88,6 +88,19 @@
 
 - (void)prepareData
 {
+    _scrollArray=[[NSMutableArray alloc] init];
+    [[HttpRequestManager sharedManager] GETUrl:[NSURL URLWithString:_scrollUrl] cachePolicy:NSURLRequestReloadIgnoringCacheData completed:^(NSData *data) {
+        NSArray *array=[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        for (NSDictionary *dict in array) {
+            BnsModel *bnsModel=[[BnsModel alloc] init];
+            [bnsModel setValuesForKeysWithDictionary:dict];
+            bnsModel.uid=dict[@"id"];
+            [_scrollArray addObject:bnsModel];
+            [self createScrollView];
+        }
+    } failed:^{
+        NSLog(@"FAIL");
+    }];
     _dataArray=[[NSMutableArray alloc] init];
     [self getUrlWithBody:_bodyArr[0] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
 }
@@ -140,6 +153,15 @@
     NSLog(@"%d",_viewStatus);
     [self getUrlWithBody:_bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
     
+    if (_viewStatus!=0) {
+        _tableView.tableHeaderView=nil;
+    }
+    else{
+        if (!_tableView.tableHeaderView) {
+            _tableView.tableHeaderView=_scrollView;
+        }
+    }
+    
     for (int i=0; i<5; i++) {
         UIButton *btn=(UIButton *)[self.view viewWithTag:20+i];
         btn.selected=NO;
@@ -149,6 +171,14 @@
         _selectedView.frame=CGRectMake((sender.tag-20)*_screenSize.width/5, 37, _screenSize.width/5, 3);
     }];
 }
+
+- (void)createScrollView
+{
+    _scrollView=[[MyScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 160) andPictures:_scrollArray];
+    _tableView.tableHeaderView=_scrollView;
+}
+
+
 
 - (void)createTableView
 {
@@ -193,10 +223,7 @@
 
 -(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
 {
-    //if ([_refreshView.refreshStatusLabel.text isEqualToString:REFRESH_RELEASED_STATUS]) {
     [_refreshView scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
-        //[self startLoading];
-    //}
 }
 
 -(void)refreshViewDidCallBack

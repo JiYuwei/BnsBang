@@ -39,6 +39,15 @@
 {
     _viewStatus=sender.tag-20;
     NSLog(@"%d",_viewStatus);
+    if (_viewStatus!=0 && _viewStatus!=4) {
+        _tableView.tableHeaderView=nil;
+    }
+    else{
+        if (!_tableView.tableHeaderView && _viewStatus==0) {
+            _tableView.tableHeaderView=_scrollView;
+        }
+    }
+    
     if (_viewStatus!=4) {
         [self startLoading];
         [self getUrlWithBody:self.bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];

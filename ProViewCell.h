@@ -11,7 +11,7 @@
 
 @protocol PushViewControllerDelegate <NSObject>
 
-- (void)pushNextViewControllerWithUrl:(NSString *)url;
+- (void)pushNextViewControllerWithUrl:(NSString *)url andName:(NSString *)name andType:(NSString *)type;
 
 @end
 

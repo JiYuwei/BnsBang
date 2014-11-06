@@ -86,6 +86,7 @@
 		BC98E9261A09065D00261F9E /* xueren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91A1A09065D00261F9E /* xueren@2x.png */; };
 		BC98E9271A09065D00261F9E /* xuerenfull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91B1A09065D00261F9E /* xuerenfull.png */; };
 		BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9281A0906B200261F9E /* BaguaList.plist */; };
+		BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BD61A0B9623007266C7 /* MyScrollView.m */; };
 		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
 		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
 		BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF31A076DED0077E890 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -274,6 +275,8 @@
 		BC98E91A1A09065D00261F9E /* xueren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xueren@2x.png"; sourceTree = "<group>"; };
 		BC98E91B1A09065D00261F9E /* xuerenfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuerenfull.png; sourceTree = "<group>"; };
 		BC98E9281A0906B200261F9E /* BaguaList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaguaList.plist; sourceTree = "<group>"; };
+		BCBC0BD51A0B9623007266C7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		BCBC0BD61A0B9623007266C7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BCEE0DF11A076DED0077E890 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BCEE0DF21A076DED0077E890 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -521,6 +524,8 @@
 		BC19EB1E19F4A01000A3762A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCBC0BD51A0B9623007266C7 /* MyScrollView.h */,
+				BCBC0BD61A0B9623007266C7 /* MyScrollView.m */,
 				BCEE0E0D1A076ED20077E890 /* BnsViewCell.h */,
 				BCEE0E0E1A076ED20077E890 /* BnsViewCell.m */,
 				BCEE0E0F1A076ED20077E890 /* BnsViewCell.xib */,
@@ -982,6 +987,7 @@
 				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
 				BCFD31B01A0B3DFA0007F384 /* ProModel.m in Sources */,
 				BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */,
+				BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */,
 				BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */,
 				BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */,
 				BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */,

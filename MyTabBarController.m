@@ -49,6 +49,7 @@
     _bnsVC.title=@"剑灵";
     _bnsVC.edgesForExtendedLayout=UIRectEdgeNone;
     _bnsVC.bodyArr=@[BODY_1,BODY_2,BODY_3,BODY_4,BODY_5];
+    _bnsVC.scrollUrl=SCROLL_URL;
     UINavigationController *bnsCtrl=[[UINavigationController alloc] initWithRootViewController:_bnsVC];
     bnsCtrl.navigationBar.barStyle=UIBarStyleBlack;
     bnsCtrl.navigationBar.barTintColor=TOPCOLOR;
@@ -59,6 +60,7 @@
     _videoVC.title=@"视频";
     _videoVC.edgesForExtendedLayout=UIRectEdgeNone;
     _videoVC.bodyArr=@[BODY_VIDEO_1,BODY_VIDEO_2,BODY_VIDEO_3,BODY_VIDEO_4,BODY_VIDEO_5];
+    _videoVC.scrollUrl=SCROLL_VIDEO_URL;
     UINavigationController *videoCtrl=[[UINavigationController alloc] initWithRootViewController:_videoVC];
     videoCtrl.navigationBar.barStyle=UIBarStyleBlack;
     videoCtrl.navigationBar.barTintColor=TOPCOLOR;

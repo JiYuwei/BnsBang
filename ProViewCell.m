@@ -38,7 +38,9 @@
 
 - (IBAction)onClick:(UIButton *)sender
 {
-    [self.delegate pushNextViewControllerWithUrl:nil];
+    NSInteger bodyType=sender.tag-600;
+    NSArray *typeArr=@[@"单刷",@"连招",@"比武"];
+    [self.delegate pushNextViewControllerWithUrl:_model.postBody[bodyType] andName:_model.name andType:typeArr[bodyType]];
 }
 
 @end

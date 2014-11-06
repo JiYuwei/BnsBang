@@ -7,17 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MyScrollView.h"
 
 @interface BnsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 {
     NSInteger _viewStatus;
+    UITableView *_tableView;
     CGSize _screenSize;
     NSArray *_titleArr;
     UIView *_selectedView;
+    MyScrollView *_scrollView;
+    NSMutableArray *_scrollArray;
 }
 
 @property(nonatomic,copy)NSArray *bodyArr;
+@property(nonatomic,copy)NSString *scrollUrl;
 
 -(void)titleSettings;
 -(void)startLoading;

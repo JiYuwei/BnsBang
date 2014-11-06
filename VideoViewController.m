@@ -38,7 +38,7 @@
 -(void)topBtnAction:(UIButton *)sender
 {
     _viewStatus=sender.tag-20;
-    
+    NSLog(@"%d",_viewStatus);
     if (_viewStatus!=4) {
         [self startLoading];
         [self getUrlWithBody:self.bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];

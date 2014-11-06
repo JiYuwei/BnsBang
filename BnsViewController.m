@@ -137,7 +137,7 @@
 {
     [self startLoading];
     _viewStatus=sender.tag-20;
-
+    NSLog(@"%d",_viewStatus);
     [self getUrlWithBody:_bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
     
     for (int i=0; i<5; i++) {

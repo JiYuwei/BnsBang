@@ -90,7 +90,7 @@
 -(void)pushNextViewControllerWithUrl:(NSString *)url
 {
     ListViewController *listVC=[[ListViewController alloc] init];
-    listVC.bodyArr=@[BODY_1];
+    listVC.bodyArr=@[url];
     [self.navigationController pushViewController:listVC animated:YES];
 }
 

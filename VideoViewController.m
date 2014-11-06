@@ -7,6 +7,7 @@
 //
 
 #import "VideoViewController.h"
+#import "ProViewController.h"
 
 @interface VideoViewController ()
 
@@ -53,6 +54,8 @@
     }
     else{
         NSLog(@"fifth btn");
+        ProViewController *proVC=[[ProViewController alloc] init];
+        [self.navigationController pushViewController:proVC animated:YES];
     }
 }
 

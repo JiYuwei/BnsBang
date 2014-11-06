@@ -108,7 +108,7 @@
     _noMoreLabel=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     _noMoreLabel.font=[UIFont systemFontOfSize:15];
     _noMoreLabel.textAlignment=NSTextAlignmentCenter;
-    _noMoreLabel.textColor=[UIColor grayColor];
+    _noMoreLabel.textColor=[UIColor darkGrayColor];
     _noMoreLabel.text=@"已经是最后一条了";
 }
 

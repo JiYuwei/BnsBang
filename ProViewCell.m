@@ -38,7 +38,7 @@
 
 - (IBAction)onClick:(UIButton *)sender
 {
-    
+    [self.delegate pushNextViewControllerWithUrl:nil];
 }
 
 @end

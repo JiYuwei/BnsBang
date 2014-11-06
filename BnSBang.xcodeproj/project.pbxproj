@@ -155,6 +155,7 @@
 		BCFD31BA1A0B493B0007F384 /* qgbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B51A0B493B0007F384 /* qgbglabel.png */; };
 		BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B61A0B493B0007F384 /* qsbglabel.png */; };
 		BCFD31BC1A0B493B0007F384 /* zhbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B71A0B493B0007F384 /* zhbglabel.png */; };
+		BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31BE1A0B4E990007F384 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -360,6 +361,8 @@
 		BCFD31B51A0B493B0007F384 /* qgbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qgbglabel.png; sourceTree = "<group>"; };
 		BCFD31B61A0B493B0007F384 /* qsbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qsbglabel.png; sourceTree = "<group>"; };
 		BCFD31B71A0B493B0007F384 /* zhbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhbglabel.png; sourceTree = "<group>"; };
+		BCFD31BD1A0B4E990007F384 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BCFD31BE1A0B4E990007F384 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -572,6 +575,8 @@
 				BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */,
 				BCFD31821A0B128C0007F384 /* ProViewController.h */,
 				BCFD31831A0B128C0007F384 /* ProViewController.m */,
+				BCFD31BD1A0B4E990007F384 /* ListViewController.h */,
+				BCFD31BE1A0B4E990007F384 /* ListViewController.m */,
 			);
 			name = Video;
 			sourceTree = "<group>";
@@ -1002,6 +1007,7 @@
 				BC19EB3E19F4BA6900A3762A /* SrcModel.m in Sources */,
 				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
+				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
 				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,

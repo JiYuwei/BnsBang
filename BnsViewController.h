@@ -21,7 +21,10 @@
 
 -(void)titleSettings;
 -(void)startLoading;
+-(void)createTopItems;
+-(void)createTableView;
+-(void)createTableViewWithFrame:(CGRect)frame;
 -(void)topBtnAction:(UIButton *)sender;
-- (void)getUrlWithBody:(NSString *)body cachePolicy:(NSURLRequestCachePolicy)policy;
+-(void)getUrlWithBody:(NSString *)body cachePolicy:(NSURLRequestCachePolicy)policy;
 
 @end

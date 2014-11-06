@@ -24,7 +24,7 @@
                         <rect key="frame" x="25" y="35" width="60" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <button opaque="NO" tag="601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L1O-vS-c0q">
+                    <button opaque="NO" tag="600" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L1O-vS-c0q">
                         <rect key="frame" x="110" y="40" width="50" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <state key="normal" title="Button" image="danshua.png">
@@ -38,7 +38,7 @@
                         <rect key="frame" x="0.0" y="2" width="20" height="98"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
-                    <button opaque="NO" tag="602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yw6-Sb-NEa">
+                    <button opaque="NO" tag="601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yw6-Sb-NEa">
                         <rect key="frame" x="180" y="40" width="50" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <state key="normal" title="Button" image="lianzhao.png">
@@ -48,7 +48,7 @@
                             <action selector="onClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uF0-zM-u4Q"/>
                         </connections>
                     </button>
-                    <button opaque="NO" tag="603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OZg-Xp-sD7">
+                    <button opaque="NO" tag="602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OZg-Xp-sD7">
                         <rect key="frame" x="250" y="40" width="50" height="50"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <state key="normal" title="Button" image="biwu.png">

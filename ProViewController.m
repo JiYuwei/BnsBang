@@ -9,8 +9,9 @@
 #import "ProViewController.h"
 #import "ProViewCell.h"
 #import "ProModel.h"
+#import "ListViewController.h"
 
-@interface ProViewController ()
+@interface ProViewController () <PushViewControllerDelegate>
 {
     UITableView *_tableView;
     NSMutableArray *_dataArray;
@@ -72,6 +73,7 @@
     ProViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellId];
     if (!cell) {
         cell=[[[NSBundle mainBundle] loadNibNamed:@"ProViewCell" owner:self options:nil]firstObject];
+        cell.delegate=self;
     }
     cell.model=_dataArray[indexPath.row];
     
@@ -82,6 +84,16 @@
 {
     return 100;
 }
+
+#pragma mark - PushViewControllerDelegate:
+
+-(void)pushNextViewControllerWithUrl:(NSString *)url
+{
+    ListViewController *listVC=[[ListViewController alloc] init];
+    listVC.bodyArr=@[BODY_1];
+    [self.navigationController pushViewController:listVC animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

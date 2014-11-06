@@ -94,14 +94,6 @@
 
 - (void)uiconfig
 {
-    _topView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, _screenSize.width, 40)];
-    _topView.backgroundColor=[UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
-    [self.view addSubview:_topView];
-    
-    _selectedView=[[UIView alloc] initWithFrame:CGRectMake(0, 37, _screenSize.width/5, 3)];
-    _selectedView.backgroundColor=TOPCOLOR;
-    [_topView addSubview:_selectedView];
-    
     [self createTopItems];
     [self createTableView];
     
@@ -114,6 +106,14 @@
 
 - (void)createTopItems
 {
+    _topView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, _screenSize.width, 40)];
+    _topView.backgroundColor=[UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1];
+    [self.view addSubview:_topView];
+    
+    _selectedView=[[UIView alloc] initWithFrame:CGRectMake(0, 37, _screenSize.width/5, 3)];
+    _selectedView.backgroundColor=TOPCOLOR;
+    [_topView addSubview:_selectedView];
+    
     for (int i=0; i<5; i++) {
         UIButton *topBtn=[UIButton buttonWithType:UIButtonTypeCustom];
         topBtn.tag=20+i;
@@ -150,10 +150,14 @@
     }];
 }
 
-
 - (void)createTableView
 {
-    _tableView=[[UITableView alloc] initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49) style:UITableViewStylePlain];
+    [self createTableViewWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49)];
+}
+
+- (void)createTableViewWithFrame:(CGRect)frame
+{
+    _tableView=[[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
     _tableView.backgroundColor=[UIColor clearColor];
     _tableView.dataSource=self;
     _tableView.delegate=self;

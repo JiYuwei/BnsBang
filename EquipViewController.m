@@ -61,12 +61,12 @@
     UIButton *bgBtn;
     
     if (is4_inch) {
-        [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, 0, screenWidth, 60) angImage:nil Tag:0 Delay:2.8 Enabled:NO];
+        [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, 0, screenWidth, 60) angImage:nil Tag:0 Delay:2 Enabled:NO];
     }
     
-    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height1-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
-    [self createBtns:bgBtn withFrame:CGRectMake(screenWidth, height2-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
-    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height3-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
+    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height1-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.2 Enabled:NO];
+    [self createBtns:bgBtn withFrame:CGRectMake(screenWidth, height2-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.2 Enabled:NO];
+    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height3-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.2 Enabled:NO];
     
     
     [self createBtns:_weaponBtn withFrame:CGRectMake(-screenWidth, height1, screenWidth, 100) angImage:@"weaponimg" Tag:300 Delay:0 Enabled:YES];
@@ -93,8 +93,13 @@
     [button addTarget:self action:@selector(clickAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
-    [UIView animateWithDuration:1 delay:delay options:UIViewAnimationOptionCurveEaseOut animations:^{
-        button.frame=CGRectMake(0, button.frame.origin.y, button.frame.size.width, button.frame.size.height);
+    [UIView animateWithDuration:0.8 delay:delay options:UIViewAnimationOptionCurveEaseOut animations:^{
+        if (button.frame.origin.x==self.view.bounds.size.width && button.frame.size.width==self.view.bounds.size.width/2) {
+            button.frame=CGRectMake(self.view.bounds.size.width/2, button.frame.origin.y, button.frame.size.width, button.frame.size.height);
+        }
+        else{
+            button.frame=CGRectMake(0, button.frame.origin.y, button.frame.size.width, button.frame.size.height);
+        }
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.8 animations:^{
             button.alpha=0.9;

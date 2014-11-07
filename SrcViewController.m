@@ -33,7 +33,18 @@
 
 -(void)configBtns
 {
-    //UIButton *baseBtn;
+    CGSize screenSize=CGSizeMake(self.view.bounds.size.width, self.view.bounds.size.height);
+    CGPoint middlePoint=CGPointMake(self.view.bounds.size.width/2, (self.view.bounds.size.height-64-49)/2);
+    //NSLog(@"%.2f,%.2f",middlePoint.x,middlePoint.y);
+    UIButton *baseBtn;
+    [self createBtns:baseBtn withFrame:CGRectMake(screenSize.width, middlePoint.y-40, screenSize.width, 40) angImage:@"shuiyue" Tag:0 Delay:0 Enabled:NO];
+    [self createBtns:baseBtn withFrame:CGRectMake(-screenSize.width, middlePoint.y, screenSize.width, 40) angImage:@"baiqing" Tag:0 Delay:0 Enabled:NO];
+    //水月
+    [self createBtns:baseBtn withFrame:CGRectMake(-screenSize.width, 0, screenSize.width/2, 187.5) angImage:nil Tag:0 Delay:1 Enabled:YES];
+    [self createBtns:baseBtn withFrame:CGRectMake(screenSize.width, 0, screenSize.width/2, 187.5) angImage:nil Tag:0 Delay:1 Enabled:YES];
+    //白青
+    [self createBtns:baseBtn withFrame:CGRectMake(-screenSize.width, middlePoint.y+40, screenSize.width/2, 187.5) angImage:nil Tag:0 Delay:1 Enabled:YES];
+    [self createBtns:baseBtn withFrame:CGRectMake(screenSize.width, middlePoint.y+40, screenSize.width/2, 187.5) angImage:nil Tag:0 Delay:1 Enabled:YES];
     
 }
 

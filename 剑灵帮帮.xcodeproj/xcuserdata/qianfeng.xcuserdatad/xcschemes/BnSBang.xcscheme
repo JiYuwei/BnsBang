@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC19EAEA19F49FEB00A3762A"
                BuildableName = "BnSBang.app"
-               BlueprintName = "BnSBang"
-               ReferencedContainer = "container:BnSBang.xcodeproj">
+               BlueprintName = "&#x5251;&#x7075;&#x5e2e;&#x5e2e;"
+               ReferencedContainer = "container:&#x5251;&#x7075;&#x5e2e;&#x5e2e;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BC19EB0519F49FEB00A3762A"
                BuildableName = "BnSBangTests.xctest"
-               BlueprintName = "BnSBangTests"
-               ReferencedContainer = "container:BnSBang.xcodeproj">
+               BlueprintName = "&#x5251;&#x7075;&#x5e2e;&#x5e2e;Tests"
+               ReferencedContainer = "container:&#x5251;&#x7075;&#x5e2e;&#x5e2e;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC19EAEA19F49FEB00A3762A"
             BuildableName = "BnSBang.app"
-            BlueprintName = "BnSBang"
-            ReferencedContainer = "container:BnSBang.xcodeproj">
+            BlueprintName = "&#x5251;&#x7075;&#x5e2e;&#x5e2e;"
+            ReferencedContainer = "container:&#x5251;&#x7075;&#x5e2e;&#x5e2e;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC19EAEA19F49FEB00A3762A"
             BuildableName = "BnSBang.app"
-            BlueprintName = "BnSBang"
-            ReferencedContainer = "container:BnSBang.xcodeproj">
+            BlueprintName = "&#x5251;&#x7075;&#x5e2e;&#x5e2e;"
+            ReferencedContainer = "container:&#x5251;&#x7075;&#x5e2e;&#x5e2e;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BC19EAEA19F49FEB00A3762A"
             BuildableName = "BnSBang.app"
-            BlueprintName = "BnSBang"
-            ReferencedContainer = "container:BnSBang.xcodeproj">
+            BlueprintName = "&#x5251;&#x7075;&#x5e2e;&#x5e2e;"
+            ReferencedContainer = "container:&#x5251;&#x7075;&#x5e2e;&#x5e2e;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

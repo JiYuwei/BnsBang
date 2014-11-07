@@ -71,18 +71,23 @@
     BnsModel *preImage=[_curImages objectAtIndex:0];
     BnsModel *curImage=[_curImages objectAtIndex:1];
     BnsModel *lastImage=[_curImages objectAtIndex:2];
+    
     UIImageView *preView=[[UIImageView alloc] initWithFrame:_scrollFrame];
+    preView.userInteractionEnabled=YES;
+    [preView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)]];
     UIImageView *curView=[[UIImageView alloc] initWithFrame:_scrollFrame];
+    curView.userInteractionEnabled=YES;
+    [curView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)]];
     UIImageView *lastView=[[UIImageView alloc] initWithFrame:_scrollFrame];
+    lastView.userInteractionEnabled=YES;
+    [lastView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)]];
+    
     [preView setImageWithURL:[NSURL URLWithString:preImage.pictureUrl]];
     [curView setImageWithURL:[NSURL URLWithString:curImage.pictureUrl]];
     [lastView setImageWithURL:[NSURL URLWithString:lastImage.pictureUrl]];
     [_scrollView addSubview:preView];
     [_scrollView addSubview:curView];
     [_scrollView addSubview:lastView];
-//    [preView release];
-//    [curView release];
-//    [lastView release];
     
     preView.frame=CGRectOffset(preView.frame, 0, 0);
     curView.frame=CGRectOffset(curView.frame, _scrollFrame.size.width, 0);
@@ -91,6 +96,23 @@
     
     _pageCtrl.currentPage=_curPages-1;
 }
+
+-(void)tapAction:(UITapGestureRecognizer *)recognizer
+{
+    //NSLog(@"%@",[_curImages[1] pictureUrl]);
+    BnsModel *model=_curImages[1];
+    [self.delegate pushNextViewWithModel:model];
+}
+//-(void)tapActionCur
+//{
+//    
+//}
+//-(void)tapActionLast
+//{
+//    
+//}
+
+
 
 -(int)validPageValue:(NSInteger)value
 {
@@ -122,7 +144,7 @@
 
 -(void)updateImage:(UIScrollView *)scrollView
 {
-    NSLog(@"OK");
+    //NSLog(@"OK");
     [UIView animateWithDuration:0.5 animations:^{
         for (int i=0; i<3; i++) {
             UIImageView *subView=[_scrollView.subviews objectAtIndex:i];

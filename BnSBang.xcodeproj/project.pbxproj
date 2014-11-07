@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB991A0C79E700232357 /* Icon-120@2x.png */; };
+		BC0AAB9F1A0C79E700232357 /* Icon-58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */; };
+		BC0AABA01A0C79E700232357 /* Icon-80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */; };
+		BC0AABA11A0C79E700232357 /* launchimage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */; };
+		BC0AABA21A0C79E700232357 /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */; };
 		BC0B30D21A09C82300581241 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30C81A09C82300581241 /* 0.png */; };
 		BC0B30D31A09C82300581241 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30C91A09C82300581241 /* 1.png */; };
 		BC0B30D41A09C82300581241 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30CA1A09C82300581241 /* 2.png */; };
@@ -170,6 +175,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0AAB991A0C79E700232357 /* Icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage-568h@2x.png"; sourceTree = "<group>"; };
+		BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchimage@2x.png"; sourceTree = "<group>"; };
 		BC0B30C81A09C82300581241 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		BC0B30C91A09C82300581241 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		BC0B30CA1A09C82300581241 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -393,6 +403,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0AAB981A0C79E700232357 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				BC0AAB991A0C79E700232357 /* Icon-120@2x.png */,
+				BC0AAB9A1A0C79E700232357 /* Icon-58@2x.png */,
+				BC0AAB9B1A0C79E700232357 /* Icon-80@2x.png */,
+				BC0AAB9C1A0C79E700232357 /* launchimage-568h@2x.png */,
+				BC0AAB9D1A0C79E700232357 /* launchimage@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
 		BC0B30C71A09C82300581241 /* random */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +493,7 @@
 		BC19EAF519F49FEB00A3762A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC0AAB981A0C79E700232357 /* icon */,
 				BCEE0DEF1A076DED0077E890 /* SDWebImage */,
 				BC38EB731A0A3640001834A5 /* tabbar_img */,
 				BCF10A841A070C9600F8F16D /* image */,
@@ -868,6 +891,7 @@
 				BC0B30DB1A09C82300581241 /* 9.png in Resources */,
 				BCF10B021A07218800F8F16D /* bnsx@2x.png in Resources */,
 				BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */,
+				BC0AABA11A0C79E700232357 /* launchimage-568h@2x.png in Resources */,
 				BC19EB3619F4B47300A3762A /* image@2x.png in Resources */,
 				BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */,
 				BC0B30DA1A09C82300581241 /* 8.png in Resources */,
@@ -901,6 +925,7 @@
 				BC0B30D41A09C82300581241 /* 2.png in Resources */,
 				BCFD31A01A0B23B10007F384 /* jslogo@2x.png in Resources */,
 				BCFD31941A0B1C0D0007F384 /* lszy@2x.png in Resources */,
+				BC0AABA21A0C79E700232357 /* launchimage@2x.png in Resources */,
 				BC19EAF919F49FEB00A3762A /* InfoPlist.strings in Resources */,
 				BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */,
 				BC98E9271A09065D00261F9E /* xuerenfull.png in Resources */,
@@ -945,6 +970,7 @@
 				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
 				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
 				BCEE0E111A076ED20077E890 /* BnsViewCell.xib in Resources */,
+				BC0AAB9F1A0C79E700232357 /* Icon-58@2x.png in Resources */,
 				BCEE0E1E1A07A1F60077E890 /* blueArrow@2x.png in Resources */,
 				BCF10AB31A070C9600F8F16D /* shenghun.png in Resources */,
 				BCFD319F1A0B23B10007F384 /* cklogo@2x.png in Resources */,
@@ -954,12 +980,14 @@
 				BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */,
 				BCFD31A31A0B23B10007F384 /* qglogo@2x.png in Resources */,
 				BCFD31971A0B1C0D0007F384 /* zhzy@2x.png in Resources */,
+				BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */,
 				BC0B30D91A09C82300581241 /* 7.png in Resources */,
 				BC19EB0119F49FEB00A3762A /* Images.xcassets in Resources */,
 				BCFD31961A0B1C0D0007F384 /* qszy@2x.png in Resources */,
 				BCF10AA71A070C9600F8F16D /* qingxing.png in Resources */,
 				BCFD31A41A0B23B10007F384 /* qslogo@2x.png in Resources */,
 				BCFD31A51A0B23B10007F384 /* zhlogo@2x.png in Resources */,
+				BC0AABA01A0C79E700232357 /* Icon-80@2x.png in Resources */,
 				BCEE0E1D1A07A1F60077E890 /* blueArrow.png in Resources */,
 				BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */,
 				BCEE0E131A0774920077E890 /* weaponx@2x.png in Resources */,

@@ -175,11 +175,20 @@
 - (void)createScrollView
 {
     _scrollView=[[MyScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 160) andPictures:_scrollArray];
+    _scrollView.delegate=self;
     _tableView.tableHeaderView=_scrollView;
 }
 
+#pragma mark - PushViewDelegate:
+-(void)pushNextViewWithModel:(BnsModel *)model
+{
+    DetailViewController *detailVC=[[DetailViewController alloc] init];
+    detailVC.model=model;
+    [self.navigationController pushViewController:detailVC animated:YES];
+}
 
 
+#pragma mark - UITableView:
 - (void)createTableView
 {
     [self createTableViewWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49)];

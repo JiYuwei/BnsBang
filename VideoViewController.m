@@ -38,7 +38,7 @@
 -(void)topBtnAction:(UIButton *)sender
 {
     _viewStatus=sender.tag-20;
-    NSLog(@"%d",_viewStatus);
+    //NSLog(@"%d",_viewStatus);
     if (_viewStatus!=0 && _viewStatus!=4) {
         _tableView.tableHeaderView=nil;
     }

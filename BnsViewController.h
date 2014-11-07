@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MyScrollView.h"
 
-@interface BnsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@interface BnsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,PushViewDelegate>
 {
     NSInteger _viewStatus;
     UITableView *_tableView;

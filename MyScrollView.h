@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "BnsModel.h"
 
+@protocol PushViewDelegate <NSObject>
+
+- (void)pushNextViewWithModel:(BnsModel *)model;
+
+@end
+
 @interface MyScrollView : UIView <UIScrollViewDelegate>
 {
     UIScrollView *_scrollView;
@@ -24,6 +30,8 @@
     NSArray *_imagesArray;
     NSMutableArray *_curImages;
 }
+
+@property(nonatomic,assign) id <PushViewDelegate> delegate;
 
 -(int)validPageValue:(NSInteger)value;
 -(id)initWithFrame:(CGRect)frame andPictures:(NSArray *)pictureArray;

@@ -6,12 +6,8 @@
 //  Copyright (c) 2014年 jyw. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "EquipViewController.h"
 
-@interface SrcViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
-
-@property(nonatomic,copy)NSString *tableName;
-
--(id)initWithTable:(NSString *)table;
+@interface SrcViewController : EquipViewController
 
 @end

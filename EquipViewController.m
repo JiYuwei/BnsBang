@@ -35,16 +35,16 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
     // Do any additional setup after loading the view.
-    [self createBgLogo];
+    //[self createBgLogo];
     [self configBtns];
 }
 
-- (void)createBgLogo
-{
-    UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-120, 0, 120, 60)];
-    logoView.image=[UIImage imageNamed:@"bglogoblack"];
-    [self.view addSubview:logoView];
-}
+//- (void)createBgLogo
+//{
+//    UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-120, 0, 120, 60)];
+//    logoView.image=[UIImage imageNamed:@"bglogo"];
+//    [self.view addSubview:logoView];
+//}
 
 - (void)configBtns
 {
@@ -54,30 +54,50 @@
     BOOL is4_inch=screenHeight==568;
     NSLog(@"%.2f %d",screenHeight,is4_inch);
     
-    height1=is4_inch?60:16.5;
-    height2=is4_inch?192:133;
-    height3=is4_inch?324:249.5;
+    height1=is4_inch?76:16.5;
+    height2=is4_inch?208:133;
+    height3=is4_inch?340:249.5;
     
-    [self createBtns:_weaponBtn withFrame:CGRectMake(-screenWidth, height1, screenWidth, 100) angImage:@"weaponimg" Tag:300 Delay:0];
-    [self createBtns:_jewelryBtn withFrame:CGRectMake(screenWidth, height2, screenWidth, 100) angImage:@"jewelryimg" Tag:301 Delay:0.3];
-    [self createBtns:_baguaBtn withFrame:CGRectMake(-screenWidth, height3, screenWidth, 100) angImage:@"baguaimg" Tag:302 Delay:0.6];
+    UIButton *bgBtn;
+    
+    if (is4_inch) {
+        [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, 0, screenWidth, 60) angImage:nil Tag:0 Delay:2.8 Enabled:NO];
+    }
+    
+    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height1-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
+    [self createBtns:bgBtn withFrame:CGRectMake(screenWidth, height2-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
+    [self createBtns:bgBtn withFrame:CGRectMake(-screenWidth, height3-16, screenWidth, 132) angImage:@"btnbgimg" Tag:0 Delay:1.6 Enabled:NO];
+    
+    
+    [self createBtns:_weaponBtn withFrame:CGRectMake(-screenWidth, height1, screenWidth, 100) angImage:@"weaponimg" Tag:300 Delay:0 Enabled:YES];
+    [self createBtns:_jewelryBtn withFrame:CGRectMake(screenWidth, height2, screenWidth, 100) angImage:@"jewelryimg" Tag:301 Delay:0.3 Enabled:YES];
+    [self createBtns:_baguaBtn withFrame:CGRectMake(-screenWidth, height3, screenWidth, 100) angImage:@"baguaimg" Tag:302 Delay:0.6 Enabled:YES];
     
 }
 
-- (void)createBtns:(UIButton *)button withFrame:(CGRect)frame angImage:(NSString *)imgName Tag:(NSInteger)tag Delay:(NSTimeInterval)delay
+- (void)createBtns:(UIButton *)button withFrame:(CGRect)frame angImage:(NSString *)imgName Tag:(NSInteger)tag Delay:(NSTimeInterval)delay Enabled:(BOOL)enabled
 {
     button=[UIButton buttonWithType:UIButtonTypeCustom];
     button.frame=frame;
     button.tag=tag;
-    [button setBackgroundImage:[UIImage imageNamed:imgName] forState:UIControlStateNormal];
+    button.userInteractionEnabled=enabled;
+    if (imgName) {
+        [button setBackgroundImage:[UIImage imageNamed:imgName] forState:UIControlStateNormal];
+    }
+    else{
+        [button setBackgroundColor:[UIColor colorWithRed:0.2353 green:0.2353 blue:0.2353 alpha:1]];
+        UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-120, 0, 120, 60)];
+        logoView.image=[UIImage imageNamed:@"bglogo"];
+        [button addSubview:logoView];
+    }
     [button addTarget:self action:@selector(clickAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
-    [UIView animateWithDuration:1.2 delay:delay options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:1 delay:delay options:UIViewAnimationOptionCurveEaseOut animations:^{
         button.frame=CGRectMake(0, button.frame.origin.y, button.frame.size.width, button.frame.size.height);
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.8 animations:^{
-            button.alpha=0.85;
+            button.alpha=0.9;
         }];
     }];
 }

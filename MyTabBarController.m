@@ -76,7 +76,7 @@
     equipCtrl.navigationBar.tintColor=[UIColor whiteColor];
     equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_pic"] selectedImage:[UIImage imageNamed:@"tabbar_pic"]];
     
-    _srcVC=[[SrcViewController alloc] initWithTable:@"srcdata"];
+    _srcVC=[[SrcViewController alloc] init];
     _srcVC.title=@"成长树";
     _srcVC.edgesForExtendedLayout=UIRectEdgeNone;
     UINavigationController *srcCtrl=[[UINavigationController alloc] initWithRootViewController:_srcVC];

@@ -129,7 +129,7 @@
     
     if(x>=2*_scrollFrame.size.width) //往下翻一张
     {
-        NSLog(@"Yeah");
+        //NSLog(@"Yeah");
         _curPages=[self validPageValue:_curPages+1];
         [self refreshScrollView];
     }

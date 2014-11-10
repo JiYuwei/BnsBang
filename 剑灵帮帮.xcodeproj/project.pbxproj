@@ -70,6 +70,9 @@
 		BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */; };
 		BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB851A0A5128001834A5 /* weaponimg@2x.png */; };
 		BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB881A0A5134001834A5 /* baguaimg@2x.png */; };
+		BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38731A10A04E00522D94 /* CollectViewCell.m */; };
+		BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38761A10A06400522D94 /* CollectLayOut.m */; };
+		BC7C387A1A10A08400522D94 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C38791A10A08400522D94 /* ImageModel.m */; };
 		BC98E8F21A08CD0300261F9E /* bglogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F11A08CD0300261F9E /* bglogo@2x.png */; };
 		BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98E8F41A08D13600261F9E /* JewelryViewController.m */; };
 		BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E8F61A08D82700261F9E /* bgjewelry@2x.png */; };
@@ -422,6 +425,12 @@
 		BC38EB841A0A5128001834A5 /* jewelryimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jewelryimg@2x.png"; sourceTree = "<group>"; };
 		BC38EB851A0A5128001834A5 /* weaponimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weaponimg@2x.png"; sourceTree = "<group>"; };
 		BC38EB881A0A5134001834A5 /* baguaimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baguaimg@2x.png"; sourceTree = "<group>"; };
+		BC7C38721A10A04E00522D94 /* CollectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewCell.h; sourceTree = "<group>"; };
+		BC7C38731A10A04E00522D94 /* CollectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewCell.m; sourceTree = "<group>"; };
+		BC7C38751A10A06400522D94 /* CollectLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectLayOut.h; sourceTree = "<group>"; };
+		BC7C38761A10A06400522D94 /* CollectLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectLayOut.m; sourceTree = "<group>"; };
+		BC7C38781A10A08400522D94 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
+		BC7C38791A10A08400522D94 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 		BC98E8F11A08CD0300261F9E /* bglogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bglogo@2x.png"; sourceTree = "<group>"; };
 		BC98E8F31A08D13600261F9E /* JewelryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JewelryViewController.h; sourceTree = "<group>"; };
 		BC98E8F41A08D13600261F9E /* JewelryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JewelryViewController.m; sourceTree = "<group>"; };
@@ -890,6 +899,10 @@
 				BCFD31851A0B149D0007F384 /* ProViewCell.h */,
 				BCFD31861A0B149D0007F384 /* ProViewCell.m */,
 				BCFD31871A0B149D0007F384 /* ProViewCell.xib */,
+				BC7C38721A10A04E00522D94 /* CollectViewCell.h */,
+				BC7C38731A10A04E00522D94 /* CollectViewCell.m */,
+				BC7C38751A10A06400522D94 /* CollectLayOut.h */,
+				BC7C38761A10A06400522D94 /* CollectLayOut.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -901,6 +914,8 @@
 				BC98E9061A08F10300261F9E /* BaseModel.m */,
 				BC0D30671A0339B50079AF06 /* BnsModel.h */,
 				BC0D30681A0339B50079AF06 /* BnsModel.m */,
+				BC7C38781A10A08400522D94 /* ImageModel.h */,
+				BC7C38791A10A08400522D94 /* ImageModel.m */,
 				BC98E9021A08F0B200261F9E /* MainModel.h */,
 				BC98E9031A08F0B200261F9E /* MainModel.m */,
 				BCFD31AE1A0B3DFA0007F384 /* ProModel.h */,
@@ -1720,7 +1735,9 @@
 				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
 				BC98E9071A08F10300261F9E /* BaseModel.m in Sources */,
 				BC19EAFB19F49FEB00A3762A /* main.m in Sources */,
+				BC7C387A1A10A08400522D94 /* ImageModel.m in Sources */,
 				BCEE0E091A076DED0077E890 /* SDWebImageManager.m in Sources */,
+				BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */,
 				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
 				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
 				BC19EB3E19F4BA6900A3762A /* SrcModel.m in Sources */,
@@ -1728,6 +1745,7 @@
 				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
 				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,
+				BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */,
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
 				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,

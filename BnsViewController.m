@@ -7,12 +7,11 @@
 //
 
 #import "BnsViewController.h"
-#import "HttpRequestManager.h"
 #import "BnsModel.h"
 #import "BnsViewCell.h"
 #import "UIImageView+WebCache.h"
 #import "DetailViewController.h"
-#import "RefreshView.h"
+
 
 
 @interface BnsViewController () <RefreshViewDelegate>
@@ -22,7 +21,7 @@
     
     UIActivityIndicatorView *_loadView;
     UILabel *_noMoreLabel;
-    RefreshView *_refreshView;
+    
     
     NSMutableArray *_dataArray;
 }
@@ -78,7 +77,6 @@
         //NSLog(@"%@",_dataArray);
     } failed:^{
         NSLog(@"load failed");
-        [_loadView stopAnimating];
         UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"哎呀!" message:@"您的网络有些问题，请稍后再试。" delegate:self cancelButtonTitle:@"好" otherButtonTitles:nil, nil];
         [alert show];
         [self stopLoading];
@@ -202,6 +200,11 @@
     _tableView.delegate=self;
     [self.view addSubview:_tableView];
     
+    [self createRefreshView];
+}
+
+- (void)createRefreshView
+{
     NSArray *nils=[[NSBundle mainBundle] loadNibNamed:@"RefreshView" owner:self options:nil];
     _refreshView=[nils firstObject];
     //_refreshView.backgroundColor=[UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];

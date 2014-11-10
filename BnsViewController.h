@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "MyScrollView.h"
+#import "RefreshView.h"
+#import "HttpRequestManager.h"
 
 @interface BnsViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,PushViewDelegate>
 {
@@ -16,6 +18,7 @@
     CGSize _screenSize;
     NSArray *_titleArr;
     UIView *_selectedView;
+    RefreshView *_refreshView;
     MyScrollView *_scrollView;
     NSMutableArray *_scrollArray;
 }
@@ -28,10 +31,12 @@
 -(void)uiconfig;
 
 -(void)startLoading;
+-(void)stopLoading;
 -(void)createTopItems;
 -(void)createTableView;
 -(void)createTableViewWithFrame:(CGRect)frame;
 -(void)topBtnAction:(UIButton *)sender;
 -(void)getUrlWithBody:(NSString *)body cachePolicy:(NSURLRequestCachePolicy)policy;
+-(void)refreshViewDidCallBack;
 
 @end

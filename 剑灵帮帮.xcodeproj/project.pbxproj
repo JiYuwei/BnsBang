@@ -82,18 +82,177 @@
 		BC98E90C1A08F6A100261F9E /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC98E90A1A08F6A100261F9E /* MainViewCell.xib */; };
 		BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E90D1A08FC7400261F9E /* JewelryList.plist */; };
 		BC98E91C1A09065D00261F9E /* bqcq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9101A09065D00261F9E /* bqcq@2x.png */; };
-		BC98E91D1A09065D00261F9E /* bqcqfull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9111A09065D00261F9E /* bqcqfull.png */; };
+		BC98E91D1A09065D00261F9E /* 白青苍穹八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */; };
 		BC98E91E1A09065D00261F9E /* bqdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9121A09065D00261F9E /* bqdd@2x.png */; };
-		BC98E91F1A09065D00261F9E /* bqddfull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9131A09065D00261F9E /* bqddfull.png */; };
+		BC98E91F1A09065D00261F9E /* 白青大地八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */; };
 		BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9141A09065D00261F9E /* shexie@2x.png */; };
-		BC98E9211A09065D00261F9E /* shexiefull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9151A09065D00261F9E /* shexiefull.png */; };
+		BC98E9211A09065D00261F9E /* 蛇蝎帝王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */; };
 		BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9161A09065D00261F9E /* tianlong@2x.png */; };
-		BC98E9231A09065D00261F9E /* tianlongfull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9171A09065D00261F9E /* tianlongfull.png */; };
+		BC98E9231A09065D00261F9E /* 天龙八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */; };
 		BC98E9241A09065D00261F9E /* xiuluo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9181A09065D00261F9E /* xiuluo@2x.png */; };
-		BC98E9251A09065D00261F9E /* xiuluofull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9191A09065D00261F9E /* xiuluofull.png */; };
+		BC98E9251A09065D00261F9E /* 修罗八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */; };
 		BC98E9261A09065D00261F9E /* xueren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91A1A09065D00261F9E /* xueren@2x.png */; };
-		BC98E9271A09065D00261F9E /* xuerenfull.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91B1A09065D00261F9E /* xuerenfull.png */; };
+		BC98E9271A09065D00261F9E /* 雪人八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */; };
 		BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98E9281A0906B200261F9E /* BaguaList.plist */; };
+		BC99BDA61A0F2B5F00A3C791 /* dazhong.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDA41A0F2B5F00A3C791 /* dazhong.png */; };
+		BC99BDA71A0F2B5F00A3C791 /* jixian.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDA51A0F2B5F00A3C791 /* jixian.png */; };
+		BC99BE451A0F4B5F00A3C791 /* ahl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */; };
+		BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */; };
+		BC99BE471A0F4B5F00A3C791 /* bp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */; };
+		BC99BE481A0F4B5F00A3C791 /* ch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */; };
+		BC99BE491A0F4B5F00A3C791 /* cw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */; };
+		BC99BE4A1A0F4B5F00A3C791 /* dgj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */; };
+		BC99BE4B1A0F4B5F00A3C791 /* dmhj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */; };
+		BC99BE4C1A0F4B5F00A3C791 /* dmxs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */; };
+		BC99BE4D1A0F4B5F00A3C791 /* ds@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */; };
+		BC99BE4E1A0F4B5F00A3C791 /* dus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */; };
+		BC99BE4F1A0F4B5F00A3C791 /* dw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */; };
+		BC99BE501A0F4B5F00A3C791 /* dz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */; };
+		BC99BE511A0F4B5F00A3C791 /* dzs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */; };
+		BC99BE521A0F4B5F00A3C791 /* gsm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */; };
+		BC99BE531A0F4B5F00A3C791 /* gssg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */; };
+		BC99BE541A0F4B5F00A3C791 /* hfn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */; };
+		BC99BE551A0F4B5F00A3C791 /* hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */; };
+		BC99BE561A0F4B5F00A3C791 /* hs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */; };
+		BC99BE571A0F4B5F00A3C791 /* hslz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */; };
+		BC99BE581A0F4B5F00A3C791 /* hus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */; };
+		BC99BE591A0F4B5F00A3C791 /* jg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */; };
+		BC99BE5A1A0F4B5F00A3C791 /* jy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */; };
+		BC99BE5B1A0F4B5F00A3C791 /* ls@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */; };
+		BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */; };
+		BC99BE5D1A0F4B5F00A3C791 /* ly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */; };
+		BC99BE5E1A0F4B5F00A3C791 /* mg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */; };
+		BC99BE5F1A0F4B5F00A3C791 /* mz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */; };
+		BC99BE601A0F4B5F00A3C791 /* nw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */; };
+		BC99BE611A0F4B5F00A3C791 /* qh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */; };
+		BC99BE621A0F4B5F00A3C791 /* qtm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */; };
+		BC99BE631A0F4B5F00A3C791 /* ry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */; };
+		BC99BE641A0F4B5F00A3C791 /* sldylz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */; };
+		BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */; };
+		BC99BE661A0F4B5F00A3C791 /* sypyhj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */; };
+		BC99BE671A0F4B5F00A3C791 /* tkw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */; };
+		BC99BE681A0F4B5F00A3C791 /* tz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */; };
+		BC99BE691A0F4B5F00A3C791 /* wh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */; };
+		BC99BE6A1A0F4B5F00A3C791 /* wk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */; };
+		BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */; };
+		BC99BE6C1A0F4B5F00A3C791 /* wy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */; };
+		BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */; };
+		BC99BE6E1A0F4B5F00A3C791 /* xz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */; };
+		BC99BE6F1A0F4B5F00A3C791 /* ybd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */; };
+		BC99BE701A0F4B5F00A3C791 /* yllyx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */; };
+		BC99BE711A0F4B5F00A3C791 /* 万魂八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */; };
+		BC99BE721A0F4B5F00A3C791 /* 万魂八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */; };
+		BC99BE731A0F4B5F00A3C791 /* 了无情八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */; };
+		BC99BE741A0F4B5F00A3C791 /* 了无情八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */; };
+		BC99BE751A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */; };
+		BC99BE761A0F4B5F00A3C791 /* 佣兵队八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */; };
+		BC99BE771A0F4B5F00A3C791 /* 修罗八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */; };
+		BC99BE781A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */; };
+		BC99BE791A0F4B5F00A3C791 /* 冰魄八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */; };
+		BC99BE7A1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */; };
+		BC99BE7B1A0F4B5F00A3C791 /* 千魂八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */; };
+		BC99BE7C1A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */; };
+		BC99BE7D1A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */; };
+		BC99BE7E1A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */; };
+		BC99BE7F1A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */; };
+		BC99BE801A0F4B5F00A3C791 /* 大王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */; };
+		BC99BE811A0F4B5F00A3C791 /* 大王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */; };
+		BC99BE821A0F4B5F00A3C791 /* 天照八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */; };
+		BC99BE831A0F4B5F00A3C791 /* 天照八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */; };
+		BC99BE841A0F4B5F00A3C791 /* 天龙八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */; };
+		BC99BE851A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */; };
+		BC99BE861A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */; };
+		BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */; };
+		BC99BE881A0F4B5F00A3C791 /* 女王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */; };
+		BC99BE891A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */; };
+		BC99BE8A1A0F4B5F00A3C791 /* 巨岩八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */; };
+		BC99BE8B1A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */; };
+		BC99BE8C1A0F4B5F00A3C791 /* 巴勒八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */; };
+		BC99BE8D1A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */; };
+		BC99BE8E1A0F4B5F00A3C791 /* 帝国军八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */; };
+		BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */; };
+		BC99BE901A0F4B5F00A3C791 /* 幻术八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */; };
+		BC99BE911A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */; };
+		BC99BE921A0F4B5F00A3C791 /* 彩虹八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */; };
+		BC99BE931A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */; };
+		BC99BE941A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */; };
+		BC99BE951A0F4B5F00A3C791 /* 悟空八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */; };
+		BC99BE961A0F4B5F00A3C791 /* 悟空八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */; };
+		BC99BE971A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */; };
+		BC99BE981A0F4B5F00A3C791 /* 擎天盟八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */; };
+		BC99BE991A0F4B5F00A3C791 /* 斗战八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */; };
+		BC99BE9A1A0F4B5F00A3C791 /* 斗战八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */; };
+		BC99BE9B1A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */; };
+		BC99BE9C1A0F4B5F00A3C791 /* 斗战圣八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */; };
+		BC99BE9D1A0F4B5F00A3C791 /* 斗神八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */; };
+		BC99BE9E1A0F4B5F00A3C791 /* 斗神八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */; };
+		BC99BE9F1A0F4B5F00A3C791 /* 无影八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */; };
+		BC99BEA01A0F4B5F00A3C791 /* 无影八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */; };
+		BC99BEA11A0F4B5F00A3C791 /* 日月八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */; };
+		BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */; };
+		BC99BEA31A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */; };
+		BC99BEA41A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */; };
+		BC99BEA51A0F4B5F00A3C791 /* 武神八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */; };
+		BC99BEA61A0F4B5F00A3C791 /* 武神八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */; };
+		BC99BEA71A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */; };
+		BC99BEA81A0F4B5F00A3C791 /* 毒蛇八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */; };
+		BC99BEA91A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */; };
+		BC99BEAA1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */; };
+		BC99BEAB1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */; };
+		BC99BEAC1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */; };
+		BC99BEAD1A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */; };
+		BC99BEAE1A0F4B5F00A3C791 /* 海蛇八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */; };
+		BC99BEAF1A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */; };
+		BC99BEB01A0F4B5F00A3C791 /* 灵兽八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */; };
+		BC99BEB11A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */; };
+		BC99BEB21A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */; };
+		BC99BEB31A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */; };
+		BC99BEB41A0F4B5F00A3C791 /* 盖世神功八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */; };
+		BC99BEB51A0F4B5F00A3C791 /* 红莲八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */; };
+		BC99BEB61A0F4B5F00A3C791 /* 红莲八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */; };
+		BC99BEB71A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */; };
+		BC99BEB81A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */; };
+		BC99BEB91A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */; };
+		BC99BEBA1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */; };
+		BC99BEBB1A0F4B5F00A3C791 /* 血猪八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */; };
+		BC99BEBC1A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */; };
+		BC99BEBD1A0F4B5F00A3C791 /* 赤尾八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */; };
+		BC99BEBE1A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */; };
+		BC99BEBF1A0F4B5F00A3C791 /* 迷宫八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */; };
+		BC99BEC01A0F4B5F00A3C791 /* 金刚八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */; };
+		BC99BEC11A0F4B5F00A3C791 /* 金刚八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */; };
+		BC99BEC21A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */; };
+		BC99BEC31A0F4B5F00A3C791 /* 铁傀王八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */; };
+		BC99BEC41A0F4B5F00A3C791 /* 雪人八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */; };
+		BC99BEC51A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */; };
+		BC99BEC61A0F4B5F00A3C791 /* 雷狱八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */; };
+		BC99BEC71A0F4B5F00A3C791 /* 马贼八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */; };
+		BC99BEC81A0F4B5F00A3C791 /* 马贼八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */; };
+		BC99BEC91A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */; };
+		BC99BECA1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */; };
+		BC99BECB1A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */; };
+		BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */; };
+		BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */; };
+		BC99BECE1A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */; };
+		BC99BECF1A0F4B5F00A3C791 /* 白星手镯@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */; };
+		BC99BED01A0F4B5F00A3C791 /* 赤星戒指@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */; };
+		BC99BED11A0F4B5F00A3C791 /* 青星项链@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */; };
+		BC99BED21A0F4B5F00A3C791 /* 黄星腰带@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */; };
+		BC99BED31A0F4B5F00A3C791 /* 黑星耳环@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */; };
+		BC99BED41A0F4B5F00A3C791 /* 大众传说@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */; };
+		BC99BED51A0F4B5F00A3C791 /* 极限传说@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */; };
+		BC99BED61A0F4B5F00A3C791 /* 光明无常@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */; };
+		BC99BED71A0F4B5F00A3C791 /* 劫难无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */; };
+		BC99BED81A0F4B5F00A3C791 /* 尚方无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */; };
+		BC99BED91A0F4B5F00A3C791 /* 无形@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */; };
+		BC99BEDA1A0F4B5F00A3C791 /* 暗黑无常@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */; };
+		BC99BEDB1A0F4B5F00A3C791 /* 炎魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */; };
+		BC99BEDC1A0F4B5F00A3C791 /* 生魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */; };
+		BC99BEDD1A0F4B5F00A3C791 /* 风魂无极@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */; };
+		BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */; };
+		BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */; };
+		BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */; };
+		BC99BEF41A0F71C900A3C791 /* tabbar_equip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */; };
 		BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BD61A0B9623007266C7 /* MyScrollView.m */; };
 		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
 		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
@@ -278,19 +437,181 @@
 		BC98E9091A08F6A100261F9E /* MainViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewCell.m; sourceTree = "<group>"; };
 		BC98E90A1A08F6A100261F9E /* MainViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewCell.xib; sourceTree = "<group>"; };
 		BC98E90D1A08FC7400261F9E /* JewelryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JewelryList.plist; sourceTree = "<group>"; };
-		BC98E9101A09065D00261F9E /* bqcq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqcq@2x.png"; sourceTree = "<group>"; };
-		BC98E9111A09065D00261F9E /* bqcqfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bqcqfull.png; sourceTree = "<group>"; };
-		BC98E9121A09065D00261F9E /* bqdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqdd@2x.png"; sourceTree = "<group>"; };
-		BC98E9131A09065D00261F9E /* bqddfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bqddfull.png; sourceTree = "<group>"; };
-		BC98E9141A09065D00261F9E /* shexie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shexie@2x.png"; sourceTree = "<group>"; };
-		BC98E9151A09065D00261F9E /* shexiefull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shexiefull.png; sourceTree = "<group>"; };
-		BC98E9161A09065D00261F9E /* tianlong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tianlong@2x.png"; sourceTree = "<group>"; };
-		BC98E9171A09065D00261F9E /* tianlongfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tianlongfull.png; sourceTree = "<group>"; };
-		BC98E9181A09065D00261F9E /* xiuluo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiuluo@2x.png"; sourceTree = "<group>"; };
-		BC98E9191A09065D00261F9E /* xiuluofull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiuluofull.png; sourceTree = "<group>"; };
-		BC98E91A1A09065D00261F9E /* xueren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xueren@2x.png"; sourceTree = "<group>"; };
-		BC98E91B1A09065D00261F9E /* xuerenfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuerenfull.png; sourceTree = "<group>"; };
+		BC98E9101A09065D00261F9E /* bqcq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bqcq@2x.png"; path = "../../image/bagua/bqcq@2x.png"; sourceTree = "<group>"; };
+		BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "白青苍穹八卦牌img.png"; path = "../../image/bagua/白青苍穹八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9121A09065D00261F9E /* bqdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bqdd@2x.png"; path = "../../image/bagua/bqdd@2x.png"; sourceTree = "<group>"; };
+		BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "白青大地八卦牌img.png"; path = "../../image/bagua/白青大地八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9141A09065D00261F9E /* shexie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shexie@2x.png"; path = "../../image/bagua/shexie@2x.png"; sourceTree = "<group>"; };
+		BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蛇蝎帝王八卦牌img.png"; path = "../../image/bagua/蛇蝎帝王八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9161A09065D00261F9E /* tianlong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tianlong@2x.png"; path = "../../image/bagua/tianlong@2x.png"; sourceTree = "<group>"; };
+		BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "天龙八卦牌img.png"; path = "../../image/bagua/天龙八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E9181A09065D00261F9E /* xiuluo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xiuluo@2x.png"; path = "../../image/bagua/xiuluo@2x.png"; sourceTree = "<group>"; };
+		BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "修罗八卦牌img.png"; path = "../../image/bagua/修罗八卦牌img.png"; sourceTree = "<group>"; };
+		BC98E91A1A09065D00261F9E /* xueren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xueren@2x.png"; path = "../../image/bagua/xueren@2x.png"; sourceTree = "<group>"; };
+		BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "雪人八卦牌img.png"; path = "../../image/bagua/雪人八卦牌img.png"; sourceTree = "<group>"; };
 		BC98E9281A0906B200261F9E /* BaguaList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BaguaList.plist; sourceTree = "<group>"; };
+		BC99BDA41A0F2B5F00A3C791 /* dazhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dazhong.png; path = ../../dazhong.png; sourceTree = "<group>"; };
+		BC99BDA51A0F2B5F00A3C791 /* jixian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jixian.png; path = ../../jixian.png; sourceTree = "<group>"; };
+		BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ahl@2x.png"; sourceTree = "<group>"; };
+		BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bl@2x.png"; sourceTree = "<group>"; };
+		BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bp@2x.png"; sourceTree = "<group>"; };
+		BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ch@2x.png"; sourceTree = "<group>"; };
+		BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cw@2x.png"; sourceTree = "<group>"; };
+		BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dgj@2x.png"; sourceTree = "<group>"; };
+		BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dmhj@2x.png"; sourceTree = "<group>"; };
+		BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dmxs@2x.png"; sourceTree = "<group>"; };
+		BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ds@2x.png"; sourceTree = "<group>"; };
+		BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dus@2x.png"; sourceTree = "<group>"; };
+		BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dw@2x.png"; sourceTree = "<group>"; };
+		BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dz@2x.png"; sourceTree = "<group>"; };
+		BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzs@2x.png"; sourceTree = "<group>"; };
+		BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gsm@2x.png"; sourceTree = "<group>"; };
+		BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gssg@2x.png"; sourceTree = "<group>"; };
+		BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hfn@2x.png"; sourceTree = "<group>"; };
+		BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hl@2x.png"; sourceTree = "<group>"; };
+		BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hs@2x.png"; sourceTree = "<group>"; };
+		BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hslz@2x.png"; sourceTree = "<group>"; };
+		BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hus@2x.png"; sourceTree = "<group>"; };
+		BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg@2x.png"; sourceTree = "<group>"; };
+		BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jy@2x.png"; sourceTree = "<group>"; };
+		BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ls@2x.png"; sourceTree = "<group>"; };
+		BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lwq@2x.png"; sourceTree = "<group>"; };
+		BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ly@2x.png"; sourceTree = "<group>"; };
+		BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mg@2x.png"; sourceTree = "<group>"; };
+		BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mz@2x.png"; sourceTree = "<group>"; };
+		BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nw@2x.png"; sourceTree = "<group>"; };
+		BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qh@2x.png"; sourceTree = "<group>"; };
+		BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qtm@2x.png"; sourceTree = "<group>"; };
+		BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ry@2x.png"; sourceTree = "<group>"; };
+		BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sldylz@2x.png"; sourceTree = "<group>"; };
+		BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sypybw@2x.png"; sourceTree = "<group>"; };
+		BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sypyhj@2x.png"; sourceTree = "<group>"; };
+		BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tkw@2x.png"; sourceTree = "<group>"; };
+		BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tz@2x.png"; sourceTree = "<group>"; };
+		BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wh@2x.png"; sourceTree = "<group>"; };
+		BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wk@2x.png"; sourceTree = "<group>"; };
+		BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ws@2x.png"; sourceTree = "<group>"; };
+		BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wy@2x.png"; sourceTree = "<group>"; };
+		BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xlsw@2x.png"; sourceTree = "<group>"; };
+		BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xz@2x.png"; sourceTree = "<group>"; };
+		BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ybd@2x.png"; sourceTree = "<group>"; };
+		BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yllyx@2x.png"; sourceTree = "<group>"; };
+		BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万魂八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万魂八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "了无情八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "了无情八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "佣兵队八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "佣兵队八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修罗八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰魄八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冰魄八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "千魂八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "千魂八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠侠士八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠侠士八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠豪杰八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大漠豪杰八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天照八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天照八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天龙八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失落的永灵族八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失落的永灵族八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "女王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巨岩八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巨岩八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴勒八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴勒八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帝国军八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帝国军八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻术八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "幻术八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "彩虹八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "彩虹八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "御龙林英雄八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "御龙林英雄八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "悟空八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "悟空八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "擎天盟八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "擎天盟八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战圣八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗战圣八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗神八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "斗神八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无影八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无影八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日月八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日月八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑龙八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑龙八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "武神八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "武神八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毒蛇八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毒蛇八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原比武八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原比武八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原豪杰八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水月平原豪杰八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海蛇八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海蛇八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灵兽八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灵兽八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白青大地八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白青苍穹八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "盖世神功八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "盖世神功八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红莲八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红莲八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇蝎帝王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血浪鲨湾八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血浪鲨湾八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血猪八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "血猪八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤尾八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤尾八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迷宫八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迷宫八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金刚八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金刚八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁傀王八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铁傀王八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪人八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷狱八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雷狱八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马贼八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马贼八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鬼杀门八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鬼杀门八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄沙领主八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄沙领主八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑飞鸟八卦牌@2x.png"; sourceTree = "<group>"; };
+		BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑飞鸟八卦牌img.png"; sourceTree = "<group>"; };
+		BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白星手镯@2x.png"; sourceTree = "<group>"; };
+		BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤星戒指@2x.png"; sourceTree = "<group>"; };
+		BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青星项链@2x.png"; sourceTree = "<group>"; };
+		BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄星腰带@2x.png"; sourceTree = "<group>"; };
+		BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑星耳环@2x.png"; sourceTree = "<group>"; };
+		BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大众传说@2x.png"; sourceTree = "<group>"; };
+		BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极限传说@2x.png"; sourceTree = "<group>"; };
+		BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "光明无常@2x.png"; sourceTree = "<group>"; };
+		BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "劫难无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "尚方无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无形@2x.png"; sourceTree = "<group>"; };
+		BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暗黑无常@2x.png"; sourceTree = "<group>"; };
+		BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "炎魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风魂无极@2x.png"; sourceTree = "<group>"; };
+		BC99BEDE1A0F55C500A3C791 /* BaguaDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaguaDetailController.h; sourceTree = "<group>"; };
+		BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaguaDetailController.m; sourceTree = "<group>"; };
+		BC99BEE41A0F620D00A3C791 /* WeaponDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponDetailController.h; sourceTree = "<group>"; };
+		BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponDetailController.m; sourceTree = "<group>"; };
+		BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_equip@2x.png"; sourceTree = "<group>"; };
 		BCBC0BD51A0B9623007266C7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
 		BCBC0BD61A0B9623007266C7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -499,6 +820,7 @@
 		BC19EAF519F49FEB00A3762A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC99BDA81A0F4B5F00A3C791 /* srcimg */,
 				BC0AAC281A0CF88B00232357 /* shuiyue@2x.png */,
 				BC0AAC241A0CF77300232357 /* baiqing@2x.png */,
 				BC0AABA51A0C9AA900232357 /* btnbgimg.png */,
@@ -547,6 +869,7 @@
 				BC19EB2119F4A05A00A3762A /* MyTabBarController.m */,
 				BCF872F01A026DD200950D32 /* Bns */,
 				BC38EB6B1A0A2744001834A5 /* Video */,
+				BC99BEE71A0F6A4900A3C791 /* Photo */,
 				BC38EB6C1A0A275E001834A5 /* Equipment */,
 				BCF872EC1A026DC600950D32 /* Source */,
 			);
@@ -633,6 +956,7 @@
 		BC38EB731A0A3640001834A5 /* tabbar_img */ = {
 			isa = PBXGroup;
 			children = (
+				BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */,
 				BC38EB741A0A36AE001834A5 /* tabbar_bns.png */,
 				BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */,
 				BC38EB761A0A36AE001834A5 /* tabbar_gl.png */,
@@ -645,23 +969,211 @@
 			name = tabbar_img;
 			sourceTree = "<group>";
 		};
-		BC98E90F1A09065D00261F9E /* bagua */ = {
+		BC99BDA81A0F4B5F00A3C791 /* srcimg */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BDA91A0F4B5F00A3C791 /* bagua */,
+				BC99BE341A0F4B5F00A3C791 /* jewelry */,
+				BC99BE3A1A0F4B5F00A3C791 /* weapon */,
+			);
+			path = srcimg;
+			sourceTree = "<group>";
+		};
+		BC99BDA91A0F4B5F00A3C791 /* bagua */ = {
 			isa = PBXGroup;
 			children = (
 				BC98E9101A09065D00261F9E /* bqcq@2x.png */,
-				BC98E9111A09065D00261F9E /* bqcqfull.png */,
+				BC98E9111A09065D00261F9E /* 白青苍穹八卦牌img.png */,
 				BC98E9121A09065D00261F9E /* bqdd@2x.png */,
-				BC98E9131A09065D00261F9E /* bqddfull.png */,
+				BC98E9131A09065D00261F9E /* 白青大地八卦牌img.png */,
+				BC99BDA41A0F2B5F00A3C791 /* dazhong.png */,
+				BC99BDA51A0F2B5F00A3C791 /* jixian.png */,
 				BC98E9141A09065D00261F9E /* shexie@2x.png */,
-				BC98E9151A09065D00261F9E /* shexiefull.png */,
+				BC98E9151A09065D00261F9E /* 蛇蝎帝王八卦牌img.png */,
 				BC98E9161A09065D00261F9E /* tianlong@2x.png */,
-				BC98E9171A09065D00261F9E /* tianlongfull.png */,
+				BC98E9171A09065D00261F9E /* 天龙八卦牌img.png */,
 				BC98E9181A09065D00261F9E /* xiuluo@2x.png */,
-				BC98E9191A09065D00261F9E /* xiuluofull.png */,
+				BC98E9191A09065D00261F9E /* 修罗八卦牌img.png */,
 				BC98E91A1A09065D00261F9E /* xueren@2x.png */,
-				BC98E91B1A09065D00261F9E /* xuerenfull.png */,
+				BC98E91B1A09065D00261F9E /* 雪人八卦牌img.png */,
+				BC99BDAA1A0F4B5F00A3C791 /* ahl@2x.png */,
+				BC99BDAB1A0F4B5F00A3C791 /* bl@2x.png */,
+				BC99BDAC1A0F4B5F00A3C791 /* bp@2x.png */,
+				BC99BDAD1A0F4B5F00A3C791 /* ch@2x.png */,
+				BC99BDAE1A0F4B5F00A3C791 /* cw@2x.png */,
+				BC99BDAF1A0F4B5F00A3C791 /* dgj@2x.png */,
+				BC99BDB01A0F4B5F00A3C791 /* dmhj@2x.png */,
+				BC99BDB11A0F4B5F00A3C791 /* dmxs@2x.png */,
+				BC99BDB21A0F4B5F00A3C791 /* ds@2x.png */,
+				BC99BDB31A0F4B5F00A3C791 /* dus@2x.png */,
+				BC99BDB41A0F4B5F00A3C791 /* dw@2x.png */,
+				BC99BDB51A0F4B5F00A3C791 /* dz@2x.png */,
+				BC99BDB61A0F4B5F00A3C791 /* dzs@2x.png */,
+				BC99BDB71A0F4B5F00A3C791 /* gsm@2x.png */,
+				BC99BDB81A0F4B5F00A3C791 /* gssg@2x.png */,
+				BC99BDB91A0F4B5F00A3C791 /* hfn@2x.png */,
+				BC99BDBA1A0F4B5F00A3C791 /* hl@2x.png */,
+				BC99BDBB1A0F4B5F00A3C791 /* hs@2x.png */,
+				BC99BDBC1A0F4B5F00A3C791 /* hslz@2x.png */,
+				BC99BDBD1A0F4B5F00A3C791 /* hus@2x.png */,
+				BC99BDBE1A0F4B5F00A3C791 /* jg@2x.png */,
+				BC99BDBF1A0F4B5F00A3C791 /* jy@2x.png */,
+				BC99BDC01A0F4B5F00A3C791 /* ls@2x.png */,
+				BC99BDC11A0F4B5F00A3C791 /* lwq@2x.png */,
+				BC99BDC21A0F4B5F00A3C791 /* ly@2x.png */,
+				BC99BDC31A0F4B5F00A3C791 /* mg@2x.png */,
+				BC99BDC41A0F4B5F00A3C791 /* mz@2x.png */,
+				BC99BDC51A0F4B5F00A3C791 /* nw@2x.png */,
+				BC99BDC61A0F4B5F00A3C791 /* qh@2x.png */,
+				BC99BDC71A0F4B5F00A3C791 /* qtm@2x.png */,
+				BC99BDC81A0F4B5F00A3C791 /* ry@2x.png */,
+				BC99BDC91A0F4B5F00A3C791 /* sldylz@2x.png */,
+				BC99BDCA1A0F4B5F00A3C791 /* sypybw@2x.png */,
+				BC99BDCB1A0F4B5F00A3C791 /* sypyhj@2x.png */,
+				BC99BDCC1A0F4B5F00A3C791 /* tkw@2x.png */,
+				BC99BDCD1A0F4B5F00A3C791 /* tz@2x.png */,
+				BC99BDCE1A0F4B5F00A3C791 /* wh@2x.png */,
+				BC99BDCF1A0F4B5F00A3C791 /* wk@2x.png */,
+				BC99BDD01A0F4B5F00A3C791 /* ws@2x.png */,
+				BC99BDD11A0F4B5F00A3C791 /* wy@2x.png */,
+				BC99BDD21A0F4B5F00A3C791 /* xlsw@2x.png */,
+				BC99BDD31A0F4B5F00A3C791 /* xz@2x.png */,
+				BC99BDD41A0F4B5F00A3C791 /* ybd@2x.png */,
+				BC99BDD51A0F4B5F00A3C791 /* yllyx@2x.png */,
+				BC99BDD61A0F4B5F00A3C791 /* 万魂八卦牌@2x.png */,
+				BC99BDD71A0F4B5F00A3C791 /* 万魂八卦牌img.png */,
+				BC99BDD81A0F4B5F00A3C791 /* 了无情八卦牌@2x.png */,
+				BC99BDD91A0F4B5F00A3C791 /* 了无情八卦牌img.png */,
+				BC99BDDA1A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png */,
+				BC99BDDB1A0F4B5F00A3C791 /* 佣兵队八卦牌img.png */,
+				BC99BDDC1A0F4B5F00A3C791 /* 修罗八卦牌@2x.png */,
+				BC99BDDD1A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png */,
+				BC99BDDE1A0F4B5F00A3C791 /* 冰魄八卦牌img.png */,
+				BC99BDDF1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png */,
+				BC99BDE01A0F4B5F00A3C791 /* 千魂八卦牌img.png */,
+				BC99BDE11A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png */,
+				BC99BDE21A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png */,
+				BC99BDE31A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png */,
+				BC99BDE41A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png */,
+				BC99BDE51A0F4B5F00A3C791 /* 大王八卦牌@2x.png */,
+				BC99BDE61A0F4B5F00A3C791 /* 大王八卦牌img.png */,
+				BC99BDE71A0F4B5F00A3C791 /* 天照八卦牌@2x.png */,
+				BC99BDE81A0F4B5F00A3C791 /* 天照八卦牌img.png */,
+				BC99BDE91A0F4B5F00A3C791 /* 天龙八卦牌@2x.png */,
+				BC99BDEA1A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png */,
+				BC99BDEB1A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png */,
+				BC99BDEC1A0F4B5F00A3C791 /* 女王八卦牌@2x.png */,
+				BC99BDED1A0F4B5F00A3C791 /* 女王八卦牌img.png */,
+				BC99BDEE1A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png */,
+				BC99BDEF1A0F4B5F00A3C791 /* 巨岩八卦牌img.png */,
+				BC99BDF01A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png */,
+				BC99BDF11A0F4B5F00A3C791 /* 巴勒八卦牌img.png */,
+				BC99BDF21A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png */,
+				BC99BDF31A0F4B5F00A3C791 /* 帝国军八卦牌img.png */,
+				BC99BDF41A0F4B5F00A3C791 /* 幻术八卦牌@2x.png */,
+				BC99BDF51A0F4B5F00A3C791 /* 幻术八卦牌img.png */,
+				BC99BDF61A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png */,
+				BC99BDF71A0F4B5F00A3C791 /* 彩虹八卦牌img.png */,
+				BC99BDF81A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png */,
+				BC99BDF91A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png */,
+				BC99BDFA1A0F4B5F00A3C791 /* 悟空八卦牌@2x.png */,
+				BC99BDFB1A0F4B5F00A3C791 /* 悟空八卦牌img.png */,
+				BC99BDFC1A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png */,
+				BC99BDFD1A0F4B5F00A3C791 /* 擎天盟八卦牌img.png */,
+				BC99BDFE1A0F4B5F00A3C791 /* 斗战八卦牌@2x.png */,
+				BC99BDFF1A0F4B5F00A3C791 /* 斗战八卦牌img.png */,
+				BC99BE001A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png */,
+				BC99BE011A0F4B5F00A3C791 /* 斗战圣八卦牌img.png */,
+				BC99BE021A0F4B5F00A3C791 /* 斗神八卦牌@2x.png */,
+				BC99BE031A0F4B5F00A3C791 /* 斗神八卦牌img.png */,
+				BC99BE041A0F4B5F00A3C791 /* 无影八卦牌@2x.png */,
+				BC99BE051A0F4B5F00A3C791 /* 无影八卦牌img.png */,
+				BC99BE061A0F4B5F00A3C791 /* 日月八卦牌@2x.png */,
+				BC99BE071A0F4B5F00A3C791 /* 日月八卦牌img.png */,
+				BC99BE081A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png */,
+				BC99BE091A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png */,
+				BC99BE0A1A0F4B5F00A3C791 /* 武神八卦牌@2x.png */,
+				BC99BE0B1A0F4B5F00A3C791 /* 武神八卦牌img.png */,
+				BC99BE0C1A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png */,
+				BC99BE0D1A0F4B5F00A3C791 /* 毒蛇八卦牌img.png */,
+				BC99BE0E1A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png */,
+				BC99BE0F1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png */,
+				BC99BE101A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png */,
+				BC99BE111A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png */,
+				BC99BE121A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png */,
+				BC99BE131A0F4B5F00A3C791 /* 海蛇八卦牌img.png */,
+				BC99BE141A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png */,
+				BC99BE151A0F4B5F00A3C791 /* 灵兽八卦牌img.png */,
+				BC99BE161A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png */,
+				BC99BE171A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png */,
+				BC99BE181A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png */,
+				BC99BE191A0F4B5F00A3C791 /* 盖世神功八卦牌img.png */,
+				BC99BE1A1A0F4B5F00A3C791 /* 红莲八卦牌@2x.png */,
+				BC99BE1B1A0F4B5F00A3C791 /* 红莲八卦牌img.png */,
+				BC99BE1C1A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png */,
+				BC99BE1D1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png */,
+				BC99BE1E1A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png */,
+				BC99BE1F1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png */,
+				BC99BE201A0F4B5F00A3C791 /* 血猪八卦牌img.png */,
+				BC99BE211A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png */,
+				BC99BE221A0F4B5F00A3C791 /* 赤尾八卦牌img.png */,
+				BC99BE231A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png */,
+				BC99BE241A0F4B5F00A3C791 /* 迷宫八卦牌img.png */,
+				BC99BE251A0F4B5F00A3C791 /* 金刚八卦牌@2x.png */,
+				BC99BE261A0F4B5F00A3C791 /* 金刚八卦牌img.png */,
+				BC99BE271A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png */,
+				BC99BE281A0F4B5F00A3C791 /* 铁傀王八卦牌img.png */,
+				BC99BE291A0F4B5F00A3C791 /* 雪人八卦牌@2x.png */,
+				BC99BE2A1A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png */,
+				BC99BE2B1A0F4B5F00A3C791 /* 雷狱八卦牌img.png */,
+				BC99BE2C1A0F4B5F00A3C791 /* 马贼八卦牌@2x.png */,
+				BC99BE2D1A0F4B5F00A3C791 /* 马贼八卦牌img.png */,
+				BC99BE2E1A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png */,
+				BC99BE2F1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png */,
+				BC99BE301A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png */,
+				BC99BE311A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png */,
+				BC99BE321A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png */,
+				BC99BE331A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png */,
 			);
 			path = bagua;
+			sourceTree = "<group>";
+		};
+		BC99BE341A0F4B5F00A3C791 /* jewelry */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BE351A0F4B5F00A3C791 /* 白星手镯@2x.png */,
+				BC99BE361A0F4B5F00A3C791 /* 赤星戒指@2x.png */,
+				BC99BE371A0F4B5F00A3C791 /* 青星项链@2x.png */,
+				BC99BE381A0F4B5F00A3C791 /* 黄星腰带@2x.png */,
+				BC99BE391A0F4B5F00A3C791 /* 黑星耳环@2x.png */,
+			);
+			path = jewelry;
+			sourceTree = "<group>";
+		};
+		BC99BE3A1A0F4B5F00A3C791 /* weapon */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BE3B1A0F4B5F00A3C791 /* 大众传说@2x.png */,
+				BC99BE3C1A0F4B5F00A3C791 /* 极限传说@2x.png */,
+				BC99BE3D1A0F4B5F00A3C791 /* 光明无常@2x.png */,
+				BC99BE3E1A0F4B5F00A3C791 /* 劫难无极@2x.png */,
+				BC99BE3F1A0F4B5F00A3C791 /* 尚方无极@2x.png */,
+				BC99BE401A0F4B5F00A3C791 /* 无形@2x.png */,
+				BC99BE411A0F4B5F00A3C791 /* 暗黑无常@2x.png */,
+				BC99BE421A0F4B5F00A3C791 /* 炎魂无极@2x.png */,
+				BC99BE431A0F4B5F00A3C791 /* 生魂无极@2x.png */,
+				BC99BE441A0F4B5F00A3C791 /* 风魂无极@2x.png */,
+			);
+			path = weapon;
+			sourceTree = "<group>";
+		};
+		BC99BEE71A0F6A4900A3C791 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */,
+				BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 		BCEE0DEF1A076DED0077E890 /* SDWebImage */ = {
@@ -706,7 +1218,6 @@
 		BCF10A841A070C9600F8F16D /* image */ = {
 			isa = PBXGroup;
 			children = (
-				BC98E90F1A09065D00261F9E /* bagua */,
 				BCF10A851A070C9600F8F16D /* bagua@2x.png */,
 				BC38EB881A0A5134001834A5 /* baguaimg@2x.png */,
 				BCF10B931A076A9800F8F16D /* baguax@2x.png */,
@@ -784,6 +1295,8 @@
 			children = (
 				BC19EB2819F4A29D00A3762A /* BaguaViewController.h */,
 				BC19EB2919F4A29D00A3762A /* BaguaViewController.m */,
+				BC99BEDE1A0F55C500A3C791 /* BaguaDetailController.h */,
+				BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */,
 			);
 			name = Bagua;
 			sourceTree = "<group>";
@@ -802,6 +1315,8 @@
 			children = (
 				BC19EB2319F4A16B00A3762A /* MainViewController.h */,
 				BC19EB2419F4A16B00A3762A /* MainViewController.m */,
+				BC99BEE41A0F620D00A3C791 /* WeaponDetailController.h */,
+				BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */,
 			);
 			name = Weapon;
 			sourceTree = "<group>";
@@ -893,115 +1408,271 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC99BE471A0F4B5F00A3C791 /* bp@2x.png in Resources */,
+				BC99BE671A0F4B5F00A3C791 /* tkw@2x.png in Resources */,
 				BCF10AA61A070C9600F8F16D /* jienan.png in Resources */,
+				BC99BE811A0F4B5F00A3C791 /* 大王八卦牌img.png in Resources */,
 				BC98E8F21A08CD0300261F9E /* bglogo@2x.png in Resources */,
+				BC99BE7F1A0F4B5F00A3C791 /* 大漠豪杰八卦牌img.png in Resources */,
+				BC99BE761A0F4B5F00A3C791 /* 佣兵队八卦牌img.png in Resources */,
 				BC0B30D51A09C82300581241 /* 3.png in Resources */,
+				BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */,
+				BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */,
+				BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */,
 				BCF10AB61A070C9600F8F16D /* wuxing10@2x.png in Resources */,
+				BC99BE941A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png in Resources */,
 				BC0B30DB1A09C82300581241 /* 9.png in Resources */,
+				BC99BED71A0F4B5F00A3C791 /* 劫难无极@2x.png in Resources */,
+				BC99BEB81A0F4B5F00A3C791 /* 血浪鲨湾八卦牌img.png in Resources */,
+				BC99BE8B1A0F4B5F00A3C791 /* 巴勒八卦牌@2x.png in Resources */,
+				BC99BEDB1A0F4B5F00A3C791 /* 炎魂无极@2x.png in Resources */,
+				BC99BECA1A0F4B5F00A3C791 /* 鬼杀门八卦牌img.png in Resources */,
 				BCF10B021A07218800F8F16D /* bnsx@2x.png in Resources */,
+				BC99BEAC1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌img.png in Resources */,
+				BC99BEB31A0F4B5F00A3C791 /* 盖世神功八卦牌@2x.png in Resources */,
+				BC99BE931A0F4B5F00A3C791 /* 御龙林英雄八卦牌@2x.png in Resources */,
+				BC99BE961A0F4B5F00A3C791 /* 悟空八卦牌img.png in Resources */,
 				BC38EB7D1A0A36AE001834A5 /* tabbar_bns@2x.png in Resources */,
+				BC99BEDC1A0F4B5F00A3C791 /* 生魂无极@2x.png in Resources */,
+				BC99BE581A0F4B5F00A3C791 /* hus@2x.png in Resources */,
+				BC99BE7A1A0F4B5F00A3C791 /* 千魂八卦牌@2x.png in Resources */,
+				BC99BEC11A0F4B5F00A3C791 /* 金刚八卦牌img.png in Resources */,
 				BC0AABA11A0C79E700232357 /* launchimage-568h@2x.png in Resources */,
+				BC99BE6E1A0F4B5F00A3C791 /* xz@2x.png in Resources */,
+				BC99BE451A0F4B5F00A3C791 /* ahl@2x.png in Resources */,
+				BC99BE4B1A0F4B5F00A3C791 /* dmhj@2x.png in Resources */,
+				BC99BE701A0F4B5F00A3C791 /* yllyx@2x.png in Resources */,
 				BC19EB3619F4B47300A3762A /* image@2x.png in Resources */,
 				BC38EB831A0A36AE001834A5 /* tabbar_video@2x.png in Resources */,
 				BC0B30DA1A09C82300581241 /* 8.png in Resources */,
+				BC99BEC61A0F4B5F00A3C791 /* 雷狱八卦牌img.png in Resources */,
 				BCF10AB51A070C9600F8F16D /* wuchang.png in Resources */,
-				BC98E9211A09065D00261F9E /* shexiefull.png in Resources */,
+				BC99BE9E1A0F4B5F00A3C791 /* 斗神八卦牌img.png in Resources */,
+				BC99BE8D1A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png in Resources */,
+				BC99BE891A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png in Resources */,
+				BC99BE7D1A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png in Resources */,
+				BC98E9211A09065D00261F9E /* 蛇蝎帝王八卦牌img.png in Resources */,
+				BC99BE741A0F4B5F00A3C791 /* 了无情八卦牌img.png in Resources */,
 				BCFD31B91A0B493B0007F384 /* lsbglabel.png in Resources */,
+				BC99BE541A0F4B5F00A3C791 /* hfn@2x.png in Resources */,
+				BC99BE511A0F4B5F00A3C791 /* dzs@2x.png in Resources */,
 				BCFD31811A0B09C80007F384 /* bglogoblack@2x.png in Resources */,
+				BC99BEBB1A0F4B5F00A3C791 /* 血猪八卦牌img.png in Resources */,
 				BCFD31AD1A0B3B150007F384 /* ProList.plist in Resources */,
 				BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */,
+				BC99BEB61A0F4B5F00A3C791 /* 红莲八卦牌img.png in Resources */,
+				BC99BEA01A0F4B5F00A3C791 /* 无影八卦牌img.png in Resources */,
 				BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */,
+				BC99BE681A0F4B5F00A3C791 /* tz@2x.png in Resources */,
+				BC99BED81A0F4B5F00A3C791 /* 尚方无极@2x.png in Resources */,
 				BC0B30D71A09C82300581241 /* 5.png in Resources */,
+				BC99BECF1A0F4B5F00A3C791 /* 白星手镯@2x.png in Resources */,
+				BC99BE491A0F4B5F00A3C791 /* cw@2x.png in Resources */,
 				BC0AAC291A0CF88B00232357 /* shuiyue@2x.png in Resources */,
 				BCFD31BA1A0B493B0007F384 /* qgbglabel.png in Resources */,
+				BC99BED31A0F4B5F00A3C791 /* 黑星耳环@2x.png in Resources */,
+				BC99BED01A0F4B5F00A3C791 /* 赤星戒指@2x.png in Resources */,
 				BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */,
+				BC99BEB91A0F4B5F00A3C791 /* 血浪鲨湾八卦牌@2x.png in Resources */,
+				BC99BE6F1A0F4B5F00A3C791 /* ybd@2x.png in Resources */,
+				BC99BE531A0F4B5F00A3C791 /* gssg@2x.png in Resources */,
 				BCFD31A91A0B2EBA0007F384 /* biwu@2x.png in Resources */,
 				BCFD31931A0B1C0D0007F384 /* ljzy@2x.png in Resources */,
+				BC99BEA61A0F4B5F00A3C791 /* 武神八卦牌img.png in Resources */,
+				BC99BE601A0F4B5F00A3C791 /* nw@2x.png in Resources */,
+				BC99BE5F1A0F4B5F00A3C791 /* mz@2x.png in Resources */,
 				BC38EB811A0A36AE001834A5 /* tabbar_pic@2x.png in Resources */,
+				BC99BE561A0F4B5F00A3C791 /* hs@2x.png in Resources */,
+				BC99BEBD1A0F4B5F00A3C791 /* 赤尾八卦牌img.png in Resources */,
 				BCF10AA51A070C9600F8F16D /* jewelry@2x.png in Resources */,
+				BC99BEAE1A0F4B5F00A3C791 /* 海蛇八卦牌img.png in Resources */,
 				BCFD31A11A0B23B10007F384 /* ljlogo@2x.png in Resources */,
+				BC99BE9C1A0F4B5F00A3C791 /* 斗战圣八卦牌img.png in Resources */,
+				BC99BE5D1A0F4B5F00A3C791 /* ly@2x.png in Resources */,
+				BC99BE6A1A0F4B5F00A3C791 /* wk@2x.png in Resources */,
+				BC99BEAA1A0F4B5F00A3C791 /* 水月平原比武八卦牌img.png in Resources */,
+				BC99BE781A0F4B5F00A3C791 /* 冰魄八卦牌@2x.png in Resources */,
 				BC98E91E1A09065D00261F9E /* bqdd@2x.png in Resources */,
 				BCF10AA31A070C9600F8F16D /* heixing.png in Resources */,
 				BCF10B0A1A072E8C00F8F16D /* sourcex@2x.png in Resources */,
 				BC98E9241A09065D00261F9E /* xiuluo@2x.png in Resources */,
 				BC0B30D81A09C82300581241 /* 6.png in Resources */,
 				BC0B30D61A09C82300581241 /* 4.png in Resources */,
-				BC98E91F1A09065D00261F9E /* bqddfull.png in Resources */,
+				BC98E91F1A09065D00261F9E /* 白青大地八卦牌img.png in Resources */,
+				BC99BE721A0F4B5F00A3C791 /* 万魂八卦牌img.png in Resources */,
 				BC38EB7F1A0A36AE001834A5 /* tabbar_gl@2x.png in Resources */,
+				BC99BE881A0F4B5F00A3C791 /* 女王八卦牌img.png in Resources */,
 				BCF10AA41A070C9600F8F16D /* huangxing.png in Resources */,
 				BCFD31A21A0B23B10007F384 /* lslogo@2x.png in Resources */,
+				BC99BE9B1A0F4B5F00A3C791 /* 斗战圣八卦牌@2x.png in Resources */,
+				BC99BEB41A0F4B5F00A3C791 /* 盖世神功八卦牌img.png in Resources */,
 				BC0AABA61A0C9AA900232357 /* btnbgimg.png in Resources */,
 				BC38EB7E1A0A36AE001834A5 /* tabbar_gl.png in Resources */,
 				BC98E8F91A08D9D200261F9E /* bgweapon@2x.png in Resources */,
+				BC99BEAF1A0F4B5F00A3C791 /* 灵兽八卦牌@2x.png in Resources */,
+				BC99BED61A0F4B5F00A3C791 /* 光明无常@2x.png in Resources */,
 				BC0B30D41A09C82300581241 /* 2.png in Resources */,
 				BCFD31A01A0B23B10007F384 /* jslogo@2x.png in Resources */,
+				BC99BEBC1A0F4B5F00A3C791 /* 赤尾八卦牌@2x.png in Resources */,
 				BCFD31941A0B1C0D0007F384 /* lszy@2x.png in Resources */,
 				BC0AABA21A0C79E700232357 /* launchimage@2x.png in Resources */,
+				BC99BE9F1A0F4B5F00A3C791 /* 无影八卦牌@2x.png in Resources */,
 				BC19EAF919F49FEB00A3762A /* InfoPlist.strings in Resources */,
+				BC99BE831A0F4B5F00A3C791 /* 天照八卦牌img.png in Resources */,
 				BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */,
-				BC98E9271A09065D00261F9E /* xuerenfull.png in Resources */,
+				BC99BE991A0F4B5F00A3C791 /* 斗战八卦牌@2x.png in Resources */,
+				BC99BEB11A0F4B5F00A3C791 /* 白青大地八卦牌@2x.png in Resources */,
+				BC98E9271A09065D00261F9E /* 雪人八卦牌img.png in Resources */,
 				BC38EB801A0A36AE001834A5 /* tabbar_pic.png in Resources */,
+				BC99BED91A0F4B5F00A3C791 /* 无形@2x.png in Resources */,
 				BCEE0E041A076DED0077E890 /* LICENSE in Resources */,
 				BCFD31AA1A0B2EBA0007F384 /* danshua@2x.png in Resources */,
+				BC99BE751A0F4B5F00A3C791 /* 佣兵队八卦牌@2x.png in Resources */,
 				BCF10AB41A070C9600F8F16D /* weapon@2x.png in Resources */,
+				BC99BEBA1A0F4B5F00A3C791 /* 血猪八卦牌@2x.png in Resources */,
+				BC99BE481A0F4B5F00A3C791 /* ch@2x.png in Resources */,
+				BC99BE851A0F4B5F00A3C791 /* 失落的永灵族八卦牌@2x.png in Resources */,
+				BC99BE5A1A0F4B5F00A3C791 /* jy@2x.png in Resources */,
+				BC99BE501A0F4B5F00A3C791 /* dz@2x.png in Resources */,
+				BC99BEC21A0F4B5F00A3C791 /* 铁傀王八卦牌@2x.png in Resources */,
 				BCF10AB81A070C9600F8F16D /* yanhun.png in Resources */,
+				BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */,
+				BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */,
+				BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */,
+				BC99BEF41A0F71C900A3C791 /* tabbar_equip@2x.png in Resources */,
+				BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */,
+				BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */,
+				BC99BEAB1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png in Resources */,
+				BC99BEA31A0F4B5F00A3C791 /* 暗黑龙八卦牌@2x.png in Resources */,
 				BCF10B011A07218800F8F16D /* bns@2x.png in Resources */,
 				BCFD31921A0B1C0D0007F384 /* jszy@2x.png in Resources */,
 				BCF10AA01A070C9600F8F16D /* baixing.png in Resources */,
+				BC99BE6C1A0F4B5F00A3C791 /* wy@2x.png in Resources */,
+				BC99BE731A0F4B5F00A3C791 /* 了无情八卦牌@2x.png in Resources */,
 				BC0AAC261A0CF77300232357 /* baiqing@2x.png in Resources */,
+				BC99BE661A0F4B5F00A3C791 /* sypyhj@2x.png in Resources */,
+				BC99BE791A0F4B5F00A3C791 /* 冰魄八卦牌img.png in Resources */,
+				BC99BED11A0F4B5F00A3C791 /* 青星项链@2x.png in Resources */,
 				BC98E8FF1A08DC6500261F9E /* bgbagua.png in Resources */,
+				BC99BE691A0F4B5F00A3C791 /* wh@2x.png in Resources */,
+				BC99BE901A0F4B5F00A3C791 /* 幻术八卦牌img.png in Resources */,
 				BCFD31911A0B1C0D0007F384 /* ckzy@2x.png in Resources */,
 				BC98E9221A09065D00261F9E /* tianlong@2x.png in Resources */,
-				BC98E9251A09065D00261F9E /* xiuluofull.png in Resources */,
+				BC99BEAD1A0F4B5F00A3C791 /* 海蛇八卦牌@2x.png in Resources */,
+				BC98E9251A09065D00261F9E /* 修罗八卦牌img.png in Resources */,
 				BCFD31951A0B1C0D0007F384 /* qgzy@2x.png in Resources */,
+				BC99BEB51A0F4B5F00A3C791 /* 红莲八卦牌@2x.png in Resources */,
+				BC99BECB1A0F4B5F00A3C791 /* 黄沙领主八卦牌@2x.png in Resources */,
 				BCEE0E051A076DED0077E890 /* README.md in Resources */,
+				BC99BE571A0F4B5F00A3C791 /* hslz@2x.png in Resources */,
+				BC99BE861A0F4B5F00A3C791 /* 失落的永灵族八卦牌img.png in Resources */,
 				BC0B30D31A09C82300581241 /* 1.png in Resources */,
+				BC99BE4F1A0F4B5F00A3C791 /* dw@2x.png in Resources */,
+				BC99BEDD1A0F4B5F00A3C791 /* 风魂无极@2x.png in Resources */,
 				BC98E9011A08EAB200261F9E /* WeaponList.plist in Resources */,
-				BC98E91D1A09065D00261F9E /* bqcqfull.png in Resources */,
+				BC98E91D1A09065D00261F9E /* 白青苍穹八卦牌img.png in Resources */,
+				BC99BE801A0F4B5F00A3C791 /* 大王八卦牌@2x.png in Resources */,
 				BCF10A9F1A070C9600F8F16D /* bagua@2x.png in Resources */,
+				BC99BEC71A0F4B5F00A3C791 /* 马贼八卦牌@2x.png in Resources */,
+				BC99BEBF1A0F4B5F00A3C791 /* 迷宫八卦牌img.png in Resources */,
+				BC99BEC31A0F4B5F00A3C791 /* 铁傀王八卦牌img.png in Resources */,
+				BC99BEC01A0F4B5F00A3C791 /* 金刚八卦牌@2x.png in Resources */,
+				BC99BEBE1A0F4B5F00A3C791 /* 迷宫八卦牌@2x.png in Resources */,
+				BC99BE981A0F4B5F00A3C791 /* 擎天盟八卦牌img.png in Resources */,
 				BCFD31BC1A0B493B0007F384 /* zhbglabel.png in Resources */,
 				BC0B30D21A09C82300581241 /* 0.png in Resources */,
+				BC99BE611A0F4B5F00A3C791 /* qh@2x.png in Resources */,
+				BC99BEA91A0F4B5F00A3C791 /* 水月平原比武八卦牌@2x.png in Resources */,
 				BC38EB821A0A36AE001834A5 /* tabbar_video.png in Resources */,
+				BC99BEA81A0F4B5F00A3C791 /* 毒蛇八卦牌img.png in Resources */,
 				BC98E91C1A09065D00261F9E /* bqcq@2x.png in Resources */,
+				BC99BED21A0F4B5F00A3C791 /* 黄星腰带@2x.png in Resources */,
 				BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */,
+				BC99BE911A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png in Resources */,
 				BCF10AB21A070C9600F8F16D /* shangfang.png in Resources */,
+				BC99BE621A0F4B5F00A3C791 /* qtm@2x.png in Resources */,
+				BC99BE4C1A0F4B5F00A3C791 /* dmxs@2x.png in Resources */,
 				BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */,
+				BC99BEB21A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png in Resources */,
 				BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */,
+				BC99BEA71A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png in Resources */,
+				BC99BEC41A0F4B5F00A3C791 /* 雪人八卦牌@2x.png in Resources */,
+				BC99BE4A1A0F4B5F00A3C791 /* dgj@2x.png in Resources */,
+				BC99BDA71A0F2B5F00A3C791 /* jixian.png in Resources */,
 				BCF10B061A07278400F8F16D /* main@2x.png in Resources */,
 				BCFD31AB1A0B2EBA0007F384 /* lianzhao@2x.png in Resources */,
+				BC99BE521A0F4B5F00A3C791 /* gsm@2x.png in Resources */,
 				BC98E90C1A08F6A100261F9E /* MainViewCell.xib in Resources */,
 				BCF10B941A076A9800F8F16D /* baguax@2x.png in Resources */,
+				BC99BEC81A0F4B5F00A3C791 /* 马贼八卦牌img.png in Resources */,
+				BC99BEA41A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png in Resources */,
+				BC99BE7C1A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png in Resources */,
 				BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */,
+				BC99BE551A0F4B5F00A3C791 /* hl@2x.png in Resources */,
+				BC99BEB71A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png in Resources */,
 				BCFD31B81A0B493B0007F384 /* ckbglabel.png in Resources */,
 				BCFD31B21A0B43F70007F384 /* labelbg.png in Resources */,
+				BC99BE971A0F4B5F00A3C791 /* 擎天盟八卦牌@2x.png in Resources */,
+				BC99BE9A1A0F4B5F00A3C791 /* 斗战八卦牌img.png in Resources */,
+				BC99BE821A0F4B5F00A3C791 /* 天照八卦牌@2x.png in Resources */,
+				BC99BEA11A0F4B5F00A3C791 /* 日月八卦牌@2x.png in Resources */,
 				BC38EB861A0A5128001834A5 /* jewelryimg@2x.png in Resources */,
+				BC99BE9D1A0F4B5F00A3C791 /* 斗神八卦牌@2x.png in Resources */,
 				BCF10AA11A070C9600F8F16D /* chixing.png in Resources */,
 				BCF10AB71A070C9600F8F16D /* wuxing.png in Resources */,
+				BC99BE841A0F4B5F00A3C791 /* 天龙八卦牌@2x.png in Resources */,
+				BC99BE921A0F4B5F00A3C791 /* 彩虹八卦牌img.png in Resources */,
+				BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */,
 				BCFD31891A0B149D0007F384 /* ProViewCell.xib in Resources */,
+				BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */,
 				BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */,
 				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
 				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
+				BC99BE771A0F4B5F00A3C791 /* 修罗八卦牌@2x.png in Resources */,
+				BC99BE4E1A0F4B5F00A3C791 /* dus@2x.png in Resources */,
 				BCEE0E111A076ED20077E890 /* BnsViewCell.xib in Resources */,
+				BC99BE8E1A0F4B5F00A3C791 /* 帝国军八卦牌img.png in Resources */,
+				BC99BEC91A0F4B5F00A3C791 /* 鬼杀门八卦牌@2x.png in Resources */,
+				BC99BE7E1A0F4B5F00A3C791 /* 大漠豪杰八卦牌@2x.png in Resources */,
+				BC99BDA61A0F2B5F00A3C791 /* dazhong.png in Resources */,
+				BC99BE8A1A0F4B5F00A3C791 /* 巨岩八卦牌img.png in Resources */,
 				BC0AAB9F1A0C79E700232357 /* Icon-58@2x.png in Resources */,
+				BC99BEDA1A0F4B5F00A3C791 /* 暗黑无常@2x.png in Resources */,
 				BCEE0E1E1A07A1F60077E890 /* blueArrow@2x.png in Resources */,
+				BC99BE711A0F4B5F00A3C791 /* 万魂八卦牌@2x.png in Resources */,
 				BCF10AB31A070C9600F8F16D /* shenghun.png in Resources */,
+				BC99BE8C1A0F4B5F00A3C791 /* 巴勒八卦牌img.png in Resources */,
+				BC99BED51A0F4B5F00A3C791 /* 极限传说@2x.png in Resources */,
 				BCFD319F1A0B23B10007F384 /* cklogo@2x.png in Resources */,
-				BC98E9231A09065D00261F9E /* tianlongfull.png in Resources */,
+				BC98E9231A09065D00261F9E /* 天龙八卦牌img.png in Resources */,
 				BCF10AA21A070C9600F8F16D /* fenghun.png in Resources */,
 				BCF10AFE1A071F2900F8F16D /* source@2x.png in Resources */,
+				BC99BECE1A0F4B5F00A3C791 /* 黑飞鸟八卦牌img.png in Resources */,
+				BC99BEB01A0F4B5F00A3C791 /* 灵兽八卦牌img.png in Resources */,
+				BC99BE591A0F4B5F00A3C791 /* jg@2x.png in Resources */,
+				BC99BE641A0F4B5F00A3C791 /* sldylz@2x.png in Resources */,
 				BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */,
 				BCFD31A31A0B23B10007F384 /* qglogo@2x.png in Resources */,
+				BC99BEA51A0F4B5F00A3C791 /* 武神八卦牌@2x.png in Resources */,
+				BC99BED41A0F4B5F00A3C791 /* 大众传说@2x.png in Resources */,
+				BC99BE7B1A0F4B5F00A3C791 /* 千魂八卦牌img.png in Resources */,
 				BCFD31971A0B1C0D0007F384 /* zhzy@2x.png in Resources */,
 				BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */,
+				BC99BE631A0F4B5F00A3C791 /* ry@2x.png in Resources */,
 				BC0B30D91A09C82300581241 /* 7.png in Resources */,
 				BC19EB0119F49FEB00A3762A /* Images.xcassets in Resources */,
+				BC99BEC51A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png in Resources */,
+				BC99BE951A0F4B5F00A3C791 /* 悟空八卦牌@2x.png in Resources */,
 				BCFD31961A0B1C0D0007F384 /* qszy@2x.png in Resources */,
+				BC99BE4D1A0F4B5F00A3C791 /* ds@2x.png in Resources */,
 				BCF10AA71A070C9600F8F16D /* qingxing.png in Resources */,
 				BCFD31A41A0B23B10007F384 /* qslogo@2x.png in Resources */,
 				BCFD31A51A0B23B10007F384 /* zhlogo@2x.png in Resources */,
+				BC99BE5E1A0F4B5F00A3C791 /* mg@2x.png in Resources */,
 				BC0AABA01A0C79E700232357 /* Icon-80@2x.png in Resources */,
 				BCEE0E1D1A07A1F60077E890 /* blueArrow.png in Resources */,
 				BC98E8F71A08D82700261F9E /* bgjewelry@2x.png in Resources */,
+				BC99BE5B1A0F4B5F00A3C791 /* ls@2x.png in Resources */,
 				BCEE0E131A0774920077E890 /* weaponx@2x.png in Resources */,
 				BC98E9261A09065D00261F9E /* xueren@2x.png in Resources */,
 			);
@@ -1025,6 +1696,7 @@
 				BC19EB3B19F4BA4100A3762A /* DBManager.m in Sources */,
 				BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */,
 				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
+				BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */,
 				BCFD31B01A0B3DFA0007F384 /* ProModel.m in Sources */,
 				BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */,
 				BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */,
@@ -1044,6 +1716,7 @@
 				BC19EB4E19F4BB2900A3762A /* FMResultSet.m in Sources */,
 				BC19EB4C19F4BB2900A3762A /* FMDatabasePool.m in Sources */,
 				BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */,
+				BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */,
 				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
 				BC98E9071A08F10300261F9E /* BaseModel.m in Sources */,
 				BC19EAFB19F49FEB00A3762A /* main.m in Sources */,
@@ -1051,6 +1724,7 @@
 				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
 				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
 				BC19EB3E19F4BA6900A3762A /* SrcModel.m in Sources */,
+				BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */,
 				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
 				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,

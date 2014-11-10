@@ -9,6 +9,7 @@
 #import "MyTabBarController.h"
 #import "BnsViewController.h"
 #import "VideoViewController.h"
+#import "PhotoViewController.h"
 #import "EquipViewController.h"
 #import "SrcViewController.h"
 
@@ -16,6 +17,7 @@
 {
     BnsViewController *_bnsVC;
     VideoViewController *_videoVC;
+    PhotoViewController *_photoVC;
     EquipViewController *_equipVC;
     SrcViewController *_srcVC;
 }
@@ -67,6 +69,15 @@
     videoCtrl.navigationBar.tintColor=[UIColor whiteColor];
     videoCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"视频" image:[UIImage imageNamed:@"tabbar_video"] selectedImage:[UIImage imageNamed:@"tabbar_video"]];
     
+    _photoVC=[[PhotoViewController alloc] init];
+    _photoVC.title=@"图集";
+    _photoVC.edgesForExtendedLayout=UIRectEdgeNone;
+    UINavigationController *photoCtrl=[[UINavigationController alloc] initWithRootViewController:_photoVC];
+    photoCtrl.navigationBar.barStyle=UIBarStyleBlack;
+    photoCtrl.navigationBar.barTintColor=TOPCOLOR;
+    photoCtrl.navigationBar.tintColor=[UIColor whiteColor];
+    photoCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"图集" image:[UIImage imageNamed:@"tabbar_pic"] selectedImage:[UIImage imageNamed:@"tabbar_pic"]];
+    
     _equipVC=[[EquipViewController alloc] init];
     _equipVC.title=@"装备";
     _equipVC.edgesForExtendedLayout=UIRectEdgeNone;
@@ -74,7 +85,7 @@
     equipCtrl.navigationBar.barStyle=UIBarStyleBlack;
     equipCtrl.navigationBar.barTintColor=TOPCOLOR;
     equipCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_pic"] selectedImage:[UIImage imageNamed:@"tabbar_pic"]];
+    equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_equip"] selectedImage:[UIImage imageNamed:@"tabbar_equip"]];
     
     _srcVC=[[SrcViewController alloc] init];
     _srcVC.title=@"成长树";
@@ -85,7 +96,7 @@
     srcCtrl.navigationBar.tintColor=[UIColor whiteColor];
     srcCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"成长树" image:[UIImage imageNamed:@"tabbar_gl"] selectedImage:[UIImage imageNamed:@"tabbar_gl"]];
     
-    NSArray *controllers=@[bnsCtrl,videoCtrl,equipCtrl,srcCtrl];
+    NSArray *controllers=@[bnsCtrl,videoCtrl,photoCtrl,equipCtrl,srcCtrl];
     self.viewControllers=controllers;
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "BaguaViewController.h"
+#import "BaguaDetailController.h"
 
 @interface BaguaViewController ()
 
@@ -40,6 +41,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     //self.view.backgroundColor=[UIColor whiteColor];
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSArray *titleArray=@[@"白青山脉",@"水月平原",@"大漠",@"御龙林"];
+    return titleArray[section];
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    BaguaDetailController *baguaDtVC=[[BaguaDetailController alloc] init];
+    baguaDtVC.model=_dataArray[indexPath.section][indexPath.row];
+    [self.navigationController pushViewController:baguaDtVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

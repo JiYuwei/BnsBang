@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "WeaponDetailController.h"
 
 @interface MainViewController ()
 
@@ -40,16 +41,19 @@
 
 - (void)dataPrepareForResource:(NSString *)resource
 {
-    _dataArray=[[NSMutableArray alloc] init];
+    _dataArray=[[NSMutableArray alloc] initWithObjects:[[NSMutableArray alloc] init],[[NSMutableArray alloc] init],[[NSMutableArray alloc] init],[[NSMutableArray alloc] init], nil];
     NSString *filePath=[[NSBundle mainBundle] pathForResource:resource ofType:@"plist"];
     NSArray *array=[NSArray arrayWithContentsOfFile:filePath];
     //NSLog(@"%@",array);
     for (NSDictionary *dic in array) {
         MainModel *model=[[MainModel alloc] init];
         [model setValuesForKeysWithDictionary:dic];
-        [_dataArray addObject:model];
+        [_dataArray[[model.type intValue]] addObject:model];
     }
 }
+
+
+
 
 - (void)createUI
 {
@@ -80,7 +84,7 @@
 #pragma mark - UITableViewDataSource:
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _dataArray.count;
+    return [_dataArray[section] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -91,9 +95,14 @@
         cell=[[[NSBundle mainBundle] loadNibNamed:@"MainViewCell" owner:self options:nil] firstObject];
         //cell.backgroundColor=[UIColor clearColor];
     }
-    cell.model=_dataArray[indexPath.row];
+    cell.model=_dataArray[indexPath.section][indexPath.row];
     
     return cell;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return _dataArray.count;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -101,9 +110,16 @@
     return 42;
 }
 
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    tableView.sectionIndexColor=[UIColor whiteColor];
+    NSArray *titleArray=@[@"水月",@"白青S1",@"白青S2",@"白青S3"];
+    return titleArray[section];
+}
+
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 5;
+    return 30;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
@@ -114,7 +130,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    WeaponDetailController *weaponDtVC=[[WeaponDetailController alloc] init];
+    weaponDtVC.model=_dataArray[indexPath.section][indexPath.row];
+    [self.navigationController pushViewController:weaponDtVC animated:YES];
 }
 
 

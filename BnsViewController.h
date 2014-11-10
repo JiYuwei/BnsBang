@@ -24,6 +24,9 @@
 @property(nonatomic,copy)NSString *scrollUrl;
 
 -(void)titleSettings;
+-(void)prepareData;
+-(void)uiconfig;
+
 -(void)startLoading;
 -(void)createTopItems;
 -(void)createTableView;

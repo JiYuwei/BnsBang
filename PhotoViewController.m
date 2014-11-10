@@ -33,7 +33,7 @@
 
 - (void)titleSettings
 {
-    _titleArr=@[@"最新",@"捏脸",@"截图",@"CosPlay",@"手绘"];
+    _titleArr=@[@"最新",@"捏脸",@"截图",@"COS",@"手绘"];
 }
 
 -(void)prepareData
@@ -44,7 +44,7 @@
 -(void)createTableView
 {
     UICollectionViewLayout *layout=[[UICollectionViewLayout alloc] init];
-    _collectView=[[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    _collectView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49) collectionViewLayout:layout];
     _collectView.dataSource=self;
     _collectView.delegate=self;
     [self.view addSubview:_collectView];

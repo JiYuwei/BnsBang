@@ -8,7 +8,6 @@
 
 #import "CollectLayOut.h"
 
-
 @implementation CollectLayOut
 
 //返回collectionView的内容的大小
@@ -72,6 +71,5 @@
     }
     return arr;
 }
-
 
 @end

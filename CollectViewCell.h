@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ImageModel.h"
+#import "UIImageView+WebCache.h"
 
 @interface CollectViewCell : UICollectionViewCell
+{
+    UIImageView *_imgv;
+    UILabel *_titleLabel;
+}
 
 @property(nonatomic,strong)ImageModel *model;
 

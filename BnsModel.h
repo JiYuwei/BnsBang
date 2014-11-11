@@ -19,5 +19,6 @@
 @property(nonatomic,copy)NSString *author;
 @property(nonatomic,copy)NSString *url;
 @property(nonatomic,copy)NSString *publishTime;
+@property(nonatomic,copy)NSString *cover_url;
 
 @end

@@ -257,6 +257,10 @@
 		BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */; };
 		BC99BEF41A0F71C900A3C791 /* tabbar_equip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */; };
 		BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BD61A0B9623007266C7 /* MyScrollView.m */; };
+		BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */; };
+		BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */; };
+		BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE794701A11F33900B20D69 /* PhotoDetailController.m */; };
+		BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7947F1A123AFD00B20D69 /* MoreViewController.m */; };
 		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
 		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
 		BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF31A076DED0077E890 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -623,6 +627,13 @@
 		BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_equip@2x.png"; sourceTree = "<group>"; };
 		BCBC0BD51A0B9623007266C7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
 		BCBC0BD61A0B9623007266C7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFooterView.h; sourceTree = "<group>"; };
+		BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFooterView.m; sourceTree = "<group>"; };
+		BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFooterView.xib; sourceTree = "<group>"; };
+		BCE7946F1A11F33800B20D69 /* PhotoDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailController.h; sourceTree = "<group>"; };
+		BCE794701A11F33900B20D69 /* PhotoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailController.m; sourceTree = "<group>"; };
+		BCE7947E1A123AFD00B20D69 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		BCE7947F1A123AFD00B20D69 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BCEE0DF11A076DED0077E890 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BCEE0DF21A076DED0077E890 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -903,6 +914,9 @@
 				BC7C38731A10A04E00522D94 /* CollectViewCell.m */,
 				BC7C38751A10A06400522D94 /* CollectLayOut.h */,
 				BC7C38761A10A06400522D94 /* CollectLayOut.m */,
+				BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */,
+				BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */,
+				BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -1187,6 +1201,10 @@
 			children = (
 				BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */,
 				BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */,
+				BCE7946F1A11F33800B20D69 /* PhotoDetailController.h */,
+				BCE794701A11F33900B20D69 /* PhotoDetailController.m */,
+				BCE7947E1A123AFD00B20D69 /* MoreViewController.h */,
+				BCE7947F1A123AFD00B20D69 /* MoreViewController.m */,
 			);
 			name = Photo;
 			sourceTree = "<group>";
@@ -1640,6 +1658,7 @@
 				BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */,
 				BCFD31891A0B149D0007F384 /* ProViewCell.xib in Resources */,
 				BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */,
+				BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */,
 				BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */,
 				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
 				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
@@ -1720,7 +1739,9 @@
 				BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */,
 				BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */,
 				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
+				BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */,
 				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
+				BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */,
 				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,
 				BC19EB4A19F4BB2900A3762A /* FMDatabase.m in Sources */,
 				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,
@@ -1748,6 +1769,7 @@
 				BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */,
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
+				BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */,
 				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,
 				BCEE0E0B1A076DED0077E890 /* UIButton+WebCache.m in Sources */,
 				BC19EB2619F4A16B00A3762A /* MainViewController.m in Sources */,

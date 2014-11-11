@@ -21,6 +21,7 @@
     RefreshView *_refreshView;
     MyScrollView *_scrollView;
     NSMutableArray *_scrollArray;
+    NSMutableArray *_dataArray;
 }
 
 @property(nonatomic,copy)NSArray *bodyArr;

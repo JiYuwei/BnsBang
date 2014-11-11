@@ -7,27 +7,27 @@
 //
 
 #import "CollectViewCell.h"
-#import "UIImageView+WebCache.h"
 
 @implementation CollectViewCell
-{
-    UIImageView *_imgv;
-    UILabel *_titleLabel;
-}
+
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        _imgv=[[UIImageView alloc] init];
+        
+        _imgv=[[UIImageView alloc] initWithFrame:CGRectMake(5, 5, 150, self.contentView.bounds.size.height-10)];
+        _imgv.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
+        _imgv.contentMode=UIViewContentModeScaleAspectFill;
+        _imgv.clipsToBounds=YES;
         [self.contentView addSubview:_imgv];
         
-        _titleLabel=[[UILabel alloc] init];
+        _titleLabel=[[UILabel alloc] initWithFrame:CGRectMake(0, _imgv.frame.size.height-35, 150, 35)];
         _titleLabel.backgroundColor=[UIColor blackColor];
-        _titleLabel.font=[UIFont fontWithName:@"Arial" size:11];
+        _titleLabel.font=[UIFont fontWithName:@"Arial" size:12];
         _titleLabel.numberOfLines=2;
         _titleLabel.textColor=[UIColor lightGrayColor];
-        _titleLabel.alpha=0.8;
+        _titleLabel.alpha=0.6;
         [_imgv addSubview:_titleLabel];
     }
     return self;
@@ -38,12 +38,14 @@
     if (_model!=model) {
         _model=model;
     }
+    [_imgv setImageWithURL:[NSURL URLWithString:_model.cover_url]];
     
-    _imgv.frame = CGRectMake(5, 5, 150, self.contentView.bounds.size.height-10);
-    _imgv.image=_model.image;
-    //[_imgv setImageWithURL:[NSURL URLWithString:_model.cover_url]];
-    _titleLabel.frame=CGRectMake(0, _imgv.frame.size.height-30, 150, 30);
-    _titleLabel.text=_model.title;
+    if (!_model.file_width) {
+        _titleLabel.text=_model.title;
+    }
+    else{
+        _titleLabel.backgroundColor=[UIColor clearColor];
+    }
 }
 
 /*

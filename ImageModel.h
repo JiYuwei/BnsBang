@@ -13,8 +13,11 @@
 @property(nonatomic,copy)NSString *uid;
 @property(nonatomic,copy)NSString *title;
 @property(nonatomic,copy)NSString *cover_url;
+@property(nonatomic,copy)NSString *url;
+@property(nonatomic,copy)NSString *add_intro;
 
-@property(nonatomic,strong)UIImage *image;
+@property(nonatomic,copy)NSNumber *file_width;
+@property(nonatomic,copy)NSNumber *file_height;
 @property (nonatomic,assign)CGFloat cellHeight;
 
 @end

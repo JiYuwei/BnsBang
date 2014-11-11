@@ -14,6 +14,8 @@
 - (void)awakeFromNib
 {
     // Initialization code
+    _titleImg.contentMode=UIViewContentModeScaleAspectFill;
+    _titleImg.clipsToBounds=YES;
 }
 
 - (void)setModel:(BnsModel *)model
@@ -23,6 +25,9 @@
     }
     if (_model.pictureUrl.length!=0) {
         [_titleImg setImageWithURL:[NSURL URLWithString:_model.pictureUrl] placeholderImage:[UIImage imageNamed:@"image"]];
+    }
+    else if(_model.cover_url.length!=0){
+        [_titleImg setImageWithURL:[NSURL URLWithString:_model.cover_url] placeholderImage:[UIImage imageNamed:@"image"]];
     }
     else{
         _titleImg.image=[UIImage imageNamed:[NSString stringWithFormat:@"%d",arc4random()%10]];

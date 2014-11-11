@@ -16,14 +16,10 @@
 
 @interface BnsViewController () <RefreshViewDelegate>
 {
-    
     UIView *_topView;
     
     UIActivityIndicatorView *_loadView;
     UILabel *_noMoreLabel;
-    
-    
-    NSMutableArray *_dataArray;
 }
 @end
 
@@ -148,7 +144,7 @@
 {
     [self startLoading];
     _viewStatus=sender.tag-20;
-    NSLog(@"%d",_viewStatus);
+    //NSLog(@"%d",_viewStatus);
     [self getUrlWithBody:_bodyArr[_viewStatus] cachePolicy:NSURLRequestReturnCacheDataElseLoad];
     
     if (_viewStatus!=0) {

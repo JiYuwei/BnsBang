@@ -7,16 +7,16 @@
 //
 
 #import "PhotoViewController.h"
-#import "CollectLayOut.h"
-#import "CollectViewCell.h"
 #import "ImageModel.h"
-#import "UIImageView+WebCache.h"
-static NSInteger _imageStatus=0;
+#import "PhotoDetailController.h"
+#import "MyFooterView.h"
+static NSInteger _page[5]={1,1,1,1,1};
 
 @interface PhotoViewController ()
 {
     UICollectionView *_collectView;
-    NSMutableArray *_dataArray;
+    //NSMutableArray *_dataArray;
+    CollectLayOut *_layout;
 }
 @end
 
@@ -44,47 +44,37 @@ static NSInteger _imageStatus=0;
 
 -(void)prepareData
 {
+    _imageStatus=0;
     _dataArray=[[NSMutableArray alloc] init];
-    [self loadImageViewForColumn:0 andPage:1];
+    [self loadImageViewForColumn:0 andPage:1 Policy:NSURLRequestReturnCacheDataElseLoad];
 }
 
--(void)loadImageViewForColumn:(NSInteger)column andPage:(NSInteger)page
+-(void)loadImageViewForColumn:(NSInteger)column andPage:(NSInteger)page Policy:(NSURLRequestCachePolicy)policy
 {
     NSString *imgUrl=[NSString stringWithFormat:PHOTO_URL,column,page];
-    [[HttpRequestManager sharedManager] GETUrl:[NSURL URLWithString:imgUrl] cachePolicy:NSURLRequestReturnCacheDataElseLoad completed:^(NSData *data) {
+    [[HttpRequestManager sharedManager] GETUrl:[NSURL URLWithString:imgUrl] cachePolicy:policy completed:^(NSData *data) {
         NSArray *srcArray=[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        NSLog(@"%@",srcArray);
+        //NSLog(@"%@",srcArray);
         if (page==1) {
             [_dataArray removeAllObjects];
+            _page[_imageStatus]=1;
         }
-        
-        for (NSDictionary *dic in srcArray) {
-            ImageModel *imgModel=[[ImageModel alloc] init];
-            [imgModel setValuesForKeysWithDictionary:dic];
-            imgModel.uid=dic[@"id"];
-            //imgModel.cellHeight=200;
-            [_dataArray addObject:imgModel];
+        if (srcArray) {
+            for (NSDictionary *dic in srcArray) {
+                ImageModel *imgModel=[[ImageModel alloc] init];
+                [imgModel setValuesForKeysWithDictionary:dic];
+                imgModel.uid=dic[@"id"];
+                //CGSize imgSize=[UIImage downloadImageSizeWithURL:imgModel.cover_url];
+                imgModel.cellHeight=150;
+                [_dataArray addObject:imgModel];
+            }
+            //_layout.dataArray=_dataArray;
+            [_collectView reloadData];
+            [self stopLoading];
         }
-        dispatch_async(dispatch_get_global_queue(0, 0), ^{
-            dispatch_apply(_dataArray.count, dispatch_get_global_queue(0, 0), ^(size_t n) {
-                ImageModel *model = _dataArray[n];
-                NSError *error=nil;
-                NSData *data=[NSData dataWithContentsOfURL:[NSURL URLWithString:model.cover_url] options:NSDataReadingMappedIfSafe error:&error];
-                if (error) {
-                    NSLog(@"%@",error);
-                }
-                else{
-                    UIImage *image=[UIImage imageWithData:data];
-                    model.image=image;
-                    model.cellHeight=image.size.height/image.size.width*150+10;
-                }
-            });
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [_collectView reloadData];
-                [self stopLoading];
-            });
-    });
-        
+        else{
+            NSLog(@"the last one");
+        }
         
     } failed:^{
         UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"哎呀!" message:@"您的网络有些问题，请稍后再试。" delegate:self cancelButtonTitle:@"好" otherButtonTitles:nil, nil];
@@ -95,10 +85,11 @@ static NSInteger _imageStatus=0;
 
 -(void)createTableView
 {
-    CollectLayOut *layout=[[CollectLayOut alloc] init];
-    layout.dataArray=_dataArray;
+    _layout=[[CollectLayOut alloc] init];
+    _layout.dataArray=_dataArray;
     
-    _collectView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49) collectionViewLayout:layout];
+    
+    _collectView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 40, self.view.bounds.size.width, self.view.bounds.size.height-40-64-49) collectionViewLayout:_layout];
     _collectView.backgroundColor=[UIColor clearColor];
     _collectView.dataSource=self;
     _collectView.delegate=self;
@@ -106,6 +97,13 @@ static NSInteger _imageStatus=0;
     [_collectView registerClass:[CollectViewCell class] forCellWithReuseIdentifier:@"collectid"];
     [self.view addSubview:_collectView];
     
+    [_collectView registerNib:[UINib nibWithNibName:@"MyFooterView" bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"footview"];
+    
+    [self createRefreshView];
+}
+
+-(void)createRefreshView
+{
     NSArray *nils=[[NSBundle mainBundle] loadNibNamed:@"RefreshView" owner:self options:nil];
     _refreshView=[nils firstObject];
     //_refreshView.backgroundColor=[UIColor colorWithRed:0.9 green:0.9 blue:0.9 alpha:1];
@@ -118,7 +116,7 @@ static NSInteger _imageStatus=0;
     [self startLoading];
     _imageStatus=sender.tag-20;
     
-    [self loadImageViewForColumn:_imageStatus andPage:1];
+    [self loadImageViewForColumn:_imageStatus andPage:1 Policy:NSURLRequestReturnCacheDataElseLoad];
     
     for (int i=0; i<5; i++) {
         UIButton *btn=(UIButton *)[self.view viewWithTag:20+i];
@@ -129,7 +127,6 @@ static NSInteger _imageStatus=0;
         _selectedView.frame=CGRectMake((sender.tag-20)*_screenSize.width/5, 37, _screenSize.width/5, 3);
     }];
 }
-
 
 
 #pragma mark - UICollectionViewDataSource:
@@ -146,12 +143,46 @@ static NSInteger _imageStatus=0;
     return cell;
 }
 
+-(void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row==_dataArray.count-1) {
+        NSLog(@"hello");
+        _page[_imageStatus]++;
+        [self loadImageViewForColumn:_imageStatus andPage:_page[_imageStatus] Policy:NSURLRequestReturnCacheDataElseLoad];
+    }
+}
+
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    //UICollectionReusableView *reusableView=nil;
+    if (kind==UICollectionElementKindSectionFooter) {
+        MyFooterView *footView=[collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"footview" forIndexPath:indexPath];
+        //reusableView=footView;
+        NSLog(@"%@",footView);
+        return footView;
+    }
+    else{
+        return nil;
+    }
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    //NSLog(@"row=>%d",indexPath.row);
+    PhotoDetailController *photoDtVC=[[PhotoDetailController alloc] init];
+    photoDtVC.model=_dataArray[indexPath.row];
+    photoDtVC.status=_imageStatus;
+    UINavigationController *navCtrl=[[UINavigationController alloc] initWithRootViewController:photoDtVC];
+    navCtrl.navigationBar.barStyle=UIBarStyleBlack;
+    [self presentViewController:navCtrl animated:YES completion:nil];
+}
+
 
 -(void)refreshViewDidCallBack
 {
     NSLog(@"call");
     [self startLoading];
-    [self loadImageViewForColumn:_imageStatus andPage:1];
+    [self loadImageViewForColumn:_imageStatus andPage:1 Policy:NSURLRequestReloadIgnoringLocalCacheData];
 }
 
 

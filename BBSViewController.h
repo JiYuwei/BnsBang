@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BBSViewController : UIViewController
+@interface BBSViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end

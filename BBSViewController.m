@@ -7,9 +7,17 @@
 //
 
 #import "BBSViewController.h"
+#import "HttpRequestManager.h"
+#import "UIImageView+WebCache.h"
+#import "BBSModel.h"
 
 @interface BBSViewController ()
-
+{
+    UITableView *_tableView;
+    UIView *_headerView;
+    UIImageView *_iconView;
+    NSMutableArray *_dataArray;
+}
 @end
 
 @implementation BBSViewController
@@ -27,6 +35,83 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(loginAction)];
+    [self dataPrepare];
+    [self createUI];
+}
+
+- (void)loginAction
+{
+    NSLog(@"login");
+}
+
+- (void)dataPrepare
+{
+    _dataArray=[[NSMutableArray alloc] init];
+    [[HttpRequestManager sharedManager] GETUrl:[NSURL URLWithString:BBS_URL] cachePolicy:NSURLRequestReturnCacheDataElseLoad completed:^(NSData *data) {
+        NSDictionary *dict=[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        NSArray *srcArray=dict[@"Variables"][@"sublist"];
+        [_iconView setImageWithURL:[NSURL URLWithString:dict[@"Variables"][@"forum"][@"forumicon"]] placeholderImage:[UIImage imageNamed:@"image"]];
+        for (NSDictionary *srcDic in srcArray) {
+            BBSModel *model=[[BBSModel alloc] init];
+            [model setValuesForKeysWithDictionary:srcDic];
+            [_dataArray addObject:model];
+        }
+        [_tableView reloadData];
+    } failed:^{
+        NSLog(@"Oops!");
+    }];
+}
+
+- (void)createUI
+{
+    _tableView=[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    _tableView.alpha=0.8;
+    _tableView.dataSource=self;
+    _tableView.delegate=self;
+    [self.view addSubview:_tableView];
+    
+    _headerView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 60)];
+    _headerView.backgroundColor=[UIColor whiteColor];
+    _tableView.tableHeaderView=_headerView;
+    
+    _iconView=[[UIImageView alloc] initWithFrame:CGRectMake(10, 5, 50, 50)];
+    [_headerView addSubview:_iconView];
+    
+    UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-110, 5, 100, 50)];
+    logoView.image=[UIImage imageNamed:@"bglogoblack"];
+    [_headerView addSubview:logoView];
+}
+
+#pragma mark - UITableViewDataSource:
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return _dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellId=@"bbsid";
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellId];
+    if (!cell) {
+        cell=[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellId];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    }
+    cell.textLabel.text=[_dataArray[indexPath.row] name];
+    cell.detailTextLabel.text=[_dataArray[indexPath.row] todayposts];
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 0;
 }
 
 - (void)didReceiveMemoryWarning

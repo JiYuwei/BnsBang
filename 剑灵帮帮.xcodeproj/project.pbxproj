@@ -266,6 +266,7 @@
 		BCEDFA541A1366DD00F1288A /* jinhua1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */; };
 		BCEDFA551A1366DD00F1288A /* jinhua0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */; };
 		BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA571A1367DC00F1288A /* DtViewController.m */; };
+		BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA5B1A138FCD00F1288A /* BBSModel.m */; };
 		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
 		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
 		BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF31A076DED0077E890 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -639,6 +640,8 @@
 		BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua0@2x.png"; sourceTree = "<group>"; };
 		BCEDFA561A1367DC00F1288A /* DtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtViewController.h; sourceTree = "<group>"; };
 		BCEDFA571A1367DC00F1288A /* DtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtViewController.m; sourceTree = "<group>"; };
+		BCEDFA5A1A138FCD00F1288A /* BBSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSModel.h; sourceTree = "<group>"; };
+		BCEDFA5B1A138FCD00F1288A /* BBSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSModel.m; sourceTree = "<group>"; };
 		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BCEE0DF11A076DED0077E890 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BCEE0DF21A076DED0077E890 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -945,6 +948,8 @@
 				BC98E9031A08F0B200261F9E /* MainModel.m */,
 				BCFD31AE1A0B3DFA0007F384 /* ProModel.h */,
 				BCFD31AF1A0B3DFA0007F384 /* ProModel.m */,
+				BCEDFA5A1A138FCD00F1288A /* BBSModel.h */,
+				BCEDFA5B1A138FCD00F1288A /* BBSModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -1756,6 +1761,7 @@
 				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
 				BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */,
 				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
+				BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */,
 				BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */,
 				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,
 				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,

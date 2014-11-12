@@ -11,6 +11,7 @@
 @interface EquipViewController : UIViewController
 
 - (void)configBtns;
+- (void)createBarBtns;
 - (void)createBtns:(UIButton *)button withFrame:(CGRect)frame angImage:(NSString *)imgName Tag:(NSInteger)tag Delay:(NSTimeInterval)delay Enabled:(BOOL)enabled;
 - (void)clickAction:(UIButton *)sender;
 

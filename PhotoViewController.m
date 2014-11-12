@@ -10,6 +10,7 @@
 #import "ImageModel.h"
 #import "PhotoDetailController.h"
 #import "MyFooterView.h"
+#import "MyNavController.h"
 static NSInteger _page[5]={1,1,1,1,1};
 
 @interface PhotoViewController ()
@@ -172,7 +173,7 @@ static NSInteger _page[5]={1,1,1,1,1};
     PhotoDetailController *photoDtVC=[[PhotoDetailController alloc] init];
     photoDtVC.model=_dataArray[indexPath.row];
     photoDtVC.status=_imageStatus;
-    UINavigationController *navCtrl=[[UINavigationController alloc] initWithRootViewController:photoDtVC];
+    MyNavController *navCtrl=[[MyNavController alloc] initWithRootViewController:photoDtVC];
     navCtrl.navigationBar.barStyle=UIBarStyleBlack;
     [self presentViewController:navCtrl animated:YES completion:nil];
 }

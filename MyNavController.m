@@ -1,18 +1,18 @@
 //
-//  SecViewController.m
-//  BnSBang
+//  MyNavController.m
+//  剑灵帮帮
 //
-//  Created by qianfeng on 14-10-20.
+//  Created by qianfeng on 14-11-12.
 //  Copyright (c) 2014年 jyw. All rights reserved.
 //
 
-#import "SecViewController.h"
+#import "MyNavController.h"
 
-@interface SecViewController ()
+@interface MyNavController ()
 
 @end
 
-@implementation SecViewController
+@implementation MyNavController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,16 +23,15 @@
     return self;
 }
 
+-(BOOL)shouldAutorotate
+{
+    return NO;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"haha");
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,6 +7,7 @@
 //
 
 #import "EquipViewController.h"
+#import "SrcViewController.h"
 #import "MainViewController.h"
 #import "JewelryViewController.h"
 #import "BaguaViewController.h"
@@ -35,16 +36,21 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"bgimg"]];
     // Do any additional setup after loading the view.
-    //[self createBgLogo];
+    [self createBarBtns];
     [self configBtns];
 }
 
-//- (void)createBgLogo
-//{
-//    UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-120, 0, 120, 60)];
-//    logoView.image=[UIImage imageNamed:@"bglogo"];
-//    [self.view addSubview:logoView];
-//}
+- (void)createBarBtns
+{
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"tabbar_gl"] style:UIBarButtonItemStylePlain target:self action:@selector(switchToGrowthTree)];
+}
+
+- (void)switchToGrowthTree
+{
+    SrcViewController *srcVC=[[SrcViewController alloc] init];
+    srcVC.edgesForExtendedLayout=UIRectEdgeNone;
+    [self.navigationController pushViewController:srcVC animated:YES];
+}
 
 - (void)configBtns
 {
@@ -79,6 +85,7 @@
 {
     button=[UIButton buttonWithType:UIButtonTypeCustom];
     button.frame=frame;
+    button.alpha=0;
     button.tag=tag;
     button.userInteractionEnabled=enabled;
     if (imgName) {
@@ -100,6 +107,7 @@
         else{
             button.frame=CGRectMake(0, button.frame.origin.y, button.frame.size.width, button.frame.size.height);
         }
+        button.alpha=1;
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.8 animations:^{
             button.alpha=0.9;

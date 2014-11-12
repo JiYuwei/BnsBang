@@ -47,16 +47,7 @@
 		BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB3319F4B04900A3762A /* SrcViewController.m */; };
 		BC19EB3619F4B47300A3762A /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB3519F4B47300A3762A /* image@2x.png */; };
 		BC19EB3819F4B49800A3762A /* imagex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB3719F4B49800A3762A /* imagex@2x.png */; };
-		BC19EB3B19F4BA4100A3762A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB3A19F4BA4100A3762A /* DBManager.m */; };
-		BC19EB3E19F4BA6900A3762A /* SrcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB3D19F4BA6900A3762A /* SrcModel.m */; };
-		BC19EB4A19F4BB2900A3762A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB4119F4BB2900A3762A /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BC19EB4B19F4BB2900A3762A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB4319F4BB2900A3762A /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BC19EB4C19F4BB2900A3762A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB4519F4BB2900A3762A /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BC19EB4D19F4BB2900A3762A /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB4719F4BB2900A3762A /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BC19EB4E19F4BB2900A3762A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB4919F4BB2900A3762A /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BC19EB5019F4BEC200A3762A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */; };
-		BC19EB6C19F535F700A3762A /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19EB6B19F535F700A3762A /* SecViewController.m */; };
-		BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC19EB6D19F5379D00A3762A /* PropertyList.plist */; };
 		BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */; };
 		BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC38EB711A0A292A001834A5 /* EquipViewController.m */; };
 		BC38EB7C1A0A36AE001834A5 /* tabbar_bns.png in Resources */ = {isa = PBXBuildFile; fileRef = BC38EB741A0A36AE001834A5 /* tabbar_bns.png */; };
@@ -255,12 +246,26 @@
 		BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEDF1A0F55C500A3C791 /* BaguaDetailController.m */; };
 		BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */; };
 		BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */; };
-		BC99BEF41A0F71C900A3C791 /* tabbar_equip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */; };
 		BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC0BD61A0B9623007266C7 /* MyScrollView.m */; };
 		BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */; };
 		BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */; };
 		BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE794701A11F33900B20D69 /* PhotoDetailController.m */; };
 		BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7947F1A123AFD00B20D69 /* MoreViewController.m */; };
+		BCEDFA2C1A133C5000F1288A /* MyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA2B1A133C5000F1288A /* MyNavController.m */; };
+		BCEDFA2F1A133D8E00F1288A /* tabbar_bbs.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */; };
+		BCEDFA301A133D8E00F1288A /* tabbar_bbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */; };
+		BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA321A1340B000F1288A /* BBSViewController.m */; };
+		BCEDFA421A1356C500F1288A /* baiqingcs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */; };
+		BCEDFA441A1356C500F1288A /* shuiyuecs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */; };
+		BCEDFA481A13577A00F1288A /* baiqingzx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */; };
+		BCEDFA491A13577A00F1288A /* shuiyuezx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */; };
+		BCEDFA501A1366DD00F1288A /* bqs0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */; };
+		BCEDFA511A1366DD00F1288A /* bqs1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */; };
+		BCEDFA521A1366DD00F1288A /* bqs2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */; };
+		BCEDFA531A1366DD00F1288A /* jinhua2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */; };
+		BCEDFA541A1366DD00F1288A /* jinhua1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */; };
+		BCEDFA551A1366DD00F1288A /* jinhua0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */; };
+		BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEDFA571A1367DC00F1288A /* DtViewController.m */; };
 		BCEE0E041A076DED0077E890 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF01A076DED0077E890 /* LICENSE */; };
 		BCEE0E051A076DED0077E890 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCEE0DF11A076DED0077E890 /* README.md */; };
 		BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE0DF31A076DED0077E890 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -396,24 +401,7 @@
 		BC19EB3319F4B04900A3762A /* SrcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrcViewController.m; sourceTree = "<group>"; };
 		BC19EB3519F4B47300A3762A /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
 		BC19EB3719F4B49800A3762A /* imagex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagex@2x.png"; sourceTree = "<group>"; };
-		BC19EB3919F4BA4100A3762A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
-		BC19EB3A19F4BA4100A3762A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
-		BC19EB3C19F4BA6900A3762A /* SrcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrcModel.h; sourceTree = "<group>"; };
-		BC19EB3D19F4BA6900A3762A /* SrcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrcModel.m; sourceTree = "<group>"; };
-		BC19EB4019F4BB2900A3762A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		BC19EB4119F4BB2900A3762A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		BC19EB4219F4BB2900A3762A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		BC19EB4319F4BB2900A3762A /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		BC19EB4419F4BB2900A3762A /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		BC19EB4519F4BB2900A3762A /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		BC19EB4619F4BB2900A3762A /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		BC19EB4719F4BB2900A3762A /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		BC19EB4819F4BB2900A3762A /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		BC19EB4919F4BB2900A3762A /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		BC19EB4F19F4BEC200A3762A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		BC19EB6A19F535F700A3762A /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
-		BC19EB6B19F535F700A3762A /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
-		BC19EB6D19F5379D00A3762A /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
 		BC38EB6D1A0A27E0001834A5 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		BC38EB6E1A0A27E0001834A5 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		BC38EB701A0A292A001834A5 /* EquipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipViewController.h; sourceTree = "<group>"; };
@@ -624,7 +612,6 @@
 		BC99BEE51A0F620D00A3C791 /* WeaponDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponDetailController.m; sourceTree = "<group>"; };
 		BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
-		BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_equip@2x.png"; sourceTree = "<group>"; };
 		BCBC0BD51A0B9623007266C7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
 		BCBC0BD61A0B9623007266C7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFooterView.h; sourceTree = "<group>"; };
@@ -634,6 +621,24 @@
 		BCE794701A11F33900B20D69 /* PhotoDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailController.m; sourceTree = "<group>"; };
 		BCE7947E1A123AFD00B20D69 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		BCE7947F1A123AFD00B20D69 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		BCEDFA2A1A133C5000F1288A /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
+		BCEDFA2B1A133C5000F1288A /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
+		BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_bbs.png; sourceTree = "<group>"; };
+		BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_bbs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA311A1340B000F1288A /* BBSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSViewController.h; sourceTree = "<group>"; };
+		BCEDFA321A1340B000F1288A /* BBSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSViewController.m; sourceTree = "<group>"; };
+		BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baiqingcs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuiyuecs@2x.png"; sourceTree = "<group>"; };
+		BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baiqingzx@2x.png"; sourceTree = "<group>"; };
+		BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shuiyuezx@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs0@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs1@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bqs2@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua2@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua1@2x.png"; sourceTree = "<group>"; };
+		BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinhua0@2x.png"; sourceTree = "<group>"; };
+		BCEDFA561A1367DC00F1288A /* DtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtViewController.h; sourceTree = "<group>"; };
+		BCEDFA571A1367DC00F1288A /* DtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DtViewController.m; sourceTree = "<group>"; };
 		BCEE0DF01A076DED0077E890 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BCEE0DF11A076DED0077E890 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BCEE0DF21A076DED0077E890 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -829,8 +834,6 @@
 			children = (
 				BC19EAFD19F49FEB00A3762A /* AppDelegate.h */,
 				BC19EAFE19F49FEB00A3762A /* AppDelegate.m */,
-				BC19EB3919F4BA4100A3762A /* DBManager.h */,
-				BC19EB3A19F4BA4100A3762A /* DBManager.m */,
 				BC19EB0019F49FEB00A3762A /* Images.xcassets */,
 				BC19EAF519F49FEB00A3762A /* Supporting Files */,
 			);
@@ -840,6 +843,16 @@
 		BC19EAF519F49FEB00A3762A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCEDFA4A1A1366DD00F1288A /* bqs0@2x.png */,
+				BCEDFA4B1A1366DD00F1288A /* bqs1@2x.png */,
+				BCEDFA4C1A1366DD00F1288A /* bqs2@2x.png */,
+				BCEDFA4D1A1366DD00F1288A /* jinhua2@2x.png */,
+				BCEDFA4E1A1366DD00F1288A /* jinhua1@2x.png */,
+				BCEDFA4F1A1366DD00F1288A /* jinhua0@2x.png */,
+				BCEDFA461A13577A00F1288A /* baiqingzx@2x.png */,
+				BCEDFA471A13577A00F1288A /* shuiyuezx@2x.png */,
+				BCEDFA3E1A1356C500F1288A /* baiqingcs@2x.png */,
+				BCEDFA401A1356C500F1288A /* shuiyuecs@2x.png */,
 				BC99BDA81A0F4B5F00A3C791 /* srcimg */,
 				BC0AAC281A0CF88B00232357 /* shuiyue@2x.png */,
 				BC0AAC241A0CF77300232357 /* baiqing@2x.png */,
@@ -848,11 +861,9 @@
 				BCEE0DEF1A076DED0077E890 /* SDWebImage */,
 				BC38EB731A0A3640001834A5 /* tabbar_img */,
 				BCF10A841A070C9600F8F16D /* image */,
-				BC19EB3F19F4BB2900A3762A /* fmdb */,
 				BC19EB3719F4B49800A3762A /* imagex@2x.png */,
 				BC19EB3519F4B47300A3762A /* image@2x.png */,
 				BC19EAF619F49FEB00A3762A /* 剑灵帮帮-Info.plist */,
-				BC19EB6D19F5379D00A3762A /* PropertyList.plist */,
 				BC98E9001A08EAB200261F9E /* WeaponList.plist */,
 				BC98E90D1A08FC7400261F9E /* JewelryList.plist */,
 				BC98E9281A0906B200261F9E /* BaguaList.plist */,
@@ -934,27 +945,8 @@
 				BC98E9031A08F0B200261F9E /* MainModel.m */,
 				BCFD31AE1A0B3DFA0007F384 /* ProModel.h */,
 				BCFD31AF1A0B3DFA0007F384 /* ProModel.m */,
-				BC19EB3C19F4BA6900A3762A /* SrcModel.h */,
-				BC19EB3D19F4BA6900A3762A /* SrcModel.m */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		BC19EB3F19F4BB2900A3762A /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				BC19EB4019F4BB2900A3762A /* FMDatabase.h */,
-				BC19EB4119F4BB2900A3762A /* FMDatabase.m */,
-				BC19EB4219F4BB2900A3762A /* FMDatabaseAdditions.h */,
-				BC19EB4319F4BB2900A3762A /* FMDatabaseAdditions.m */,
-				BC19EB4419F4BB2900A3762A /* FMDatabasePool.h */,
-				BC19EB4519F4BB2900A3762A /* FMDatabasePool.m */,
-				BC19EB4619F4BB2900A3762A /* FMDatabaseQueue.h */,
-				BC19EB4719F4BB2900A3762A /* FMDatabaseQueue.m */,
-				BC19EB4819F4BB2900A3762A /* FMResultSet.h */,
-				BC19EB4919F4BB2900A3762A /* FMResultSet.m */,
-			);
-			path = fmdb;
 			sourceTree = "<group>";
 		};
 		BC38EB6B1A0A2744001834A5 /* Video */ = {
@@ -975,6 +967,7 @@
 			children = (
 				BC38EB701A0A292A001834A5 /* EquipViewController.h */,
 				BC38EB711A0A292A001834A5 /* EquipViewController.m */,
+				BCEDFA591A1367E900F1288A /* GrowthTree */,
 				BCF872ED1A026DCA00950D32 /* Bagua */,
 				BCF872EE1A026DCD00950D32 /* Jewelry */,
 				BCF872EF1A026DCF00950D32 /* Weapon */,
@@ -985,7 +978,8 @@
 		BC38EB731A0A3640001834A5 /* tabbar_img */ = {
 			isa = PBXGroup;
 			children = (
-				BC99BEF31A0F71C900A3C791 /* tabbar_equip@2x.png */,
+				BCEDFA2D1A133D8E00F1288A /* tabbar_bbs.png */,
+				BCEDFA2E1A133D8E00F1288A /* tabbar_bbs@2x.png */,
 				BC38EB741A0A36AE001834A5 /* tabbar_bns.png */,
 				BC38EB751A0A36AE001834A5 /* tabbar_bns@2x.png */,
 				BC38EB761A0A36AE001834A5 /* tabbar_gl.png */,
@@ -1201,12 +1195,25 @@
 			children = (
 				BC99BEE81A0F6A8700A3C791 /* PhotoViewController.h */,
 				BC99BEE91A0F6A8700A3C791 /* PhotoViewController.m */,
+				BCEDFA2A1A133C5000F1288A /* MyNavController.h */,
+				BCEDFA2B1A133C5000F1288A /* MyNavController.m */,
 				BCE7946F1A11F33800B20D69 /* PhotoDetailController.h */,
 				BCE794701A11F33900B20D69 /* PhotoDetailController.m */,
 				BCE7947E1A123AFD00B20D69 /* MoreViewController.h */,
 				BCE7947F1A123AFD00B20D69 /* MoreViewController.m */,
 			);
 			name = Photo;
+			sourceTree = "<group>";
+		};
+		BCEDFA591A1367E900F1288A /* GrowthTree */ = {
+			isa = PBXGroup;
+			children = (
+				BC19EB3219F4B04900A3762A /* SrcViewController.h */,
+				BC19EB3319F4B04900A3762A /* SrcViewController.m */,
+				BCEDFA561A1367DC00F1288A /* DtViewController.h */,
+				BCEDFA571A1367DC00F1288A /* DtViewController.m */,
+			);
+			name = GrowthTree;
 			sourceTree = "<group>";
 		};
 		BCEE0DEF1A076DED0077E890 /* SDWebImage */ = {
@@ -1315,10 +1322,8 @@
 		BCF872EC1A026DC600950D32 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				BC19EB3219F4B04900A3762A /* SrcViewController.h */,
-				BC19EB3319F4B04900A3762A /* SrcViewController.m */,
-				BC19EB6A19F535F700A3762A /* SecViewController.h */,
-				BC19EB6B19F535F700A3762A /* SecViewController.m */,
+				BCEDFA311A1340B000F1288A /* BBSViewController.h */,
+				BCEDFA321A1340B000F1288A /* BBSViewController.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -1451,6 +1456,7 @@
 				BC0B30D51A09C82300581241 /* 3.png in Resources */,
 				BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */,
 				BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */,
+				BCEDFA301A133D8E00F1288A /* tabbar_bbs@2x.png in Resources */,
 				BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */,
 				BCF10AB61A070C9600F8F16D /* wuxing10@2x.png in Resources */,
 				BC99BE941A0F4B5F00A3C791 /* 御龙林英雄八卦牌img.png in Resources */,
@@ -1494,7 +1500,9 @@
 				BCFD31AD1A0B3B150007F384 /* ProList.plist in Resources */,
 				BC98E9201A09065D00261F9E /* shexie@2x.png in Resources */,
 				BC99BEB61A0F4B5F00A3C791 /* 红莲八卦牌img.png in Resources */,
+				BCEDFA501A1366DD00F1288A /* bqs0@2x.png in Resources */,
 				BC99BEA01A0F4B5F00A3C791 /* 无影八卦牌img.png in Resources */,
+				BCEDFA2F1A133D8E00F1288A /* tabbar_bbs.png in Resources */,
 				BC0B30DF1A09D5C200581241 /* wuchangx.png in Resources */,
 				BC99BE681A0F4B5F00A3C791 /* tz@2x.png in Resources */,
 				BC99BED81A0F4B5F00A3C791 /* 尚方无极@2x.png in Resources */,
@@ -1519,6 +1527,7 @@
 				BC99BEBD1A0F4B5F00A3C791 /* 赤尾八卦牌img.png in Resources */,
 				BCF10AA51A070C9600F8F16D /* jewelry@2x.png in Resources */,
 				BC99BEAE1A0F4B5F00A3C791 /* 海蛇八卦牌img.png in Resources */,
+				BCEDFA421A1356C500F1288A /* baiqingcs@2x.png in Resources */,
 				BCFD31A11A0B23B10007F384 /* ljlogo@2x.png in Resources */,
 				BC99BE9C1A0F4B5F00A3C791 /* 斗战圣八卦牌img.png in Resources */,
 				BC99BE5D1A0F4B5F00A3C791 /* ly@2x.png in Resources */,
@@ -1572,7 +1581,6 @@
 				BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */,
 				BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */,
 				BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */,
-				BC99BEF41A0F71C900A3C791 /* tabbar_equip@2x.png in Resources */,
 				BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */,
 				BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */,
 				BC99BEAB1A0F4B5F00A3C791 /* 水月平原豪杰八卦牌@2x.png in Resources */,
@@ -1622,6 +1630,7 @@
 				BC99BED21A0F4B5F00A3C791 /* 黄星腰带@2x.png in Resources */,
 				BC98E9291A0906B200261F9E /* BaguaList.plist in Resources */,
 				BC99BE911A0F4B5F00A3C791 /* 彩虹八卦牌@2x.png in Resources */,
+				BCEDFA521A1366DD00F1288A /* bqs2@2x.png in Resources */,
 				BCF10AB21A070C9600F8F16D /* shangfang.png in Resources */,
 				BC99BE621A0F4B5F00A3C791 /* qtm@2x.png in Resources */,
 				BC99BE4C1A0F4B5F00A3C791 /* dmxs@2x.png in Resources */,
@@ -1629,6 +1638,7 @@
 				BC99BEB21A0F4B5F00A3C791 /* 白青苍穹八卦牌@2x.png in Resources */,
 				BC98E90E1A08FC7400261F9E /* JewelryList.plist in Resources */,
 				BC99BEA71A0F4B5F00A3C791 /* 毒蛇八卦牌@2x.png in Resources */,
+				BCEDFA531A1366DD00F1288A /* jinhua2@2x.png in Resources */,
 				BC99BEC41A0F4B5F00A3C791 /* 雪人八卦牌@2x.png in Resources */,
 				BC99BE4A1A0F4B5F00A3C791 /* dgj@2x.png in Resources */,
 				BC99BDA71A0F2B5F00A3C791 /* jixian.png in Resources */,
@@ -1641,6 +1651,7 @@
 				BC99BEA41A0F4B5F00A3C791 /* 暗黑龙八卦牌img.png in Resources */,
 				BC99BE7C1A0F4B5F00A3C791 /* 大漠侠士八卦牌@2x.png in Resources */,
 				BC38EB871A0A5128001834A5 /* weaponimg@2x.png in Resources */,
+				BCEDFA481A13577A00F1288A /* baiqingzx@2x.png in Resources */,
 				BC99BE551A0F4B5F00A3C791 /* hl@2x.png in Resources */,
 				BC99BEB71A0F4B5F00A3C791 /* 蛇蝎帝王八卦牌@2x.png in Resources */,
 				BCFD31B81A0B493B0007F384 /* ckbglabel.png in Resources */,
@@ -1653,13 +1664,14 @@
 				BC99BE9D1A0F4B5F00A3C791 /* 斗神八卦牌@2x.png in Resources */,
 				BCF10AA11A070C9600F8F16D /* chixing.png in Resources */,
 				BCF10AB71A070C9600F8F16D /* wuxing.png in Resources */,
+				BCEDFA551A1366DD00F1288A /* jinhua0@2x.png in Resources */,
 				BC99BE841A0F4B5F00A3C791 /* 天龙八卦牌@2x.png in Resources */,
 				BC99BE921A0F4B5F00A3C791 /* 彩虹八卦牌img.png in Resources */,
 				BC99BE651A0F4B5F00A3C791 /* sypybw@2x.png in Resources */,
 				BCFD31891A0B149D0007F384 /* ProViewCell.xib in Resources */,
 				BC99BECD1A0F4B5F00A3C791 /* 黑飞鸟八卦牌@2x.png in Resources */,
 				BCE7946E1A11EAB700B20D69 /* MyFooterView.xib in Resources */,
-				BC19EB6E19F5379D00A3762A /* PropertyList.plist in Resources */,
+				BCEDFA511A1366DD00F1288A /* bqs1@2x.png in Resources */,
 				BCEE0E201A07A1F60077E890 /* RefreshView.xib in Resources */,
 				BC38EB891A0A5134001834A5 /* baguaimg@2x.png in Resources */,
 				BC99BE771A0F4B5F00A3C791 /* 修罗八卦牌@2x.png in Resources */,
@@ -1677,6 +1689,7 @@
 				BCF10AB31A070C9600F8F16D /* shenghun.png in Resources */,
 				BC99BE8C1A0F4B5F00A3C791 /* 巴勒八卦牌img.png in Resources */,
 				BC99BED51A0F4B5F00A3C791 /* 极限传说@2x.png in Resources */,
+				BCEDFA441A1356C500F1288A /* shuiyuecs@2x.png in Resources */,
 				BCFD319F1A0B23B10007F384 /* cklogo@2x.png in Resources */,
 				BC98E9231A09065D00261F9E /* 天龙八卦牌img.png in Resources */,
 				BCF10AA21A070C9600F8F16D /* fenghun.png in Resources */,
@@ -1690,11 +1703,13 @@
 				BC99BEA51A0F4B5F00A3C791 /* 武神八卦牌@2x.png in Resources */,
 				BC99BED41A0F4B5F00A3C791 /* 大众传说@2x.png in Resources */,
 				BC99BE7B1A0F4B5F00A3C791 /* 千魂八卦牌img.png in Resources */,
+				BCEDFA491A13577A00F1288A /* shuiyuezx@2x.png in Resources */,
 				BCFD31971A0B1C0D0007F384 /* zhzy@2x.png in Resources */,
 				BC0AAB9E1A0C79E700232357 /* Icon-120@2x.png in Resources */,
 				BC99BE631A0F4B5F00A3C791 /* ry@2x.png in Resources */,
 				BC0B30D91A09C82300581241 /* 7.png in Resources */,
 				BC19EB0119F49FEB00A3762A /* Images.xcassets in Resources */,
+				BCEDFA541A1366DD00F1288A /* jinhua1@2x.png in Resources */,
 				BC99BEC51A0F4B5F00A3C791 /* 雷狱八卦牌@2x.png in Resources */,
 				BC99BE951A0F4B5F00A3C791 /* 悟空八卦牌@2x.png in Resources */,
 				BCFD31961A0B1C0D0007F384 /* qszy@2x.png in Resources */,
@@ -1727,7 +1742,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC19EB3B19F4BA4100A3762A /* DBManager.m in Sources */,
 				BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */,
 				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
 				BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */,
@@ -1737,20 +1751,16 @@
 				BC38EB721A0A292A001834A5 /* EquipViewController.m in Sources */,
 				BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */,
 				BCEE0E081A076DED0077E890 /* SDWebImageDownloader.m in Sources */,
+				BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */,
 				BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */,
 				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
 				BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */,
 				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
 				BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */,
 				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,
-				BC19EB4A19F4BB2900A3762A /* FMDatabase.m in Sources */,
 				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,
 				BC19EB2B19F4A29D00A3762A /* BaguaViewController.m in Sources */,
 				BCEE0E161A07813C0077E890 /* DetailViewController.m in Sources */,
-				BC19EB4D19F4BB2900A3762A /* FMDatabaseQueue.m in Sources */,
-				BC19EB6C19F535F700A3762A /* SecViewController.m in Sources */,
-				BC19EB4E19F4BB2900A3762A /* FMResultSet.m in Sources */,
-				BC19EB4C19F4BB2900A3762A /* FMDatabasePool.m in Sources */,
 				BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */,
 				BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */,
 				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
@@ -1761,19 +1771,19 @@
 				BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */,
 				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
 				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
-				BC19EB3E19F4BA6900A3762A /* SrcModel.m in Sources */,
 				BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */,
 				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
+				BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
 				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,
 				BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */,
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
 				BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */,
+				BCEDFA2C1A133C5000F1288A /* MyNavController.m in Sources */,
 				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,
 				BCEE0E0B1A076DED0077E890 /* UIButton+WebCache.m in Sources */,
 				BC19EB2619F4A16B00A3762A /* MainViewController.m in Sources */,
-				BC19EB4B19F4BB2900A3762A /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

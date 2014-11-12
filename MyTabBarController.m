@@ -11,7 +11,7 @@
 #import "VideoViewController.h"
 #import "PhotoViewController.h"
 #import "EquipViewController.h"
-#import "SrcViewController.h"
+#import "BBSViewController.h"
 
 @interface MyTabBarController ()
 {
@@ -19,7 +19,7 @@
     VideoViewController *_videoVC;
     PhotoViewController *_photoVC;
     EquipViewController *_equipVC;
-    SrcViewController *_srcVC;
+    BBSViewController *_bbsVC;
 }
 @end
 
@@ -85,18 +85,18 @@
     equipCtrl.navigationBar.barStyle=UIBarStyleBlack;
     equipCtrl.navigationBar.barTintColor=TOPCOLOR;
     equipCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_equip"] selectedImage:[UIImage imageNamed:@"tabbar_equip"]];
+    equipCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"装备" image:[UIImage imageNamed:@"tabbar_gl"] selectedImage:[UIImage imageNamed:@"tabbar_gl"]];
     
-    _srcVC=[[SrcViewController alloc] init];
-    _srcVC.title=@"成长树";
-    _srcVC.edgesForExtendedLayout=UIRectEdgeNone;
-    UINavigationController *srcCtrl=[[UINavigationController alloc] initWithRootViewController:_srcVC];
-    srcCtrl.navigationBar.barStyle=UIBarStyleBlack;
-    srcCtrl.navigationBar.barTintColor=TOPCOLOR;
-    srcCtrl.navigationBar.tintColor=[UIColor whiteColor];
-    srcCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"成长树" image:[UIImage imageNamed:@"tabbar_gl"] selectedImage:[UIImage imageNamed:@"tabbar_gl"]];
+    _bbsVC=[[BBSViewController alloc] init];
+    _bbsVC.title=@"社区";
+    _bbsVC.edgesForExtendedLayout=UIRectEdgeNone;
+    UINavigationController *bbsCtrl=[[UINavigationController alloc] initWithRootViewController:_bbsVC];
+    bbsCtrl.navigationBar.barStyle=UIBarStyleBlack;
+    bbsCtrl.navigationBar.barTintColor=TOPCOLOR;
+    bbsCtrl.navigationBar.tintColor=[UIColor whiteColor];
+    bbsCtrl.tabBarItem=[[UITabBarItem alloc] initWithTitle:@"社区" image:[UIImage imageNamed:@"tabbar_bbs"] selectedImage:[UIImage imageNamed:@"tabbar_bbs"]];
     
-    NSArray *controllers=@[bnsCtrl,videoCtrl,photoCtrl,equipCtrl,srcCtrl];
+    NSArray *controllers=@[bnsCtrl,videoCtrl,photoCtrl,equipCtrl,bbsCtrl];
     self.viewControllers=controllers;
 }
 

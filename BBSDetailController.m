@@ -145,6 +145,7 @@ static NSInteger _BBSPage=1;
     
     NSString *str=cell.subjectLabel.text;
     CGSize newSize=[str sizeWithFont:cell.subjectLabel.font constrainedToSize:CGSizeMake(cell.subjectLabel.frame.size.width, MAXFLOAT) lineBreakMode:NSLineBreakByWordWrapping];
+
     //根据计算结果重新设置UILabel的尺寸
     cell.subjectLabel.frame=CGRectMake(cell.subjectLabel.frame.origin.x, cell.subjectLabel.frame.origin.y, cell.subjectLabel.frame.size.width, newSize.height);
     cell.headerView.image=[UIImage imageNamed:[NSString stringWithFormat:@"%d",indexPath.row%10]];

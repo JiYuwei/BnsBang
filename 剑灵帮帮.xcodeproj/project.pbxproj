@@ -32,9 +32,9 @@
 		BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F591A14451E00732D8B /* LoginViewController.m */; };
 		BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F5A1A14451E00732D8B /* LoginViewController.xib */; };
 		BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F5E1A14507C00732D8B /* RegisterViewController.m */; };
-		BC145F621A14902700732D8B /* BBSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F611A14902700732D8B /* BBSDetailController.m */; };
+		BC145F621A14902700732D8B /* BBSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F611A14902700732D8B /* BBSDetailController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		BC145F651A14962100732D8B /* BBSDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F641A14962100732D8B /* BBSDetailModel.m */; };
-		BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */; };
+		BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		BC145F6D1A149D1600732D8B /* BBSDetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */; };
 		BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
 		BC19EAF119F49FEB00A3762A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */; };
@@ -1949,6 +1949,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BnSBang/剑灵帮帮-Prefix.pch";
 				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "剑灵帮帮";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1962,6 +1963,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BnSBang/剑灵帮帮-Prefix.pch";
 				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "剑灵帮帮";
 				WRAPPER_EXTENSION = app;
 			};

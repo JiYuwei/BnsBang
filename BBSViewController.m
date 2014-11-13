@@ -10,6 +10,7 @@
 #import "HttpRequestManager.h"
 #import "UIImageView+WebCache.h"
 #import "LoginViewController.h"
+#import "BBSDetailController.h"
 #import "BBSModel.h"
 
 @interface BBSViewController ()
@@ -67,8 +68,10 @@
             [_dataArray addObject:model];
         }
         [_tableView reloadData];
+        _userLabel.text=@"未登录";
     } failed:^{
         NSLog(@"Oops!");
+        _userLabel.text=@"加载失败";
     }];
 }
 
@@ -93,7 +96,7 @@
     
     _userLabel=[[UILabel alloc] initWithFrame:CGRectMake(70, 5, 140, 30)];
     _userLabel.textColor=[UIColor darkGrayColor];
-    _userLabel.text=@"未登录";
+    _userLabel.text=@"正在加载...";
     [_headerView addSubview:_userLabel];
 }
 
@@ -119,7 +122,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    NSArray *fidArray=@[@"1642",@"401",@"1924",@"1981",@"1848",@"2028"];
+    BBSDetailController *bbsDtVC=[[BBSDetailController alloc] init];
+    bbsDtVC.fid=fidArray[indexPath.row];
+    bbsDtVC.bbsUrl=BBS_DETAIL_URL;
+    bbsDtVC.title=[_dataArray[indexPath.row] name];
+    [self.navigationController pushViewController:bbsDtVC animated:YES];
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section

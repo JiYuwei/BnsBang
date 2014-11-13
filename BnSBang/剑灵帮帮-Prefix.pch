@@ -32,6 +32,7 @@
 #define PHOTO_DETAIL_URL @"http://bnsbox.oss.aliyuncs.com/json/tu/%d/tu_%d.json?r=0"
 
 #define BBS_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&fid=2332"
+#define BBS_DETAIL_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&page=%d&fid=%@"
 
 #define SCROLL_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E5%A4%B4%E5%9B%BE&limit=4"
 #define SCROLL_VIDEO_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E5%A4%B4%E5%9B%BE&limit=4"

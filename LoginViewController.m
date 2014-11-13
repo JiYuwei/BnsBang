@@ -67,6 +67,10 @@
     }
     else{
         NSLog(@"login Ok");
+        UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"0_0!" message:@"由于多玩登录请求数据被加密，该功能暂无法实现，尽情谅解。" delegate:self cancelButtonTitle:@"去死吧，大骗子!" otherButtonTitles:nil, nil];
+        [alert show];
+        [_userField resignFirstResponder];
+        [_pwdField resignFirstResponder];
     }
 }
 

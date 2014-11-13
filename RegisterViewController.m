@@ -33,6 +33,8 @@
 - (void)loadWebView
 {
     NSLog(@"load OK");
+    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Oops!" message:@"无法捕捉到接口，该页面无法实现，可怜的菊花得一直转下去了。。。" delegate:self cancelButtonTitle:@"你个坑货!" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning

@@ -32,6 +32,10 @@
 		BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F591A14451E00732D8B /* LoginViewController.m */; };
 		BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F5A1A14451E00732D8B /* LoginViewController.xib */; };
 		BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F5E1A14507C00732D8B /* RegisterViewController.m */; };
+		BC145F621A14902700732D8B /* BBSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F611A14902700732D8B /* BBSDetailController.m */; };
+		BC145F651A14962100732D8B /* BBSDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F641A14962100732D8B /* BBSDetailModel.m */; };
+		BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */; };
+		BC145F6D1A149D1600732D8B /* BBSDetailViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */; };
 		BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
 		BC19EAF119F49FEB00A3762A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */; };
 		BC19EAF319F49FEB00A3762A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF219F49FEB00A3762A /* UIKit.framework */; };
@@ -384,6 +388,13 @@
 		BC145F5A1A14451E00732D8B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BC145F5D1A14507C00732D8B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		BC145F5E1A14507C00732D8B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BC145F601A14902700732D8B /* BBSDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailController.h; sourceTree = "<group>"; };
+		BC145F611A14902700732D8B /* BBSDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailController.m; sourceTree = "<group>"; };
+		BC145F631A14962100732D8B /* BBSDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailModel.h; sourceTree = "<group>"; };
+		BC145F641A14962100732D8B /* BBSDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailModel.m; sourceTree = "<group>"; };
+		BC145F691A149D1600732D8B /* BBSDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailViewCell.h; sourceTree = "<group>"; };
+		BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailViewCell.m; sourceTree = "<group>"; };
+		BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSDetailViewCell.xib; sourceTree = "<group>"; };
 		BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剑灵帮帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC19EAEE19F49FEB00A3762A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -939,6 +950,9 @@
 				BCE7946A1A11D2BD00B20D69 /* MyFooterView.h */,
 				BCE7946B1A11D2BD00B20D69 /* MyFooterView.m */,
 				BCE7946D1A11EAB700B20D69 /* MyFooterView.xib */,
+				BC145F691A149D1600732D8B /* BBSDetailViewCell.h */,
+				BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */,
+				BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -958,6 +972,8 @@
 				BCFD31AF1A0B3DFA0007F384 /* ProModel.m */,
 				BCEDFA5A1A138FCD00F1288A /* BBSModel.h */,
 				BCEDFA5B1A138FCD00F1288A /* BBSModel.m */,
+				BC145F631A14962100732D8B /* BBSDetailModel.h */,
+				BC145F641A14962100732D8B /* BBSDetailModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -1337,6 +1353,8 @@
 			children = (
 				BCEDFA311A1340B000F1288A /* BBSViewController.h */,
 				BCEDFA321A1340B000F1288A /* BBSViewController.m */,
+				BC145F601A14902700732D8B /* BBSDetailController.h */,
+				BC145F611A14902700732D8B /* BBSDetailController.m */,
 				BC145F581A14451E00732D8B /* LoginViewController.h */,
 				BC145F591A14451E00732D8B /* LoginViewController.m */,
 				BC145F5A1A14451E00732D8B /* LoginViewController.xib */,
@@ -1507,6 +1525,7 @@
 				BC99BE9E1A0F4B5F00A3C791 /* 斗神八卦牌img.png in Resources */,
 				BC99BE8D1A0F4B5F00A3C791 /* 帝国军八卦牌@2x.png in Resources */,
 				BC99BE891A0F4B5F00A3C791 /* 巨岩八卦牌@2x.png in Resources */,
+				BC145F6D1A149D1600732D8B /* BBSDetailViewCell.xib in Resources */,
 				BC99BE7D1A0F4B5F00A3C791 /* 大漠侠士八卦牌img.png in Resources */,
 				BC98E9211A09065D00261F9E /* 蛇蝎帝王八卦牌img.png in Resources */,
 				BC99BE741A0F4B5F00A3C791 /* 了无情八卦牌img.png in Resources */,
@@ -1764,6 +1783,7 @@
 				BCEE0E061A076DED0077E890 /* SDImageCache.m in Sources */,
 				BCEE0E0C1A076DED0077E890 /* UIImageView+WebCache.m in Sources */,
 				BC99BEE01A0F55C500A3C791 /* BaguaDetailController.m in Sources */,
+				BC145F6C1A149D1600732D8B /* BBSDetailViewCell.m in Sources */,
 				BCFD31B01A0B3DFA0007F384 /* ProModel.m in Sources */,
 				BC19EAFF19F49FEB00A3762A /* AppDelegate.m in Sources */,
 				BCBC0BD71A0B9623007266C7 /* MyScrollView.m in Sources */,
@@ -1773,6 +1793,7 @@
 				BCEDFA581A1367DC00F1288A /* DtViewController.m in Sources */,
 				BC38EB6F1A0A27E0001834A5 /* VideoViewController.m in Sources */,
 				BCEE0E1F1A07A1F60077E890 /* RefreshView.m in Sources */,
+				BC145F651A14962100732D8B /* BBSDetailModel.m in Sources */,
 				BCE794801A123AFD00B20D69 /* MoreViewController.m in Sources */,
 				BC98E8F51A08D13600261F9E /* JewelryViewController.m in Sources */,
 				BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */,
@@ -1793,6 +1814,7 @@
 				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
 				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
 				BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */,
+				BC145F621A14902700732D8B /* BBSDetailController.m in Sources */,
 				BC98E90B1A08F6A100261F9E /* MainViewCell.m in Sources */,
 				BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,

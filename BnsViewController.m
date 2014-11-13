@@ -211,11 +211,15 @@
 - (void)startLoading
 {
     [_refreshView startLoading];
+    _isRefreshing=YES;
 }
 
 - (void)stopLoading
 {
-    [_refreshView stopLoading];
+    if (_isRefreshing) {
+        [_refreshView stopLoading];
+        _isRefreshing=NO;
+    }
 }
 
 #pragma mark - RefreshViewDelegate:

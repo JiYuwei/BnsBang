@@ -22,6 +22,7 @@
     MyScrollView *_scrollView;
     NSMutableArray *_scrollArray;
     NSMutableArray *_dataArray;
+    BOOL _isRefreshing;
 }
 
 @property(nonatomic,copy)NSArray *bodyArr;
@@ -30,7 +31,7 @@
 -(void)titleSettings;
 -(void)prepareData;
 -(void)uiconfig;
-
+-(void)createRefreshView;
 -(void)startLoading;
 -(void)stopLoading;
 -(void)createTopItems;

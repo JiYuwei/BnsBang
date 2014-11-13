@@ -70,7 +70,7 @@
 - (void)openGrowthTree:(NSInteger)tree
 {
     DtViewController *dtVC=[[DtViewController alloc] init];
-    dtVC.tree=[NSString stringWithFormat:@"jinhua%d",tree];
+    dtVC.tree=[NSString stringWithFormat:@"jinhua%ld",(long)tree];
     dtVC.treeNum=tree;
     [self.navigationController pushViewController:dtVC animated:YES];
 }
@@ -105,7 +105,7 @@
 {
     NSInteger i=sender.tag-140;
     DtViewController *dtVC=[[DtViewController alloc] init];
-    dtVC.tree=[NSString stringWithFormat:@"bqs%d",i];
+    dtVC.tree=[NSString stringWithFormat:@"bqs%ld",(long)i];
     dtVC.treeNum=3;
     [self.navigationController pushViewController:dtVC animated:YES];
 }

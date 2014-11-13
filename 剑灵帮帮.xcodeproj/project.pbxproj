@@ -29,6 +29,9 @@
 		BC0B30E11A0A09FC00581241 /* bgimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0B30E01A0A09FC00581241 /* bgimg@2x.png */; };
 		BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D30681A0339B50079AF06 /* BnsModel.m */; };
 		BC0D306D1A033B980079AF06 /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0D306C1A033B980079AF06 /* HttpRequestManager.m */; };
+		BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F591A14451E00732D8B /* LoginViewController.m */; };
+		BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC145F5A1A14451E00732D8B /* LoginViewController.xib */; };
+		BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC145F5E1A14507C00732D8B /* RegisterViewController.m */; };
 		BC19EAEF19F49FEB00A3762A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAEE19F49FEB00A3762A /* Foundation.framework */; };
 		BC19EAF119F49FEB00A3762A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */; };
 		BC19EAF319F49FEB00A3762A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC19EAF219F49FEB00A3762A /* UIKit.framework */; };
@@ -376,6 +379,11 @@
 		BC0D30681A0339B50079AF06 /* BnsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BnsModel.m; sourceTree = "<group>"; };
 		BC0D306B1A033B980079AF06 /* HttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
 		BC0D306C1A033B980079AF06 /* HttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
+		BC145F581A14451E00732D8B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BC145F591A14451E00732D8B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BC145F5A1A14451E00732D8B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BC145F5D1A14507C00732D8B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		BC145F5E1A14507C00732D8B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剑灵帮帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC19EAEE19F49FEB00A3762A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1329,6 +1337,11 @@
 			children = (
 				BCEDFA311A1340B000F1288A /* BBSViewController.h */,
 				BCEDFA321A1340B000F1288A /* BBSViewController.m */,
+				BC145F581A14451E00732D8B /* LoginViewController.h */,
+				BC145F591A14451E00732D8B /* LoginViewController.m */,
+				BC145F5A1A14451E00732D8B /* LoginViewController.xib */,
+				BC145F5D1A14507C00732D8B /* RegisterViewController.h */,
+				BC145F5E1A14507C00732D8B /* RegisterViewController.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -1585,6 +1598,7 @@
 				BCF10AB81A070C9600F8F16D /* yanhun.png in Resources */,
 				BC99BECC1A0F4B5F00A3C791 /* 黄沙领主八卦牌img.png in Resources */,
 				BC99BE5C1A0F4B5F00A3C791 /* lwq@2x.png in Resources */,
+				BC145F5C1A14451E00732D8B /* LoginViewController.xib in Resources */,
 				BC99BE6B1A0F4B5F00A3C791 /* ws@2x.png in Resources */,
 				BC99BE871A0F4B5F00A3C791 /* 女王八卦牌@2x.png in Resources */,
 				BC99BEA21A0F4B5F00A3C791 /* 日月八卦牌img.png in Resources */,
@@ -1767,6 +1781,7 @@
 				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,
 				BC19EB2B19F4A29D00A3762A /* BaguaViewController.m in Sources */,
 				BCEE0E161A07813C0077E890 /* DetailViewController.m in Sources */,
+				BC145F5B1A14451E00732D8B /* LoginViewController.m in Sources */,
 				BC0D30691A0339B50079AF06 /* BnsModel.m in Sources */,
 				BC99BEE61A0F620D00A3C791 /* WeaponDetailController.m in Sources */,
 				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
@@ -1786,6 +1801,7 @@
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,
 				BCE794711A11F33900B20D69 /* PhotoDetailController.m in Sources */,
+				BC145F5F1A14507C00732D8B /* RegisterViewController.m in Sources */,
 				BCEDFA2C1A133C5000F1288A /* MyNavController.m in Sources */,
 				BC98E9041A08F0B200261F9E /* MainModel.m in Sources */,
 				BCEE0E0B1A076DED0077E890 /* UIButton+WebCache.m in Sources */,

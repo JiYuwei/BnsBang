@@ -7,13 +7,9 @@
 //
 
 #import "DetailViewController.h"
-#import "HttpRequestManager.h"
 
 @interface DetailViewController ()
-{
-    UIWebView *_webView;
-    UIView *_actView;
-}
+
 @end
 
 @implementation DetailViewController
@@ -33,7 +29,7 @@
     self.view.backgroundColor=[UIColor whiteColor];
     self.title=@"资讯详情";
     // Do any additional setup after loading the view.
-    NSLog(@"%@",_model.uid);
+    //NSLog(@"%@",_model.uid);
     [self configUI];
     [self loadWebView];
 }

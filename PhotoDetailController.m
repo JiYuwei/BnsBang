@@ -150,7 +150,7 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"row=>%d",indexPath.row);
+    //NSLog(@"row=>%d",indexPath.row);
     MoreViewController *moreVC=[[MoreViewController alloc] init];
     moreVC.dataArray=_srcArray;
     moreVC.imgNum=indexPath.row;

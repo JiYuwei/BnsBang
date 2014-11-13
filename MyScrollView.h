@@ -23,7 +23,7 @@
     
     UIPageControl *_pageCtrl;
     
-    int _totalPages;
+    NSInteger _totalPages;
     int _curPages;
     CGRect _scrollFrame;
     

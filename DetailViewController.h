@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HttpRequestManager.h"
 #import "BnsModel.h"
 
 @interface DetailViewController : UIViewController <UIWebViewDelegate>
+{
+    UIWebView *_webView;
+    UIView *_actView;
+}
 
 @property(nonatomic,strong)BnsModel *model;
+
+- (void)loadWebView;
 
 @end

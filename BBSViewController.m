@@ -9,6 +9,7 @@
 #import "BBSViewController.h"
 #import "HttpRequestManager.h"
 #import "UIImageView+WebCache.h"
+#import "LoginViewController.h"
 #import "BBSModel.h"
 
 @interface BBSViewController ()
@@ -16,6 +17,7 @@
     UITableView *_tableView;
     UIView *_headerView;
     UIImageView *_iconView;
+    UILabel *_userLabel;
     NSMutableArray *_dataArray;
 }
 @end
@@ -44,6 +46,12 @@
 - (void)loginAction
 {
     NSLog(@"login");
+    LoginViewController *loginVC=[[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    UINavigationController *loginCtrl=[[UINavigationController alloc] initWithRootViewController:loginVC];
+    loginCtrl.navigationBar.barStyle=UIBarStyleBlackOpaque;
+    loginCtrl.navigationBar.tintColor=[UIColor whiteColor];
+    loginCtrl.navigationBar.barTintColor=[UIColor colorWithRed:0 green:0.4 blue:0 alpha:1];
+    [self presentViewController:loginCtrl animated:YES completion:nil];
 }
 
 - (void)dataPrepare
@@ -67,7 +75,7 @@
 - (void)createUI
 {
     _tableView=[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
-    _tableView.alpha=0.8;
+    _tableView.alpha=0.9;
     _tableView.dataSource=self;
     _tableView.delegate=self;
     [self.view addSubview:_tableView];
@@ -82,6 +90,11 @@
     UIImageView *logoView=[[UIImageView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width-110, 5, 100, 50)];
     logoView.image=[UIImage imageNamed:@"bglogoblack"];
     [_headerView addSubview:logoView];
+    
+    _userLabel=[[UILabel alloc] initWithFrame:CGRectMake(70, 5, 140, 30)];
+    _userLabel.textColor=[UIColor darkGrayColor];
+    _userLabel.text=@"未登录";
+    [_headerView addSubview:_userLabel];
 }
 
 #pragma mark - UITableViewDataSource:
@@ -112,6 +125,11 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return 0;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50;
 }
 
 - (void)didReceiveMemoryWarning

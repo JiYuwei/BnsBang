@@ -78,7 +78,7 @@
                 if (_dataArray.count!=0) {
                     NSInteger newValue=[[model.number stringByReplacingOccurrencesOfString:@"楼" withString:@""] integerValue];
                     NSInteger oldValue=[[[_dataArray.lastObject number] stringByReplacingOccurrencesOfString:@"楼" withString:@""] integerValue];
-                    if ([model.message isEqual:[_dataArray[0] message]] || newValue<oldValue) {
+                    if ([model.message isEqual:[_dataArray[0] message]] || (oldValue>5 && newValue<=oldValue)) {
                         _tableView.tableFooterView=_loadBtn;
                         [_loadBtn setTitle:@"没有更多了" forState:UIControlStateNormal];
                         return;

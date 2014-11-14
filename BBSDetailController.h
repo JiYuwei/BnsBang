@@ -7,8 +7,13 @@
 //
 
 #import "BnsViewController.h"
+static NSInteger _BBSPage=1;
 
 @interface BBSDetailController : BnsViewController <UIActionSheetDelegate>
+{
+    UIButton *_loadBtn;
+    UIActivityIndicatorView *_indV;
+}
 
 @property(nonatomic,copy)NSString *fid;
 @property(nonatomic,copy)NSString *bbsUrl;

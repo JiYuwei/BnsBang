@@ -10,13 +10,11 @@
 #import "BBSDetailModel.h"
 #import "BBSDetailViewCell.h"
 #import "LoginViewController.h"
-static NSInteger _BBSPage=1;
+#import "BBSMoreController.h"
+
 
 @interface BBSDetailController ()
-{
-    UIButton *_loadBtn;
-    UIActivityIndicatorView *_indV;
-}
+
 @end
 
 @implementation BBSDetailController
@@ -73,8 +71,10 @@ static NSInteger _BBSPage=1;
     
     _loadBtn=[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [_loadBtn setTitle:@"点击加载更多" forState:UIControlStateNormal];
-    [_loadBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    _loadBtn.frame=CGRectMake(0, 0, 320, 40);
+    [_loadBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+    _loadBtn.frame=CGRectMake(0, 0, self.view.bounds.size.width, 40);
+    _loadBtn.backgroundColor=[UIColor whiteColor];
+    _loadBtn.alpha=0.9;
     [_loadBtn addTarget:self action:@selector(onClickLoad) forControlEvents:UIControlEventTouchUpInside];
     //_tableView.tableFooterView=_loadBtn;
 }
@@ -108,6 +108,13 @@ static NSInteger _BBSPage=1;
             for (NSDictionary *dic in srcArr) {
                 BBSDetailModel *model=[[BBSDetailModel alloc] init];
                 [model setValuesForKeysWithDictionary:dic];
+                if (_dataArray.count!=0) {
+                    if ([model.subject isEqual:[_dataArray[0] subject]]) {
+                        _tableView.tableFooterView=_loadBtn;
+                        [_loadBtn setTitle:@"没有更多了" forState:UIControlStateNormal];
+                        return;
+                    }
+                }
                 [_dataArray addObject:model];
             }
             [_tableView reloadData];
@@ -168,7 +175,10 @@ static NSInteger _BBSPage=1;
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-   
+    BBSMoreController *bbsMoreVC=[[BBSMoreController alloc] init];
+    bbsMoreVC.fid=[_dataArray[indexPath.row] tid];
+    bbsMoreVC.bbsUrl=BBS_MORE_URL;
+    [self.navigationController pushViewController:bbsMoreVC animated:YES];
 }
 
 static NSInteger count=0;

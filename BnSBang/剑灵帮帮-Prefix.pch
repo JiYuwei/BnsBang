@@ -13,6 +13,8 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "Tools.h"
+
 #define TOPCOLOR [UIColor colorWithRed:0.8 green:0 blue:0 alpha:1]
 #define BG_COLOR [UIColor colorWithRed:0.0275 green:0.0275 blue:0.0275 alpha:1]
 #define POST_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags"
@@ -33,6 +35,7 @@
 
 #define BBS_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&fid=2332"
 #define BBS_DETAIL_URL @"http://bbs.duowan.com/api/mobile/?module=forumdisplay&page=%d&fid=%@"
+#define BBS_MORE_URL @"http://bbs.duowan.com/api/mobile/?module=threaddetail&page=%d&tid=%@"
 
 #define SCROLL_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E5%A4%B4%E5%9B%BE&limit=4"
 #define SCROLL_VIDEO_URL @"http://appcms.duowan.com/?r=api/GetArticleListByTags&channel=bns&tags=%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E5%A4%B4%E5%9B%BE&limit=4"

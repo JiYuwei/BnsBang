@@ -344,6 +344,11 @@
 		BCFD31BB1A0B493B0007F384 /* qsbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B61A0B493B0007F384 /* qsbglabel.png */; };
 		BCFD31BC1A0B493B0007F384 /* zhbglabel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFD31B71A0B493B0007F384 /* zhbglabel.png */; };
 		BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFD31BE1A0B4E990007F384 /* ListViewController.m */; };
+		BCFF03D31A159851006464F2 /* BBSMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03D21A159851006464F2 /* BBSMoreController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BCFF03D61A159B46006464F2 /* BBSMoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03D51A159B46006464F2 /* BBSMoreModel.m */; };
+		BCFF03DD1A15A3F3006464F2 /* BBSMoreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		BCFF03DE1A15A3F3006464F2 /* BBSMoreViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */; };
+		BCFF03E11A15AF6D006464F2 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFF03E01A15AF6D006464F2 /* Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -750,6 +755,15 @@
 		BCFD31B71A0B493B0007F384 /* zhbglabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhbglabel.png; sourceTree = "<group>"; };
 		BCFD31BD1A0B4E990007F384 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		BCFD31BE1A0B4E990007F384 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BCFF03D11A159851006464F2 /* BBSMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreController.h; sourceTree = "<group>"; };
+		BCFF03D21A159851006464F2 /* BBSMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreController.m; sourceTree = "<group>"; };
+		BCFF03D41A159B46006464F2 /* BBSMoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreModel.h; sourceTree = "<group>"; };
+		BCFF03D51A159B46006464F2 /* BBSMoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreModel.m; sourceTree = "<group>"; };
+		BCFF03DA1A15A3F3006464F2 /* BBSMoreViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMoreViewCell.h; sourceTree = "<group>"; };
+		BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMoreViewCell.m; sourceTree = "<group>"; };
+		BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSMoreViewCell.xib; sourceTree = "<group>"; };
+		BCFF03DF1A15AF6D006464F2 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		BCFF03E01A15AF6D006464F2 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -812,6 +826,8 @@
 				BCEE0E171A07A1F60077E890 /* RefreshView */,
 				BC0D306B1A033B980079AF06 /* HttpRequestManager.h */,
 				BC0D306C1A033B980079AF06 /* HttpRequestManager.m */,
+				BCFF03DF1A15AF6D006464F2 /* Tools.h */,
+				BCFF03E01A15AF6D006464F2 /* Tools.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -953,6 +969,9 @@
 				BC145F691A149D1600732D8B /* BBSDetailViewCell.h */,
 				BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */,
 				BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */,
+				BCFF03DA1A15A3F3006464F2 /* BBSMoreViewCell.h */,
+				BCFF03DB1A15A3F3006464F2 /* BBSMoreViewCell.m */,
+				BCFF03DC1A15A3F3006464F2 /* BBSMoreViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -974,6 +993,8 @@
 				BCEDFA5B1A138FCD00F1288A /* BBSModel.m */,
 				BC145F631A14962100732D8B /* BBSDetailModel.h */,
 				BC145F641A14962100732D8B /* BBSDetailModel.m */,
+				BCFF03D41A159B46006464F2 /* BBSMoreModel.h */,
+				BCFF03D51A159B46006464F2 /* BBSMoreModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -1355,6 +1376,8 @@
 				BCEDFA321A1340B000F1288A /* BBSViewController.m */,
 				BC145F601A14902700732D8B /* BBSDetailController.h */,
 				BC145F611A14902700732D8B /* BBSDetailController.m */,
+				BCFF03D11A159851006464F2 /* BBSMoreController.h */,
+				BCFF03D21A159851006464F2 /* BBSMoreController.m */,
 				BC145F581A14451E00732D8B /* LoginViewController.h */,
 				BC145F591A14451E00732D8B /* LoginViewController.m */,
 				BC145F5A1A14451E00732D8B /* LoginViewController.xib */,
@@ -1492,6 +1515,7 @@
 				BC0B30D51A09C82300581241 /* 3.png in Resources */,
 				BC99BE8F1A0F4B5F00A3C791 /* 幻术八卦牌@2x.png in Resources */,
 				BC99BE461A0F4B5F00A3C791 /* bl@2x.png in Resources */,
+				BCFF03DE1A15A3F3006464F2 /* BBSMoreViewCell.xib in Resources */,
 				BCEDFA301A133D8E00F1288A /* tabbar_bbs@2x.png in Resources */,
 				BC99BE6D1A0F4B5F00A3C791 /* xlsw@2x.png in Resources */,
 				BCF10AB61A070C9600F8F16D /* wuxing10@2x.png in Resources */,
@@ -1799,6 +1823,7 @@
 				BCEDFA5C1A138FCD00F1288A /* BBSModel.m in Sources */,
 				BCE7946C1A11D2BD00B20D69 /* MyFooterView.m in Sources */,
 				BC19EB3419F4B04900A3762A /* SrcViewController.m in Sources */,
+				BCFF03E11A15AF6D006464F2 /* Tools.m in Sources */,
 				BCFD31841A0B128C0007F384 /* ProViewController.m in Sources */,
 				BC19EB2B19F4A29D00A3762A /* BaguaViewController.m in Sources */,
 				BCEE0E161A07813C0077E890 /* DetailViewController.m in Sources */,
@@ -1808,10 +1833,12 @@
 				BCEE0E071A076DED0077E890 /* SDWebImageDecoder.m in Sources */,
 				BC98E9071A08F10300261F9E /* BaseModel.m in Sources */,
 				BC19EAFB19F49FEB00A3762A /* main.m in Sources */,
+				BCFF03D61A159B46006464F2 /* BBSMoreModel.m in Sources */,
 				BC7C387A1A10A08400522D94 /* ImageModel.m in Sources */,
 				BCEE0E091A076DED0077E890 /* SDWebImageManager.m in Sources */,
 				BC7C38771A10A06400522D94 /* CollectLayOut.m in Sources */,
 				BCF872EB1A02695100950D32 /* BnsViewController.m in Sources */,
+				BCFF03D31A159851006464F2 /* BBSMoreController.m in Sources */,
 				BC19EB2219F4A05A00A3762A /* MyTabBarController.m in Sources */,
 				BC99BEEA1A0F6A8700A3C791 /* PhotoViewController.m in Sources */,
 				BC145F621A14902700732D8B /* BBSDetailController.m in Sources */,
@@ -1819,6 +1846,7 @@
 				BCEDFA331A1340B000F1288A /* BBSViewController.m in Sources */,
 				BCEE0E101A076ED20077E890 /* BnsViewCell.m in Sources */,
 				BCFD31BF1A0B4E990007F384 /* ListViewController.m in Sources */,
+				BCFF03DD1A15A3F3006464F2 /* BBSMoreViewCell.m in Sources */,
 				BC7C38741A10A04E00522D94 /* CollectViewCell.m in Sources */,
 				BCEE0E0A1A076DED0077E890 /* SDWebImagePrefetcher.m in Sources */,
 				BCFD31881A0B149D0007F384 /* ProViewCell.m in Sources */,

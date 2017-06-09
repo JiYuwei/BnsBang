@@ -400,20 +400,20 @@
 		BC145F691A149D1600732D8B /* BBSDetailViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSDetailViewCell.h; sourceTree = "<group>"; };
 		BC145F6A1A149D1600732D8B /* BBSDetailViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSDetailViewCell.m; sourceTree = "<group>"; };
 		BC145F6B1A149D1600732D8B /* BBSDetailViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBSDetailViewCell.xib; sourceTree = "<group>"; };
-		BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "剑灵帮帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19EAEB19F49FEB00A3762A /* BnSBang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BnSBang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC19EAEE19F49FEB00A3762A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC19EAF019F49FEB00A3762A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BC19EAF219F49FEB00A3762A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BC19EAF619F49FEB00A3762A /* 剑灵帮帮-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "剑灵帮帮-Info.plist"; sourceTree = "<group>"; };
+		BC19EAF619F49FEB00A3762A /* BnSBang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BnSBang-Info.plist"; sourceTree = "<group>"; };
 		BC19EAF819F49FEB00A3762A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC19EAFA19F49FEB00A3762A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BC19EAFC19F49FEB00A3762A /* 剑灵帮帮-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "剑灵帮帮-Prefix.pch"; sourceTree = "<group>"; };
+		BC19EAFC19F49FEB00A3762A /* BnSBang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BnSBang-Prefix.pch"; sourceTree = "<group>"; };
 		BC19EAFD19F49FEB00A3762A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC19EAFE19F49FEB00A3762A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BC19EB0019F49FEB00A3762A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "剑灵帮帮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19EB0619F49FEB00A3762A /* BnSBangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BnSBangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC19EB0719F49FEB00A3762A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BC19EB0F19F49FEB00A3762A /* 剑灵帮帮Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "剑灵帮帮Tests-Info.plist"; sourceTree = "<group>"; };
+		BC19EB0F19F49FEB00A3762A /* BnSBangTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BnSBangTests-Info.plist"; sourceTree = "<group>"; };
 		BC19EB1119F49FEB00A3762A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC19EB1319F49FEB00A3762A /* BnSBangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BnSBangTests.m; sourceTree = "<group>"; };
 		BC19EB2019F4A05A00A3762A /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
@@ -849,8 +849,8 @@
 		BC19EAEC19F49FEB00A3762A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */,
-				BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */,
+				BC19EAEB19F49FEB00A3762A /* BnSBang.app */,
+				BC19EB0619F49FEB00A3762A /* BnSBangTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -901,14 +901,14 @@
 				BCF10A841A070C9600F8F16D /* image */,
 				BC19EB3719F4B49800A3762A /* imagex@2x.png */,
 				BC19EB3519F4B47300A3762A /* image@2x.png */,
-				BC19EAF619F49FEB00A3762A /* 剑灵帮帮-Info.plist */,
+				BC19EAF619F49FEB00A3762A /* BnSBang-Info.plist */,
 				BC98E9001A08EAB200261F9E /* WeaponList.plist */,
 				BC98E90D1A08FC7400261F9E /* JewelryList.plist */,
 				BC98E9281A0906B200261F9E /* BaguaList.plist */,
 				BCFD31AC1A0B3B150007F384 /* ProList.plist */,
 				BC19EAF719F49FEB00A3762A /* InfoPlist.strings */,
 				BC19EAFA19F49FEB00A3762A /* main.m */,
-				BC19EAFC19F49FEB00A3762A /* 剑灵帮帮-Prefix.pch */,
+				BC19EAFC19F49FEB00A3762A /* BnSBang-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -925,7 +925,7 @@
 		BC19EB0E19F49FEB00A3762A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC19EB0F19F49FEB00A3762A /* 剑灵帮帮Tests-Info.plist */,
+				BC19EB0F19F49FEB00A3762A /* BnSBangTests-Info.plist */,
 				BC19EB1019F49FEB00A3762A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -1432,9 +1432,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */ = {
+		BC19EAEA19F49FEB00A3762A /* BnSBang */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮" */;
+			buildConfigurationList = BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "BnSBang" */;
 			buildPhases = (
 				BC19EAE719F49FEB00A3762A /* Sources */,
 				BC19EAE819F49FEB00A3762A /* Frameworks */,
@@ -1444,14 +1444,14 @@
 			);
 			dependencies = (
 			);
-			name = "剑灵帮帮";
+			name = BnSBang;
 			productName = BnSBang;
-			productReference = BC19EAEB19F49FEB00A3762A /* 剑灵帮帮.app */;
+			productReference = BC19EAEB19F49FEB00A3762A /* BnSBang.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BC19EB0519F49FEB00A3762A /* 剑灵帮帮Tests */ = {
+		BC19EB0519F49FEB00A3762A /* BnSBangTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮Tests" */;
+			buildConfigurationList = BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "BnSBangTests" */;
 			buildPhases = (
 				BC19EB0219F49FEB00A3762A /* Sources */,
 				BC19EB0319F49FEB00A3762A /* Frameworks */,
@@ -1462,9 +1462,9 @@
 			dependencies = (
 				BC19EB0C19F49FEB00A3762A /* PBXTargetDependency */,
 			);
-			name = "剑灵帮帮Tests";
+			name = BnSBangTests;
 			productName = BnSBangTests;
-			productReference = BC19EB0619F49FEB00A3762A /* 剑灵帮帮Tests.xctest */;
+			productReference = BC19EB0619F49FEB00A3762A /* BnSBangTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1476,12 +1476,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = jyw;
 				TargetAttributes = {
+					BC19EAEA19F49FEB00A3762A = {
+						DevelopmentTeam = 368DWFGUA5;
+					};
 					BC19EB0519F49FEB00A3762A = {
 						TestTargetID = BC19EAEA19F49FEB00A3762A;
 					};
 				};
 			};
-			buildConfigurationList = BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "剑灵帮帮" */;
+			buildConfigurationList = BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "BnSBang" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1494,8 +1497,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */,
-				BC19EB0519F49FEB00A3762A /* 剑灵帮帮Tests */,
+				BC19EAEA19F49FEB00A3762A /* BnSBang */,
+				BC19EB0519F49FEB00A3762A /* BnSBangTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1872,7 +1875,7 @@
 /* Begin PBXTargetDependency section */
 		BC19EB0C19F49FEB00A3762A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC19EAEA19F49FEB00A3762A /* 剑灵帮帮 */;
+			target = BC19EAEA19F49FEB00A3762A /* BnSBang */;
 			targetProxy = BC19EB0B19F49FEB00A3762A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1974,11 +1977,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BnSBang/剑灵帮帮-Prefix.pch";
-				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				GCC_PREFIX_HEADER = "BnSBang/BnSBang-Prefix.pch";
+				INFOPLIST_FILE = "BnSBang/BnSBang-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = "剑灵帮帮";
+				PRODUCT_NAME = BnSBang;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1988,11 +1992,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BnSBang/剑灵帮帮-Prefix.pch";
-				INFOPLIST_FILE = "BnSBang/剑灵帮帮-Info.plist";
+				GCC_PREFIX_HEADER = "BnSBang/BnSBang-Prefix.pch";
+				INFOPLIST_FILE = "BnSBang/BnSBang-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_NAME = "剑灵帮帮";
+				PRODUCT_NAME = BnSBang;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2012,8 +2017,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BnSBangTests/剑灵帮帮Tests-Info.plist";
-				PRODUCT_NAME = "剑灵帮帮Tests";
+				INFOPLIST_FILE = "BnSBangTests/BnSBangTests-Info.plist";
+				PRODUCT_NAME = BnSBangTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2030,8 +2035,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BnSBang/BnSBang-Prefix.pch";
-				INFOPLIST_FILE = "BnSBangTests/剑灵帮帮Tests-Info.plist";
-				PRODUCT_NAME = "剑灵帮帮Tests";
+				INFOPLIST_FILE = "BnSBangTests/BnSBangTests-Info.plist";
+				PRODUCT_NAME = BnSBangTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -2040,7 +2045,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "剑灵帮帮" */ = {
+		BC19EAE619F49FEB00A3762A /* Build configuration list for PBXProject "BnSBang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC19EB1519F49FEB00A3762A /* Debug */,
@@ -2049,7 +2054,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮" */ = {
+		BC19EB1719F49FEB00A3762A /* Build configuration list for PBXNativeTarget "BnSBang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC19EB1819F49FEB00A3762A /* Debug */,
@@ -2058,7 +2063,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "剑灵帮帮Tests" */ = {
+		BC19EB1A19F49FEB00A3762A /* Build configuration list for PBXNativeTarget "BnSBangTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC19EB1B19F49FEB00A3762A /* Debug */,
